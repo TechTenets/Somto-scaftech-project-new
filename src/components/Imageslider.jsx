@@ -34,7 +34,7 @@ const Imageslider = () => {
       <SwiperSlide>
         <img
           className="swier_image"
-          src="/images/gallery/torque-1.jpg"
+          src="/jc-img2.jpg"
           alt=""
         />
       </SwiperSlide>

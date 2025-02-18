@@ -65,7 +65,7 @@ const Header = () => {
               {/* <div className="author">SAFETY </div> */}
               <div className="title">Safety in Working Environment</div>
               <div className="des">
-                TorqTech invest in full-time safety coordinator to make certain
+                We invest in full-time safety coordinator to make certain
                 our HSE department is always up to date on customer safety
                 requirements and OSHA regulations.
               </div>
