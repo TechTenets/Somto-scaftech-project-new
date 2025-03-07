@@ -58,16 +58,19 @@ const Header = () => {
         <div className="list" ref={sliderRef}>
           {/* Add your slider items here */}
 
-          <div className="item">
-            <img src="images/gallery/img1.jpg" className="blur-sm" />
+          <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
+            <img src="/NPORS-1.png" className="blur-sm" />
             <div className="content">
-              <div className="topic">SAFETY</div>
+              <div className="topic">LIFTING OPERATIONS</div>
               {/* <div className="author">SAFETY </div> */}
-              <div className="title">Safety in Working Environment</div>
+              <div className="title">
+                {" "}
+                Lifting operation traning Environment
+              </div>
               <div className="des">
-                We invest in full-time safety coordinator to make certain
-                our HSE department is always up to date on customer safety
-                requirements and OSHA regulations.
+                Our Lifting Operations Programs are designed to equip personnel
+                with the skills required to lift or move loads in accordance
+                with the code of practice for safe use of lifting
               </div>
               <div className="buttons">
                 <button>SEE MORE</button>
@@ -75,13 +78,13 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="item">
-            <img src="images/gallery/img2.jpg" className="blur-sm" />
+          <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
+            <img src="/images/PRA7572-scaled.jpg" className="blur-sm" />
             <div className="content">
-              <div className="topic">HEALTH</div>
+              <div className="topic">HEALTH & SAFETY</div>
               {/* <div className="author">HEALTH</div> */}
               <div className="title">
-                OCCUPATIONAL HEALTH & INDUSTRIAL HYGIENE
+                OCCUPATIONAL HEALTH & SAFETY INDUSTRIAL HYGIENE
               </div>
               <div className="des">
                 A robust and clearly defined occupational health and industrial
@@ -94,10 +97,10 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="item">
-            <img src="images/gallery/img3.jpg" className="blur-md" />
+          <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
+            <img src="/Rope-access.png" className="blur-md" />
             <div className="content">
-              <div className="topic">TECHNOLOGY</div>
+              <div className="topic">ROPE ACCESS/ SCAFFOLDING</div>
               {/* <div className="author">LUNDEV</div> */}
               <div className="title">Engineering Capabilities</div>
               <div className="des">
@@ -111,27 +114,27 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="thumbnail" ref={thumbnailBorderRef}>
+        <div className="thumbnail " ref={thumbnailBorderRef}>
           {/* Add your thumbnail items here */}
 
-          <div className="item">
-            <img src="images/gallery/img1.jpg" />
+          <div className="item xl:block hidden">
+            <img src="/NPORS-1.png" />
             <div className="content">
-              <div className="title">SAFETY</div>
+              <div className="title">LIFTING OPERATIONS</div>
               <div className="description"></div>
             </div>
           </div>
-          <div className="item">
-            <img src="images/gallery/img2.jpg" />
+          <div className="item xl:block hidden">
+            <img src="/images/PRA7572-scaled.jpg" />
             <div className="content">
-              <div className="title">HEALTH</div>
+              <div className="title">HEALTH & SAFETY</div>
               <div className="description"></div>
             </div>
           </div>
-          <div className="item">
-            <img src="images/gallery/img3.jpg" />
+          <div className="item xl:block hidden">
+            <img src="/Rope-access.png" />
             <div className="content">
-              <div className="title">TECHNOLOGY</div>
+              <div className="title">ROPE ACCESS/ SCAFFOLDING</div>
               <div className="description"></div>
             </div>
           </div>

@@ -1,11 +1,27 @@
+import InstagramIcon from "@mui/icons-material/Instagram";
+import XIcon from "@mui/icons-material/X";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
 const Footer = () => {
-    return (
-      <footer className=" bg-blue-700">
-      <div className="footer text-white bg-blue-700" data-script="footer">
+  return (
+    <footer className=" bg-[#0b1b2bcc]">
+      <div className="footer text-white bg-[#0b1b2bcc]" data-script="footer">
         <div className="font-sans font-extrabold p-4 text-sm text-center">
-            <h1 className="items-center ">
-                Follow Us On Social Media 
-            </h1>
+          <h1>Follow Us On Social Media</h1>
+
+          <div className="p-2 gap-4">
+            <InstagramIcon />
+
+            <XIcon />
+
+            <FacebookIcon />
+
+            <YouTubeIcon />
+
+            <LinkedInIcon />
+          </div>
         </div>
         {/* <section className="footer--top">
           <article className="container" aria-label="Social">
@@ -158,15 +174,12 @@ const Footer = () => {
                 href="/"
                 target=""
                 className="footer--brandLink main"
-                aria-label="JC int logo"
+                aria-label="Scarftech logo"
               >
                 <img
-                  src=
-                  "/LOGO int.png"
-  
-                  alt="JC int logo"
-                  className="base-icon"
-                />
+                 src="/images/Scarftech-logo.webp"
+                 alt="Scarftech logo"
+                  className="max-w-[300px] pb-4 " />
                 {/* <img
                   src=
                   "/LOGO int.png"
@@ -175,7 +188,7 @@ const Footer = () => {
                 /> */}
                 {/* <span className="visibility-hidden">JC int Logo</span> */}
               </a>
-             
+
               {/* <a
                 href="https://www.mobil.com/"
                 target="_blank"
@@ -231,160 +244,154 @@ const Footer = () => {
                 <span className="visibility-hidden">XTO</span>
               </a> */}
             </div>
-             
-             <section className="flex justify-around gap-4 p-4">
-            <div className="flex-col text-amber-50 p-4">
+
+            <section className="flex justify-around gap-4 p-4">
+              <div className="flex-col text-amber-50 p-4">
                 <div className="font-sans font-medium text-2xl">
-                    <h1>ABOUT</h1>
+                  <h1>ABOUT</h1>
                 </div>
                 <div className="font-sans P-6 font-medium text-sm">
-                    <ul>
-                        <li className="pt-2 pb-1">
-                            <a href="">. About</a>
-                        </li>
+                  <ul>
+                    <li className="pt-2 pb-1">
+                      <a href="">. About</a>
+                    </li>
 
-                        <li className="pt-2 pb-1">
-                            <a href="">. Accreditations</a>
-                        </li>
+                    <li className="pt-2 pb-1">
+                      <a href="">. Accreditations</a>
+                    </li>
 
-                        <li className="pt-2 pb-1">
-                            <a href="">. Find a Course</a>
-                        </li>
-                      
-                        <li className="pt-2 pb-1">
-                            <a href="">. Blog</a>
-                        </li>
+                    <li className="pt-2 pb-1">
+                      <a href="">. Find a Course</a>
+                    </li>
 
-                        <li className="pt-2 pb-1">
-                            <a href="">Home</a>
-                        </li>
-                    </ul>
+                    <li className="pt-2 pb-1">
+                      <a href="">. Blog</a>
+                    </li>
+
+                    <li className="pt-2 pb-1">
+                      <a href="">Home</a>
+                    </li>
+                  </ul>
                 </div>
-                </div>
+              </div>
 
-
-                <div className="flex-col text-amber-50 p-4">
+              <div className="flex-col text-amber-50 p-4">
                 <div className="font-sans font-medium text-2xl">
-                    <h1> OUR FACULTIES</h1>
+                  <h1> OUR FACULTIES</h1>
                 </div>
                 <div className="font-sans P-6 font-medium text-sm">
-                    <ul>
-                        <li className="pt-2 pb-1">
-                            <a href="">. Health & Safety</a>
-                        </li>
+                  <ul>
+                    <li className="pt-2 pb-1">
+                      <a href="">. Health & Safety</a>
+                    </li>
 
-                        <li className="pt-2 pb-1">
-                            <a href="">. ASNT NDT INSPECTION</a>
-                        </li>
+                    <li className="pt-2 pb-1">
+                      <a href="">. ASNT NDT INSPECTION</a>
+                    </li>
 
-                        <li className="pt-2 pb-1">
-                            <a href="">. Lifting Operations</a>
-                        </li>
-                      
-                        <li className="pt-2 pb-1">
-                            <a href="">. IWCF Drilling Courses</a>
-                        </li>
+                    <li className="pt-2 pb-1">
+                      <a href="">. Lifting Operations</a>
+                    </li>
 
-                        <li className="pt-2 pb-1">
-                            <a href="">. Rope Access</a>
-                        </li>
+                    <li className="pt-2 pb-1">
+                      <a href="">. IWCF Drilling Courses</a>
+                    </li>
 
-                        <li className="pt-2 pb-1">
-                            <a href="">. Employability Skills</a>
-                        </li>
-                    </ul>
+                    <li className="pt-2 pb-1">
+                      <a href="">. Rope Access</a>
+                    </li>
+
+                    <li className="pt-2 pb-1">
+                      <a href="">. Employability Skills</a>
+                    </li>
+                  </ul>
                 </div>
-                </div>
+              </div>
 
-
-                <div className="flex-col text-amber-50 p-4">
+              <div className="flex-col text-amber-50 p-4">
                 <div className="font-sans font-medium text-2xl">
-                    <h1>FIND US</h1>
+                  <h1>FIND US</h1>
                 </div>
                 <div className="font-sans P-6 font-medium text-sm">
-                    <ul>
-                        <li className="pt-2 pb-1">
-                            <a href="">Lagos</a>
-                        </li>
+                  <ul>
+                    <li className="pt-2 pb-1">
+                      <a href="">Lagos</a>
+                    </li>
 
-                        <li className="pt-2 pb-1">
-                            <a href="">Port Harcourt</a>
-                        </li>
+                    <li className="pt-2 pb-1">
+                      <a href="">Port Harcourt</a>
+                    </li>
 
-                        <li className="pt-2 pb-1">
-                            <a href="">Uganda</a>
-                        </li>
-                      
-                        <li className="pt-2 pb-1">
-                            <a href="">Tanzania</a>
-                        </li>
-                    </ul>
+                    <li className="pt-2 pb-1">
+                      <a href="">Uganda</a>
+                    </li>
+
+                    <li className="pt-2 pb-1">
+                      <a href="">Tanzania</a>
+                    </li>
+                  </ul>
                 </div>
-                </div>
+              </div>
 
-                <div className="flex-col text-amber-50 p-4">
+              <div className="flex-col text-amber-50 p-4">
                 <div className="font-sans font-medium text-2xl">
-                    <h1>SUPPORT</h1>
+                  <h1>SUPPORT</h1>
                 </div>
                 <div className="font-sans font-medium  text-sm">
-                    <ul>
-                        <li className="pt-2 pb-1">
-                            <a href="">. Help</a>
-                        </li>
+                  <ul>
+                    <li className="pt-2 pb-1">
+                      <a href="">. Help</a>
+                    </li>
 
-                        <li className="pt-2 pb-1">
-                            <a href="">. Term Conditions</a>
-                        </li>
+                    <li className="pt-2 pb-1">
+                      <a href="">. Term Conditions</a>
+                    </li>
 
-                        <li className="pt-2 pb-1" >
-                            <a href="">. Privacy Policy</a>
-                        </li>
-                    </ul>
+                    <li className="pt-2 pb-1">
+                      <a href="">. Privacy Policy</a>
+                    </li>
+                  </ul>
                 </div>
-                </div>
-                </section>
-        
-  
+              </div>
+            </section>
+
             <div className="footer--privacy flex justify-between text-amber-50">
-
-             <div>
-            <p
-                className="footer--copyright text-extra-small p-2"
-                tabIndex={0}
-                aria-label="copyright"
-              >
-                &copy; © 2025  JC International Training. All Rights Reserved.
-              </p>
+              <div>
+                <p
+                  className="footer--copyright text-extra-small p-2"
+                  tabIndex={0}
+                  aria-label="copyright"
+                >
+                  &copy; © 2025 JC International Training. All Rights Reserved.
+                </p>
               </div>
 
-
-            <div className="flex gap-5">
-              <p className="text-extra-small footer--policyWrapper">
-                <a className="footer--policy optanon-toggle-display" tabIndex={0}
-                  >Help</a    >
-              </p>
-              <p className="text-extra-small footer--policyWrapper">
-                <a
-                  href="#"
-                  target="|Custom"
-                  className="footer--policy"
-                  >Privacy Policy</a    >
-              </p>
-              <p className="text-extra-small footer--policyWrapper">
-                <a
-                  href="#"
-                  target="|Custom"
-                  className="footer--policy"
-                  >Terms Conditions</a   >
-              </p>
+              <div className="flex gap-5">
+                <p className="text-extra-small footer--policyWrapper">
+                  <a
+                    className="footer--policy optanon-toggle-display"
+                    tabIndex={0}
+                  >
+                    Help
+                  </a>
+                </p>
+                <p className="text-extra-small footer--policyWrapper">
+                  <a href="#" target="|Custom" className="footer--policy">
+                    Privacy Policy
+                  </a>
+                </p>
+                <p className="text-extra-small footer--policyWrapper">
+                  <a href="#" target="|Custom" className="footer--policy">
+                    Terms Conditions
+                  </a>
+                </p>
               </div>
-              
             </div>
           </article>
         </section>
       </div>
     </footer>
-    )
-  }
-  
-  export default Footer
+  );
+};
+
+export default Footer;

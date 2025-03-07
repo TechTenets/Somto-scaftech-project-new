@@ -1,6 +1,8 @@
 import { Outlet } from "react-router-dom";
 import Nav from "../components/Header/Nav";
 import Footer from "../components/Footer/Footer";
+import About_us from "../pages/About_us/About_us";
+import Dropdown from "../components/dropdown";
 // import {
 //   Bars3Icon,
 //   MoonIcon,
@@ -15,21 +17,11 @@ const RootRoute = () => {
     <div>
       <Nav />
 
-      {/* <nav> 
+      {/* <Dropdown /> */}
 
-<ul className="flex z-[1000] gap-20 absolute top-0">
-
-        <li className="">jj</li>
-        <li className="">jjjj</li>
-        <li className="">jjjj</li>
-        <li className="">jjjjj</li>
-        <li className="">jj</li>
-</ul>
-      </nav> */}
-      <div className="min-h-screen">
+      <div className="min-h-screen flex  mt-5  py-10 ">
         <Outlet />
       </div>
-
       <Footer />
     </div>
   );
