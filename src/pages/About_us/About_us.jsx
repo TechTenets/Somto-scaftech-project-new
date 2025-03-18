@@ -97,8 +97,8 @@ const About_us = () => {
         </h2>
       </div>
 
-      <section className="inline-flex items-center justify-center w-full gap-10 px-10 h-96 bg-linear-to-r from-gray-900 to-blue-950">
-        <div className="flex-col border text-center border-white rounded-sm border-solid hover:bg-white hover:text-black">
+      <section className="inline-flex items-center justify-center w-full gap-10 px-10 h-96 bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc]">
+        <div className="flex-col border text-center border-white rounded-sm border-solid hover:bg-white hover:text-[#0b1b2bcc]">
           <img className="w-1/2 p-7 " src="/JC-International.jpg" alt="" />
 
           <h1 className="py-3 text-base pl-10">ISO <br /> 9001:2015</h1>

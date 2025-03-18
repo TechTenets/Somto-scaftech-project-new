@@ -6,8 +6,8 @@ import AccountCircleTwoToneIcon from "@mui/icons-material/AccountCircleTwoTone";
 const RopeAccess = () => {
   return (
     <div className="w-full mt-20">
-      <section>
-      <img className='w-full h-80 px-5 cursor-pointer'
+      <section className="">
+      <img className='w-full h-80 px-5 object-fill bg-center cursor-pointer'
              src="/Rope-access.png" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>

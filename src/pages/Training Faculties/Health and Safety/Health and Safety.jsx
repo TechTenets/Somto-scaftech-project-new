@@ -7,7 +7,7 @@ const HealthandSafety = () => {
   return (
     <div className='w-full mt-20'>
       <section>
-      <img className='w-full h-80 px-5 cursor-pointer'
+      <img className='w-full h-80 px-5 bg-cover bg-center cursor-pointer'
              src="/images/PRA7572-scaled.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
@@ -352,7 +352,7 @@ const HealthandSafety = () => {
           <img src="/images/gallery/Accreditation.jpg" alt="" />
         </div>
       </section>
-      
+
       </section>
     </div>
   )

@@ -7,7 +7,7 @@ const EmployabilitySkills = () => {
   return (
     <div className='w-full mt-20'>
       <section>
-      <img className='w-full h-80 px-5 cursor-pointer'
+      <img className='w-full h-80 px-5 object-fill bg-center cursor-pointer'
              src="/jc-img2.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>

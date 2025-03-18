@@ -40,7 +40,7 @@ const router = createBrowserRouter(
       <Route path="employability" element={<EmployabilitySkills />} />
       <Route path="Certificate" element={<Certificate />} />
       <Route path="Contact_Us" element={<Contact_Us />} />
-      <Route path="freeResources" element={<FreeResources />} />
+      <Route path="/home" element={<FreeResources />} />
       <Route path="onlineCourses" element={<OnlineCourses />} />
       <Route path="Blog" element={<Blog />} />
     </Route>

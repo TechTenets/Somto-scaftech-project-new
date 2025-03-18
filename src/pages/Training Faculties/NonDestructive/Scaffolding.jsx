@@ -7,7 +7,7 @@ const Scaffolding = () => {
   return (
     <div className='w-full mt-20'>
         <section>
-        <img className='w-full h-80 px-5 cursor-pointer'
+        <img className='w-full h-80 px-5 bg-cover bg-center cursor-pointer'
              src="/jci-10.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>

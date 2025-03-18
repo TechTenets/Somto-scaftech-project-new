@@ -50,7 +50,7 @@ const Nav = () => {
   // };
 
   return (
-    <div className="z-[100000] pt-4  lg:pt-8 flex md:justify-between justify-between  text-[#0b1b2bcc] font-semibold text-sm leading-6 dark:text-black-200 bg-white  px-10  absolute top-0 right-0 w-full group  gap-20">
+    <div className="z-[100000] pt-4  lg:pt-8 flex md:justify-between justify-between  text-[#0b1b2bcc] font-semibold text-sm leading-6 dark:text-black-200 bg-white hover:bg-[#0b1b2bcc] hover:text-white px-10  absolute top-0 right-0 w-full group  gap-20">
       <a href="/" className="flex items-center gap-5 ">
         <img
           src="/images/Scarftech-logo.webp"
@@ -119,12 +119,12 @@ const Nav = () => {
                 </Link>
               </li>
               <li className="dropdown">
-                <div className="font-semibold  group-hover:text-black">
+                <div className="font-semibold  hover:text-black">
                   {" "}
                   Online
                   <KeyboardArrowDownRoundedIcon />
                   <div className="dropdown-content">
-                    <a href="/freeResources">Free Resources</a>
+                    <a href="/home">Free Resources</a>
                     <a href="/onlineCourses">Online Courses</a>
                   </div>
                 </div>
