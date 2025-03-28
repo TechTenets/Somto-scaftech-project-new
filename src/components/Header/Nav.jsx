@@ -99,26 +99,45 @@ const Nav = () => {
                   {" "}
                   Training Faculties
                   <KeyboardArrowDownRoundedIcon />
-                  <div className="dropdown-content">
-                    <a href="/Training">Lifting Operation Traning</a>
-                    <a href="/ropeAccess">Rope Access/ScaffoldingTraning</a>
-                    <a href="/nonDestructive">Non Destructive Testing (NDT)</a>
-                    <a href="/IWCF/Drilling">IWCF/IADC Drilling Traning</a>
+                  <div className="dropdown-content scroll-smooth">
+                    <a href="/Welding">Welding Traning</a>
+                    <a href="/inspector">QA/QC Inspector Traning</a>
+                    <a href="/Earthmoving">Earth Moving Equipment Training</a>
+                    <a href="/Blasting&Painting">Blasting and Painting Traning</a>
                     <a href="/health&Safety">Health And Safety Traning</a>
-                    <a href="/employability">Employability Skills Traning</a>
+                    <a href="/work&height">Work at Height(Scaffolding Inspector,Supervisors,Foremen)</a>
+                    <a href="/OSHA">OSHA Traning</a>
+                    <a href="/lifthing&basicrigger">Lifting Operations Traning & Basic Rigger</a>
+                    <a href="/towercrane">Tower Crane Traning</a>
+                    <a href="/mobileElevated">Mobile Elevated Work Platform(MEWP) Scissors Lift Traning</a>
+                    <a href="/Fire&Marshal">Fire Warden and Marshal Traning</a>
+                    <a href="/Rigger">Rigger Traning</a>
+                    <a href="/LiftingSpecialist">Lifting Specialist Traning</a>
+                    <a href="/Liftingplan">Lifting Plan Traning</a>
+                    <a href="/NDT">NDT Traning (Non-Destructive Testing)</a>
+                    <a href="/leadership&Accountability">Leadership and Accountability Traning</a>
+                    <a href="/Defensive&Hazard">Defensive Driving & Harzard Awareness Traning</a>
+                    <a href="/MentalReadiness&Ergonomics">Mental Readiness and Ergonomics Traning</a>
+                    <a href="/SystemAudit&Analysis">System Audit and Skills Gap Analysis Traning</a>
+                    <a href="/EquipmentOperation&Maintenace">Equipment Operation and Maintenace Traning</a>
+                    <a href="/SustainableConstruction">Sustainable Construction Management Traning</a>
+                    <a href="/Safety">Safety (HSE) Traning</a>
+                    <a href="/ConfinedSpace">Confined Space and WAH Traning</a>
+                    <a href="/SkilledOperation&Leadership">Skilled Operation and Leadership Traning</a>
+                    <a href="/Customized">Customized Traning (according to client specification)</a>
                   </div>
                 </div>
               </li>
               <li className="">
                 <Link
-                  to={"/Certificate"}
+                  to={"/ClientTestimonials"}
                   className="font-semibold hover:text-black"
                 >
                   {" "}
-                  Verify Certificate
+                  Client Testimonials
                 </Link>
               </li>
-              <li className="dropdown">
+              {/* <li className="dropdown">
                 <div className="font-semibold  hover:text-black">
                   {" "}
                   Online
@@ -128,14 +147,14 @@ const Nav = () => {
                     <a href="/onlineCourses">Online Courses</a>
                   </div>
                 </div>
-              </li>
+              </li> */}
               <li className="">
                 <Link
                   to={"/contact_Us"}
                   className="font-semibold hover:text-black"
                 >
                   {" "}
-                  Contact
+                  Call to Action
                 </Link>
               </li>
               <li className="">

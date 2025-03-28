@@ -19,7 +19,7 @@ const RootRoute = () => {
 
       {/* <Dropdown /> */}
 
-      <div className="min-h-screen flex  mt-5  py-10 ">
+      <div className="min-h-screen flex  mt-5 flex-col ">
         <Outlet />
       </div>
       <Footer />

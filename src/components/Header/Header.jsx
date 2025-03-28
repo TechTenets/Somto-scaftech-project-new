@@ -59,18 +59,16 @@ const Header = () => {
           {/* Add your slider items here */}
 
           <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
-            <img src="/NPORS-1.png" className="blur-sm" />
+            <img src="/jci-9-27.jpg" className="blur-sm" />
             <div className="content">
-              <div className="topic">LIFTING OPERATIONS</div>
+              <div className="topic">PROFESSIONAL & AUTHORITATIVE</div>
               {/* <div className="author">SAFETY </div> */}
               <div className="title">
                 {" "}
-                Lifting operation traning Environment
+                Profession and Authoritative
               </div>
               <div className="des">
-                Our Lifting Operations Programs are designed to equip personnel
-                with the skills required to lift or move loads in accordance
-                with the code of practice for safe use of lifting
+               Position your company as a leader in industrial efficiency.
               </div>
               <div className="buttons">
                 <button>SEE MORE</button>
@@ -81,16 +79,13 @@ const Header = () => {
           <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
             <img src="/images/PRA7572-scaled.jpg" className="blur-sm" />
             <div className="content">
-              <div className="topic">HEALTH & SAFETY</div>
+              <div className="topic">CREDIBILITY & TRUST</div>
               {/* <div className="author">HEALTH</div> */}
               <div className="title">
-                OCCUPATIONAL HEALTH & SAFETY INDUSTRIAL HYGIENE
+                Credibility and Trust
               </div>
               <div className="des">
-                A robust and clearly defined occupational health and industrial
-                hygiene program is critical for the effectiveness of any
-                business and we support our clients in the evaluation and
-                control of potential health hazards.
+                Highlight certification and adherence to recongnized standards.
               </div>
               <div className="buttons">
                 <button>SEE MORE</button>
@@ -100,13 +95,25 @@ const Header = () => {
           <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
             <img src="/Rope-access.png" className="blur-md" />
             <div className="content">
-              <div className="topic">ROPE ACCESS/ SCAFFOLDING</div>
+              <div className="topic">CLEAR CALL TO ACTION</div>
               {/* <div className="author">LUNDEV</div> */}
               <div className="title">Engineering Capabilities</div>
               <div className="des">
-                Being a whole system supplier also offers leading capabilities
-                in engineering, standard and special fasteners and wide-range
-                bolting tool services.
+                Encourage visitors to uniquire,register, or download resources.
+              </div>
+              <div className="buttons">
+                <button>SEE MORE</button>
+              </div>
+            </div>
+          </div>
+          <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
+            <img src="/arc-welding-steel.jpg" className="blur-md" />
+            <div className="content">
+              <div className="topic">VISUAL APPEAL</div>
+              {/* <div className="author">LUNDEV</div> */}
+              <div className="title">Visual Appealing</div>
+              <div className="des">
+                Use high-quality, relevant images and videos.
               </div>
               <div className="buttons">
                 <button>SEE MORE</button>
@@ -118,23 +125,30 @@ const Header = () => {
           {/* Add your thumbnail items here */}
 
           <div className="item xl:block hidden">
-            <img src="/NPORS-1.png" />
+            <img src="/jci-9-27.jpg" />
             <div className="content">
-              <div className="title">LIFTING OPERATIONS</div>
+              <div className="title">PROFESSIONAL AUTHORITATIVE</div>
               <div className="description"></div>
             </div>
           </div>
           <div className="item xl:block hidden">
             <img src="/images/PRA7572-scaled.jpg" />
             <div className="content">
-              <div className="title">HEALTH & SAFETY</div>
+              <div className="title">CREDIBILITY & TRUST</div>
               <div className="description"></div>
             </div>
           </div>
           <div className="item xl:block hidden">
             <img src="/Rope-access.png" />
             <div className="content">
-              <div className="title">ROPE ACCESS/ SCAFFOLDING</div>
+              <div className="title">CLEAR CALL TO ACTION</div>
+              <div className="description"></div>
+            </div>
+          </div>
+          <div className="item xl:block hidden">
+            <img src="/arc-welding-steel.jpg" />
+            <div className="content">
+              <div className="title">VISUAL APPEAL</div>
               <div className="description"></div>
             </div>
           </div>

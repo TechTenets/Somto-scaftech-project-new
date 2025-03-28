@@ -6,9 +6,9 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#0b1b2bcc]">
-      <div className="footer text-white bg-[#0b1b2bcc]" data-script="footer">
-        <div className="font-sans font-extrabold p-4 text-sm text-center">
+    <footer className=" bg-[#0b1b2bcc] m-0">
+      <div className="footer text-white bg-[#0b1b2bcc] " data-script="footer">
+        <div className="font-sans font-bold p-4 text-sm text-center">
           <h1>Follow Us On Social Media</h1>
 
           <div className="p-2 gap-4">

@@ -7,9 +7,9 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const About_us = () => {
   return (
-    <div className="mt-30">
-      <section className="flex gap-20 items-stretch ">
-        <div className="text-center  text-white w-full h-full bg-linear-to-r from-slate-900 to-gray-200 parentDiv">
+    <div className="">
+      <section className=" bg-[#0d182d] min-h-[300px] flex gap-20 items-stretch ">
+        <div className="text-center mt-20 text-white w-full h-full bg-linear-to-r from-slate-900 to-gray-200 parentDiv">
           <p className="font-bold text-3xl  p-2 childDiv1 ">Our Mission</p>
 
           <p className="text-lg px-3 pb-3 font-serif childDiv2">
@@ -18,7 +18,7 @@ const About_us = () => {
           </p>
         </div>
 
-        <div className="text-center rounded-lg text-white w-full h-auto bg-linear-to-r from-slate-900 to-gray-200 parentDiv  ">
+        <div className="text-center mt-20 rounded-lg text-white w-full h-auto bg-linear-to-r from-slate-900 to-gray-200 parentDiv  ">
           <p className="font-bold text-3xl  p-2 childDiv1 ">Our Vision</p>
 
           <p className="text-lg px-3 pb-3 font-serif childDiv2">
@@ -28,61 +28,58 @@ const About_us = () => {
         </div>
       </section>
 
-      <section className=" flex text-center justify-center gap-20 ">
+      <section className=" bg-[#242e2a] h-auto pb-10 flex text-center justify-center gap-20 ">
         <div className="flex-col ">
-          <p className="text-4xl text-blue-950 pt-20 font-sans font-bold">
+          <p className="text-4xl text-gray-200 pt-20 font-sans font-bold">
             100+
           </p>
-          <p className="text-xs text-blue-950 pt-3 font-serif font-bold">
+          <p className="text-xs text-gray-200 pt-3 font-serif font-bold">
           Accredited Courses
           </p>
         </div>
         <div className="flex-col ">
-          <p className="text-4xl text-blue-950 pt-20 font-sans font-bold">
+          <p className="text-4xl text-gray-200 pt-20 font-sans font-bold">
             50,000+
           </p>
-          <p className="text-xs text-blue-950 pt-3 font-serif font-bold">
+          <p className="text-xs text-gray-200 pt-3 font-serif font-bold">
           Students Trained
           </p>
         </div>
         <div className="flex-col ">
-          <p className="text-4xl text-blue-950 pt-20 font-sans font-bold">
+          <p className="text-4xl text-gray-200 pt-20 font-sans font-bold">
             10,000+
           </p>
-          <p className="text-xs text-blue-950 pt-3 font-serif font-bold">
+          <p className="text-xs text-gray-200 pt-3 font-serif font-bold">
           Positive reviews
           </p>
         </div>
       </section>
 
-      <section className="flex pt-20 justify-around">
+      <section className="bg-[#201134] h-auto flex pb-13 pt-20 justify-around">
         <div>
           <img className="w-full h-80" src="/PH-Picture2.jpg" alt="" />
         </div>
 
         <div className="">
           <h1 className="pb-4 text-blue-900 font-bold pl-40 text-2xl">WHO WE ARE</h1>
-          <p className="pb-3 text-black text-sm">
-            JC International is an ISO 9001:2015, 14001:2015, 45001:2018 certified company
-             that provides <br /> Training, Inspection, Asset Integrity Maintenance, Pipeline and 
-             Process service and Rope <br /> Access services to the Oil and Gas, Marine and
-              Construction industries.
+          <p className="pb-3 text-gray-200 text-base">
+           "We are a leading provider of specialized industrial training, 
+          committed to empowering <br /> individuals and organizations 
+           with the skills and knowledge necessary for success. <br /> Our programs are designed and delivered by experienced
+            industry professionals, <br /> ensuring practical, relevant, and up-to-date training."
+
               </p>
 
-              <p className="pb-3 text-black text-sm">
-              Our strength and continued growth lie in the quality of our people and 
-              in our commitment <br /> to offer statutory inspections and trainings that meet
-               national and international standards. With <br /> over 20 years experience in
-                the field, we have attained numerous professional qualifications <br /> and
-                 accreditations which utilize the highest skilled technical and Instructional 
-                 staff.
+              <p className="pb-3 text-gray-200 text-base">
+              "We are dedicated to maintaining the highest standards of quality
+               and safety, <br /> adhering to regulations set by OSHA, the Federal 
+               Ministry of Labour (FML), <br /> and other recognized bodies."
+
               </p>
 
-              <p className="text-black text-sm">
-              Our Training centres and onsite interventions come with the most desirable 
-              global <br /> accreditations and awards including IRATA, NPORS, LEEA, IWCF, IADC, ,
-               IOSH, AWRF, ASNT, BSC, <br /> and NUPRC which consistently enable us to be the
-                “company of choice” for Inspection, <br /> Rope Access and Training.
+              <p className="text-gray-200 text-base">
+              "Our mission is to bridge the skills gap and contribute to a safer,
+               more <br /> productive industrial workforce."
               </p>
         </div>
       </section>
@@ -97,9 +94,9 @@ const About_us = () => {
         </h2>
       </div>
 
-      <section className="inline-flex items-center justify-center w-full gap-10 px-10 h-96 bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc]">
+      <section className="inline-flex items-center justify-center w-full pb-5 gap-10 px-10 h-full bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc]">
         <div className="flex-col border text-center border-white rounded-sm border-solid hover:bg-white hover:text-[#0b1b2bcc]">
-          <img className="w-1/2 p-7 " src="/JC-International.jpg" alt="" />
+          <img className="w-1/2 p-7  " src="/JC-International.jpg" alt="" />
 
           <h1 className="py-3 text-base pl-10">ISO <br /> 9001:2015</h1>
           <p className="text-base py-5 px-2">
@@ -126,7 +123,7 @@ const About_us = () => {
         </div>
       </section>
 
-      <section className="text-gray-950 ">
+      <section className="bg-[#0d182d] min-h-[300px] pb-13  text-gray-200 ">
         <h1 className="font-semibold font-serif text-4xl pt-30 pb-5 text-center ">
         Our QHS & E Policy
         </h1>
@@ -182,10 +179,10 @@ const About_us = () => {
       </section>
 
 
-      <section className="mt-20 bg-gray-100 text-center text-blue-950  h-auto py-10">
+      <section className=" bg-[#0b1b2bcc] text-center text-blue-950  h-auto py-10">
         <div>
-          <div className="text-center text-blue-950">
-            <h1 className="text-lg font-bold">
+          <div className="text-center text-gray-300">
+            <h1 className="text-2xl font-bold">
             Frequently Asked Questions.
             </h1>
 
@@ -253,16 +250,16 @@ const About_us = () => {
         </div>
       </section>
 
-      <section>
-          <div className="text-blue-950 font-semibold text-2xl text-center pb-10 pt-30">
+      <section className="bg-[#242e2a] h-auto pb-10">
+          <div className=" text-gray-300 font-semibold text-3xl text-center pb-10 pt-30">
             <h1>Our Training Centers</h1>
           </div>
            
-           <div className="flex justify-between px-4 gap-3 pb-10 text-blue-950">
+           <div className="flex justify-between px-4 gap-3 pb-10 text-gray-400">
           <div className="flex-col">
            <img className="h-96" src="/PH-Picture2.jpg" alt="" />
 
-           <p className="text-blue-950 font-bold text-base py-5"> Port Harcourt</p>
+           <p className="text-gray-400 font-bold text-base py-5"> Port Harcourt</p>
 
            <HomeIcon />
            <p className="py-3">Plot 5, JC Street Off Peter Odili Road, Trans Amadi Industrial Layout,
@@ -278,7 +275,7 @@ const About_us = () => {
           <div className="flex-col">
            <img className="h-96" src="/Lagos-Picture2.png" alt="" />
 
-           <p className="text-blue-950 font-bold text-base py-5">Lagos</p>
+           <p className="text-gray-400 font-bold text-base py-5">Lagos</p>
 
            <HomeIcon />
            <p className="py-3">56A, Bourdillon Road,
@@ -292,11 +289,11 @@ const About_us = () => {
           </div>
           </div>
 
-          <div className="flex gap-5 px-4 text-blue-950">
+          <div className="flex gap-5 px-4 text-gray-400">
           <div className="flex-col">
            <img className="" src="/uganda-picture.jpeg" alt="" />
 
-           <p className="text-blue-950 font-bold text-base py-5"> Uganda</p>
+           <p className="text-gray-400 font-bold text-base py-5"> Uganda</p>
 
            <HomeIcon />
            <p className="py-3">7th Floor, Course View Towers, Plot 21, Yusuf Lule Road.
@@ -312,7 +309,7 @@ const About_us = () => {
           <div className="flex-col">
            <img className="" src="/tanzaian-picture.jpg" alt="" />
 
-           <p className="text-blue-950 font-bold text-base py-5"> Tanzania</p>
+           <p className="text-gray-400 font-bold text-base py-5"> Tanzania</p>
 
            <HomeIcon />
            <p className="py-3">P.O. Box 38568 Dar ES Salaam,
@@ -328,8 +325,8 @@ const About_us = () => {
       </section>
 
 
-      <section>
-        <div className="text-center pt-20 text-black text-sm font-serif">
+      <section className="bg-[#2b9766] h-auto px-8 py-8">
+        <div className="text-center text-white text-xl font-serif">
           <p>Trusted by the world's best</p>
         </div>
 
@@ -351,8 +348,8 @@ const About_us = () => {
         </div>
       </section>
 
-      <section>
-        <div className="font-bold text-2xl text-blue-950 pt-30 text-center">
+      <section className="bg-[#242e2a] h-auto py-10">
+        <div className="font-bold text-2xl text-white text-center">
           <h1>ACCREDITATIONS AND PROFESSIONAL MEMBERSHIPS</h1>
         </div>
 

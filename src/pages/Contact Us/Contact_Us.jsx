@@ -4,21 +4,33 @@ import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
 import { useSubmit } from 'react-router-dom';
 
-const Contact_Us = () => {
+const CalltoAction = () => {
 
 
   return (
     <div>
-       <section className='mt-20'>
-       <div className="text-center  font-semibold text-5xl text-blue-950 pb-20">
-                <h1>Contact Us</h1>
+       <section className='bg-[#242e2a] h-auto pb-10 pt-30'>
+       <div className="text-center font-sans  font-bold text-2xl text-gray-200 pb-20">
+                <h1>Contact us today to learn more about our training</h1>
+                
             </div>
+            <div className="flex justify-around pl-4 pr-4 pt-4 pb-15">
+            <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer ">
+            <button>Request a free Consultation</button>
+          </div>
+          <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer">
+            <button>Download our training brochure</button>
+          </div>
+          <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer">
+            <button>Register for an upcoming course</button>
+          </div>
+        </div>
 
-            <div className="flex px-4 gap-8 pb-10 text-blue-950">
+            <div className="flex px-4 gap-8 pb-10 text-gray-200">
           <div className="flex-col">
            <img className='h-96' src="/PH-Picture2.jpg" alt="" />
 
-           <p className="text-blue-950 font-bold text-base py-5"> Port Harcourt</p>
+           <p className="text-gray-200 font-bold text-base py-5"> Port Harcourt</p>
 
            <HomeIcon />
            <p className="py-3">Plot 5, JC Street Off Peter Odili Road, Trans Amadi Industrial Layout,
@@ -34,7 +46,7 @@ const Contact_Us = () => {
           <div className="flex-col pb-30">
            <img className='h-96' src="/Lagos-Picture2.png" alt="" />
 
-           <p className="text-blue-950 font-bold text-base py-5">Lagos</p>
+           <p className="text-gray-200 font-bold text-base py-5">Lagos</p>
 
            <HomeIcon />
            <p className="py-3">56A, Bourdillon Road,
@@ -48,11 +60,11 @@ const Contact_Us = () => {
           </div>
           </div>
 
-          <div className="flex gap-8 px-4 text-blue-950">
+          <div className="flex gap-8 px-4 text-gray-200">
           <div className="flex-col">
            <img src="/uganda-picture.jpeg" alt="" />
 
-           <p className="text-blue-950 font-bold text-base py-5"> Uganda</p>
+           <p className="text-gray-200 font-bold text-base py-5"> Uganda</p>
 
            <HomeIcon />
            <p className="py-3">7th Floor, Course View Towers, Plot 21, Yusuf Lule Road.
@@ -68,7 +80,7 @@ const Contact_Us = () => {
           <div className="flex-col">
            <img src="/tanzaian-picture.jpg" alt="" />
 
-           <p className="text-blue-950 font-bold text-base py-5"> Tanzania</p>
+           <p className="text-gray-200 font-bold text-base py-5"> Tanzania</p>
 
            <HomeIcon />
            <p className="py-3">P.O. Box 38568 Dar ES Salaam,
@@ -82,7 +94,7 @@ const Contact_Us = () => {
           </div>
         </div>
 
-        <div className="text-center font-semibold text-5xl text-blue-950 pt-30">
+        <div className="text-center font-semibold text-5xl text-gray-200 pt-30">
                 <h1>Leave Us a Message</h1>
             </div>
 
@@ -90,11 +102,11 @@ const Contact_Us = () => {
             <form className='self-center' action="">
             <div class="mt-10 grid grid-cols-1 justify-items-center gap-x-6 gap-y-8 sm:grid-cols-6">
         <div class="sm:col-span-4">
-          <label for="name" class="block text-sm/6 font-medium text-gray-900">Name</label>
+          <label for="name" class="block text-sm/6 font-medium text-gray-400">Name</label>
           <div class="mt-2">
             <div class="flex w-96 items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600">
               <div class="shrink-0 text-base text-gray-500 select-none sm:text-sm/6"></div>
-              <input type="text" name="name" id="name" class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" placeholder="Name"></input>
+              <input type="text" name="name" id="name" class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-400 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" placeholder="Name"></input>
             </div>
           </div>
         </div>
@@ -102,11 +114,11 @@ const Contact_Us = () => {
 
         <div class="mt-5 grid grid-cols-1 justify-items-center gap-x-6 gap-y-8 sm:grid-cols-6">
         <div class="sm:col-span-4">
-          <label for="email" class="block text-sm/6 font-medium text-gray-900">Email</label>
+          <label for="email" class="block text-sm/6 font-medium text-gray-400">Email</label>
           <div class="mt-2">
             <div class="flex w-96 items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600">
               <div class="shrink-0 text-base text-gray-500 select-none sm:text-sm/6"></div>
-              <input type="text" name="email" id="email" class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" placeholder="Email"></input>
+              <input type="text" name="email" id="email" class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-400 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" placeholder="Email"></input>
             </div>
           </div>
         </div>
@@ -114,11 +126,11 @@ const Contact_Us = () => {
 
         <div class="mt-5 grid grid-cols-1 justify-items-center gap-x-6 gap-y-8 sm:grid-cols-6">
         <div class="sm:col-span-4">
-          <label for="name of company" class="block text-sm/6 font-medium text-gray-900">Name of Company</label>
+          <label for="name of company" class="block text-sm/6 font-medium text-gray-400">Name of Company</label>
           <div class="mt-2">
             <div class="flex w-96 items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600">
               <div class="shrink-0 text-base text-gray-500 select-none sm:text-sm/6"></div>
-              <input type="text" name="name of company" id="name of company" class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" placeholder="company name"></input>
+              <input type="text" name="name of company" id="name of company" class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-400 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" placeholder="company name"></input>
             </div>
           </div>
         </div>
@@ -126,11 +138,11 @@ const Contact_Us = () => {
 
         <div class="mt-5 grid grid-cols-1 justify-items-center gap-x-6 gap-y-8 sm:grid-cols-6">
         <div class="sm:col-span-4">
-          <label for="location" class="block text-sm/6 font-medium text-gray-900">Location</label>
+          <label for="location" class="block text-sm/6 font-medium text-gray-400">Location</label>
           <div class="mt-2">
             <div class="flex w-96 items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600">
               <div class="shrink-0 text-base text-gray-500 select-none sm:text-sm/6"></div>
-              <input type="text" name="location" id="location" class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" placeholder="location"></input>
+              <input type="text" name="location" id="location" class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-400 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" placeholder="location"></input>
             </div>
           </div>
         </div>
@@ -138,14 +150,14 @@ const Contact_Us = () => {
 
         <div class="mt-5 grid grid-cols-1 ml-68 gap-x-6 gap-y-8 sm:grid-cols-6">
         <div class="col-span-full">
-          <label for="about" class="block text-sm/6 font-medium text-gray-900">Message</label>
+          <label for="about" class="block text-sm/6 font-medium text-gray-400">Message</label>
           <div class="mt-2">
-            <textarea name="about" id="about" rows="3" class="block w-96 rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"></textarea>
+            <textarea name="about" id="about" rows="3" class="block w-96 rounded-md bg-white px-3 py-1.5 text-base text-gray-400 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"></textarea>
           </div>
         </div>
         </div>
           
-          <div className='mt-6 ml-68 flex items-center gap-x-6'>
+          <div className='mt-6 ml-68 mb-10 flex items-center gap-x-6'>
           <button type="submit" class="rounded  w-96 bg-gray-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             Send
             </button>
@@ -153,7 +165,7 @@ const Contact_Us = () => {
             </form>
         </section>
 
-        <section className="mt-3  bg-gray-100 text-center text-blue-950  h-auto py-10">
+        {/* <section className="mt-3  bg-gray-100 text-center text-blue-950  h-auto py-10">
         <div>
           <div className="text-center text-blue-950">
             <h1 className="text-lg font-bold">
@@ -222,9 +234,9 @@ const Contact_Us = () => {
             </p>
           </div>
         </div>
-      </section> 
+      </section>  */}
     </div>
   )
 }
 
-export default Contact_Us
+export default CalltoAction

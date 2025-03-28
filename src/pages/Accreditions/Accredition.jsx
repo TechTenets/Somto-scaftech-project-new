@@ -3,14 +3,19 @@ import React from 'react'
 const Accredition = () => {
   return (
     <div>
-        <section className="pb-20">
-        <div className="text-center font-semibold text-3xl text-blue-950 pt-20 pb-4">
-          <h1>ACCREDITATIONS</h1>
+        <section className="bg-[#242e2a] w-full h-auto py-10 px-8 ">
+        <div className="text-center font-semibold text-3xl text-white pt-20 pb-4">
+          <h1>ACCREDITATIONS & CERTIFICATION</h1>
         </div>
 
-        <p className="font-bold pb-20 text-blue-950 text-center">
-          Click on any accreditation logo to find the course that best supports
-          your career ambitions and certification needs.
+        <p className="font-light pb-5 text-sm text-white text-center">
+          Our Training programs are recognized and accredited by leading organizations, 
+          including OSHA and the Federal Ministry of Labour(FML)
+        </p>
+
+        <p className="font-light pb-20 text-sm text-white text-center">
+          We are commited to maintaining the highest standards of quality and safety, ensuring
+          that our graduates are well-prepared for success in their careers.
         </p>
 
         <div className="flex justify-between">

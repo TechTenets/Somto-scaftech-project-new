@@ -20,13 +20,13 @@ const Home = () => {
   return (
     <div className="overflow-hidden">
       <Header />
-      <div className="searchBar" data-script="search-bar">
+      {/* <div className="searchBar" data-script="search-bar">
         <div className="searchBar--overlay"></div>
         <div className="container searchBar--container">
           <div className="searchBar--wrapper">
             <div className="arrow"></div>
             <button className="searchBar--close" aria-label="close">
-              <span className="visibility-hidden">close</span>
+              <span className="visibility-hidden"></span>
               <i className="icon-close-light"></i>
             </button>
           </div>
@@ -37,9 +37,9 @@ const Home = () => {
         className="main-content page-type"
         data-analytics='{"templateType":"Home","contentType":"Home","audienceSegment":"(not set)","language":"English"}'
         data-page-type="Home"
-      ></main>
+      ></main> */}
 
-      <div className="grid grid-cols-1 p-5 gap-20 px-20 justify-around overflow-hidden  xl:grid-cols-3 md:grid-cols-2">
+      {/* <div className="grid grid-cols-1 p-5 gap-20 px-20 justify-around overflow-hidden  xl:grid-cols-3 md:grid-cols-2">
         <div className="bg-[#0b1b2bcc] rounded-sm w-full h-80 p-5 ease-in-out text-white m-4 hover:bg-gray-100 hover:text-[#0b1b2bcc] hover:scale-105 transform transition duration-75 ">
           <div className="bg-gray-200 p-2 items-center w-1/6 rounded-full">
             <DensityMediumRoundedIcon />
@@ -75,11 +75,34 @@ const Home = () => {
             Click to view and register for any of our upcoming trainings.
           </p>
         </div>
-      </div>
+      </div> */}
 
-      <section>
-        <div className="text-center font-semibold text-3xl text-blue-950 pt-15 pb-8">
-          <h1>Our Traninig Faculties</h1>
+      <section className="bg-[#0d182d] min-h-[300px]">
+        <div className="flex text-center flex-col py-10 px-5 gap-5 xl:font-black font-bold text-white">
+         <p className="xl:text-4xl text-2xl">
+          Elevate Your Workforce with World-Class Industrial Training
+          </p>
+          <p className="text-xl pl-15 font-light md:text-lg ">
+          OSHA-Certified, FML-Approved Programs Designed to Minimize Safety and Operational Excellence.
+          </p>
+          <p className="text-sm pl-15 font-light md:text-lg ">
+           We provide comprehensive training in welding, QA/QC, heavy equipment operation,safety, and 
+           more, adhering to the highest <br /> local and international standards.</p>
+        </div>
+        
+        
+        <button className="rounded-md mx-8 mb-5 border-2 ml-140 text-base text-gray-300 font-medium border-gray-50 cursor-pointer border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+            Download Our Training Brochure
+          </button>
+      
+     
+      </section>
+
+      <section className="bg-[#242e2a] h-auto">
+        <div className="text-center font-bold text-5xl text-white pt-15 pb-8">
+          <h1>Our Traninig  
+              <span className="text-[#2b9766]">Faculties</span>
+               </h1>
         </div>
 
         <div className="grid grid-cols-1  gap-5  justify-between overflow-hidden  xl:grid-cols-3 md:grid-cols-2">
@@ -87,10 +110,10 @@ const Home = () => {
             <div>
               <img src="/jc img 1.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>IWCF Drilling Courses</h1>
             </div>
-            <div className="font-medium text-blue-950">
+            <div className="font-medium text-white">
               <p>9 Courses</p>
             </div>
           </div>
@@ -99,10 +122,10 @@ const Home = () => {
             <div>
               <img src="/jc-img2.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Lifting Operations</h1>
             </div>
-            <div className="font-medium text-blue-950">
+            <div className="font-medium text-white">
               <p>54 Courses</p>
             </div>
           </div>
@@ -110,26 +133,26 @@ const Home = () => {
             <div>
               <img src="/jc-img3.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Employabilty Skills</h1>
             </div>
-            <div className="font-medium text-blue-950">
+            <div className="font-medium text-white">
               <p>32 Courses</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section>
+      <section className="bg-[#242e2a] h-auto">
         <div className="grid grid-cols-1  gap-5  justify-between overflow-hidden  xl:grid-cols-3 md:grid-cols-2 p-4">
           <div className="flex-col p-2">
             <div>
               <img src="/jc-img4.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Healthy & Safety</h1>
             </div>
-            <div className="font-medium text-blue-950">
+            <div className="font-medium text-white">
               <p>23 Courses</p>
             </div>
           </div>
@@ -138,10 +161,10 @@ const Home = () => {
             <div>
               <img src="/jc-5.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Rope Access</h1>
             </div>
-            <div className="font-medium text-blue-950">
+            <div className="font-medium text-white">
               <p>3 Courses</p>
             </div>
           </div>
@@ -149,22 +172,22 @@ const Home = () => {
             <div className="items-baseline">
               <img src="/jc-img6.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-15 pl-3 ">
+            <div className="text-white text-sm font-medium pt-15 pl-3 ">
               <h1>ASNT NDT INSPECTION</h1>
             </div>
-            <div className="font-medium text-blue-950 pl-3">
+            <div className="font-medium text-white pl-3">
               <p>6 Courses</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="pb-20">
-        <div className="text-center font-semibold text-3xl text-blue-950 pt-20 pb-4">
+      <section className="bg-[#0d182d] min-h-[300px]">
+        <div className="text-center font-semibold text-4xl text-white pt-20 pb-4">
           <h1>ACCREDITATIONS</h1>
         </div>
 
-        <p className="font-bold text-blue-950 text-center">
+        <p className="font-bold text-white text-center">
           Click on any accreditation logo to find the course that best supports
           your career ambitions and certification needs.
         </p>
@@ -232,12 +255,12 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="mx-10">
-        <div className="text-center font-serif font-bold text-3xl text-blue-950 pt-15 pb-3">
-          <h1>Why Choose JCI </h1>
+      <section className=" bg-[#201134] w-full min-h-[300px] h-auto py-10 pl-8">
+        <div className="text-center font-serif text-clamp leading-[-1] font-bold text-3xl text-black pt-15 pb-3">
+          <h1>Why Choose <span className="text-[#07bc0c]">Scaftech</span>  </h1>
         </div>
 
-        <div className="font-semibold xl:text-base md:text-xs  text-base text-blue-950 text-center pb-15">
+        <div className="font-semibold xl:text-base md:text-xs  text-base text-gray-600 text-center pb-15">
           <p>
             We are steadfast in our commitment to providing high-quality
             training programs that enable corporate <br />
@@ -246,7 +269,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 justify-around   xl:grid-cols-3 md:grid-cols-2 ">
+        <div className="grid grid-cols-1 justify-around mb-5  xl:grid-cols-3 md:grid-cols-2 ">
           <div className="bg-gray-100 rounded-sm w-96 h-96 hover:bg-[#0b1b2bcc] hover:text-white p-5 ease-in-out text-[#0b1b2bcc] hover:scale-105 transform transition duration-75 ">
             <div className="flex justify-center items-center">
               <div className="">
@@ -294,7 +317,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className=" mt-20 mb-10 bg-[#0b1b2bcc] swiperImageSection">
+      <section className=" bg-[#0b1b2bcc] swiperImageSection">
         <div className="swiperImageSection_div1">
           <Imageslider />
         </div>
@@ -322,21 +345,23 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
-        <div className="text-center font-semibold text-3xl text-blue-950  pb-4">
-          <h1>Explore Popular Courses</h1>
+      <section className="bg-[#242e2a] h-auto">
+        <div className="text-center font-semibold text-3xl text-white py-10">
+          <h1>Explore Popular 
+          <span className="text-[#2b9766]">Courses</span>
+            </h1>
         </div>
-        <div className="font-bold text-gray-600 text-center">
+        <div className="font-bold text-gray-300 text-center">
           <p>
             All our courses are fully accredited by relevant regulatory bodies.
           </p>
         </div>
 
         <div className="flex justify-between pl-4 pr-4 pt-4 pb-15">
-          <div className="font-semibold text-3xl text-blue-950">
+          <div className="font-semibold text-3xl text-white">
             <p>Popular Courses</p>
           </div>
-          <div className="text-blue-950 font-semibold text-sm rounded-full bg-gray-200 p-4 ">
+          <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 ">
             <button>Featured Courses</button>
           </div>
         </div>
@@ -346,10 +371,10 @@ const Home = () => {
             <div>
               <img src="/images/Image-A.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Rotary Drilling</h1>
             </div>
-            <div className="text-gray-400 p-3">
+            <div className="text-gray-400 p-3" >
               <InfoTwoToneIcon />2 Days
             </div>
 
@@ -358,17 +383,17 @@ const Home = () => {
               Expert
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
 
           <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75">
             <div>
               <img src="/images/IMG-scaled.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Appointed Persons for Lifting...</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -380,16 +405,16 @@ const Home = () => {
               Expert
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
           <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75">
             <div>
               <img src="/images/jci-img.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Powered Industrial Trucks</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -401,16 +426,16 @@ const Home = () => {
               Expert
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
           <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75">
             <div>
               <img src="/images/LIFTING-SLINGING.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Lifting And Slinging</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -422,16 +447,16 @@ const Home = () => {
               All Levels
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
           <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75">
             <div>
               <img src="/ICPDigital.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>IADC Wellsharp</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -443,16 +468,16 @@ const Home = () => {
               Expert
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
           <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75">
             <div>
               <img src="/JC-IWCF.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Introduction to Well Control</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -464,10 +489,10 @@ const Home = () => {
               Expert
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -476,7 +501,7 @@ const Home = () => {
             <div>
               <img src="/images/Well-Control.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>IWCF Well Intervention</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -488,17 +513,17 @@ const Home = () => {
               All Levels
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
 
           <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75">
             <div>
               <img src="/jci-24.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Cargo Carrying Unit Inspection</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -510,16 +535,16 @@ const Home = () => {
               All Levels
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
           <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75">
             <div>
               <img src="public/Stuck-Pipe.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Stuck Pipe Prevention</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -531,16 +556,16 @@ const Home = () => {
               All Levels
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
           <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75">
             <div>
               <img src="/images/jci-9-26.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Basic/Advanced Fire Fighting</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -552,16 +577,16 @@ const Home = () => {
               All Levels
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
           <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75">
             <div>
               <img src="/images/FALL-PROTECTION.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Fall Protection</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -573,16 +598,16 @@ const Home = () => {
               All Levels
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
           <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75">
             <div>
               <img src="/OPERATOR.jpg" alt="" />
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
+            <div className="text-white text-sm font-medium pt-5 ">
               <h1>Banksman & Slinger</h1>
             </div>
             <div className="text-gray-400 p-3">
@@ -594,28 +619,28 @@ const Home = () => {
               All Levels
             </div>
 
-            <div className="text-gray-400 pt-5 pb-2">
+            {/* <div className="text-gray-400 pt-5 pb-2">
               <AccountCircleTwoToneIcon />
               JCI
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="text-center text-blue-900 p-7">
-          <button className="rounded-md border-2 text-base font-medium border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+        <div className="text-center text-white p-7">
+          <button className="rounded-md border-2 text-base font-medium border-gray-300 border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
             View All Courses
           </button>
         </div>
       </section>
 
-      <section className="bg-gray-200 pt-30">
+      <section className="bg-[#201134] w-full min-h-[300px] h-auto ">
         <div className="flex justify-between pl-4 pr-4 pt-4 pb-15">
-          <div className="font-semibold text-3xl text-blue-950">
+          <div className="font-semibold text-4xl text-white">
             <p>Upcoming Trainings</p>
             <div>
-              <p className="text-blue-950 text-sm p-3 font-medium">Trainings</p>
+              <p className="text-gray-500 text-sm p-3 font-medium">Trainings</p>
             </div>
           </div>
-          <button className="rounded-md text-blue-900 border-2 text-base font-medium border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+          <button className="rounded-md text-gray-500 border-2 text-base font-medium border-gray-200 border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
             View All Training
           </button>
         </div>
@@ -813,7 +838,7 @@ const Home = () => {
         </div> */}
         </div>
       </section>
-
+{/* 
       <section className="bg-[#0b1b2bcc] w-full pb-10  ">
         <div className="font-sans font-medium text-white text-2xl text-center pt-10">
           <h1>What our students are saying</h1>
@@ -993,13 +1018,13 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className=" mb-10 bg-white swiperImageSection">
-        <div className="text-blue-900  swiperImageSection_div2">
-          <h1 className="pb-4  font-bold text-2xl">Are You an Organization?</h1>
+      <section className=" bg-[#242e2a] h-auto swiperImageSection">
+        <div className="text-white  swiperImageSection_div2">
+          <h1 className="pb-4  font-bold text-4xl">Are You an Organization?</h1>
 
-          <p className="text-sm text-gray-600 font-medium">
+          <p className="text-sm text-gray-400 font-medium">
             We specialize in providing fully customized training programs <br />
             designed to align with your company's unique goals, challenges,{" "}
             <br />
@@ -1009,12 +1034,12 @@ const Home = () => {
             matters most to your business.
           </p>
 
-          <p className="text-sm text-gray-600 pt-3 font-medium">
+          <p className="text-sm text-gray-400 pt-3 font-medium">
             We offer the flexibility to deliver training both on-site at <br />
             your company location and at our own training facility.
           </p>
 
-          <button className="rounded-md border-2 text-base text-gray-600 font-medium border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+          <button className="rounded-md border-2 text-base text-gray-400 font-medium border-gray-200 border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
             Contact Us
           </button>
         </div>
@@ -1024,8 +1049,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
-        <div className="text-center text-black text-sm font-serif">
+      <section className="bg-[#2b9766] h-auto px-8 py-8">
+        <div className="text-center text-white text-xl font-serif">
           <p>Trusted by the world's best</p>
         </div>
 
@@ -1047,8 +1072,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
-        <div className="font-bold text-2xl text-blue-950 pt-30 text-center">
+      <section className="bg-[#242e2a] h-auto py-10">
+        <div className="font-bold text-2xl text-white text-center">
           <h1>ACCREDITATIONS AND PROFESSIONAL MEMBERSHIPS</h1>
         </div>
 
@@ -1057,8 +1082,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
-        <div className="font-bold text-2xl text-blue-950 pt-45 pb-40 text-center">
+      <section className="bg-[#4b5563] h-auto " >
+        <div className="font-bold text-4xl text-white pt-45 pb-40 text-center">
           <h1>Latest News</h1>
         </div>
 
@@ -1066,28 +1091,28 @@ const Home = () => {
           <div className="flex-col">
             <img className="rounded-b-lg" src="/JCI53.png" alt="" />
 
-            <p className="font-light pt-3 pb-2 text-blue-950 ">
+            <p className="font-light pt-3 pb-2 text-white ">
               Non-Destructive Testing
             </p>
 
-            <h1 className="text-blue-950 font-semibold text-base">
+            <h1 className="text-white font-semibold text-base">
               NDT Career Guide: Explore Industry Opportunities.
             </h1>
 
-            <p className="text-blue-950 p-2">February 4, 2025</p>
+            <p className="text-white p-2">February 4, 2025</p>
           </div>
 
           <div className="flex-col">
             <img className="rounded-b-lg" src="/Image-2025.jpg" alt="" />
 
-            <p className="font-light pt-3 pb-2  text-blue-950">Training</p>
+            <p className="font-light pt-3 pb-2  text-white">Training</p>
 
-            <h1 className="text-blue-950 font-semibold text-base">
+            <h1 className="text-white font-semibold text-base">
               Master the Art of Lifting with JC International's <br />
               Appointed Person for Lifting Operations Training.
             </h1>
 
-            <p className="text-blue-950 p-2">January 24, 2025</p>
+            <p className="text-white p-2">January 24, 2025</p>
           </div>
 
           <div className="flex-col  ">
@@ -1098,16 +1123,16 @@ const Home = () => {
                 alt=""
               />
               <div className="flex-col">
-                <p className="font-light pt-3 pb-2  text-blue-950">
+                <p className="font-light pt-3 pb-2  text-white">
                   Health and Safety
                 </p>
 
-                <h1 className="text-blue-950 font-semibold text-base">
+                <h1 className="text-white font-semibold text-base">
                   The Heimlich Maneuver: A Life- <br />
                   Saving Skill To Rescue A.
                 </h1>
 
-                <p className="text-blue-950 p-2">January 14, 2025</p>
+                <p className="text-white p-2">January 14, 2025</p>
               </div>
             </div>
 
@@ -1118,13 +1143,13 @@ const Home = () => {
                 alt=""
               />
               <div className="flex-col">
-                <p className="font-light pt-3 pb-2  text-blue-950">Training</p>
+                <p className="font-light pt-3 pb-2  text-white">Training</p>
 
-                <h1 className="text-blue-950 font-semibold text-base">
+                <h1 className="text-white font-semibold text-base">
                   Master Mobile Crane Operations with JC...
                 </h1>
 
-                <p className="text-blue-950 p-2">December 20, 2024</p>
+                <p className="text-white p-2">December 20, 2024</p>
               </div>
             </div>
 
@@ -1135,13 +1160,13 @@ const Home = () => {
                 alt=""
               />
               <div className="flex-col">
-                <p className="font-light pt-3 pb-2  text-blue-950">Training</p>
+                <p className="font-light pt-3 pb-2  text-white">Training</p>
 
-                <h1 className="text-blue-950 font-semibold text-base">
+                <h1 className="text-white font-semibold text-base">
                   Standard Best Practices For Rope Access Operations.
                 </h1>
 
-                <p className="text-blue-950 p-2">December 6, 2024</p>
+                <p className="text-white p-2">December 6, 2024</p>
               </div>
             </div>
           </div>
