@@ -97,367 +97,279 @@ const ClientTestimonials = () => {
           </div>
         </div> */}
 
-<section className="bg-[#0b1b2bcc] w-full pb-10  ">
-        <div className="font-sans font-medium text-white text-2xl text-center pt-10">
-          <h1>What our Clients have to say</h1>
+<section className="bg-[#0b1b2bcc] w-full pb-10">
+  <div className="font-sans font-medium text-white text-2xl text-center pt-10">
+    <h1>What our Clients have to say</h1>
+    <p className="text-sm font-serif pt-2 pb-10 text-amber-100 font-normal">
+      We have a track record of Excellence
+    </p>
+  </div>
 
-          <p className="text-sm font-serif pt-2 pb-10 text-amber-100 font-normal">
-            We have a track record of Excellence
-          </p>
+  {/* Add responsive flex containers */}
+  <div className="flex flex-col sm:flex-row lg:flex-row justify-around">
+    {/* Client 1 */}
+    <div className="h-auto w-full sm:w-lg lg:w-lg mb-5">
+      <div className="text-black bg-white flex flex-col">
+        <div className="text-amber-600 p-2 flex justify-center">
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarHalfIcon />
         </div>
 
-        <div className="flex justify-around">
-          <div className=" h-auto w-lg">
-            <div className="text-black bg-white mb-5 flex flex-col">
-              <div className=" text-amber-600 p-2 flex justify-center">
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarHalfIcon />
-              </div>
-
-              <div className="pb-5 flex">
-                <div>
-                  <img
-                    className="rounded-full w-md h-3/4 p-4"
-                    src="/pikaso.jpg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <p className="pt-5 pb-2 font-medium font-serif text-base">
-                    Working with Scaftech for OPITO Riggers training has been a game
-                    changer for us. Their commitment to safety is evident in
-                    every session, and we feel confident knowing our team is
-                    well- prepared
-                  </p>
-
-                  <h1 className="text-blue-950 font-mono text-sm">
-                    Olawale Philip
-                  </h1>
-
-                  <div>Competence Development Manager</div>
-                </div>
-              </div>
-            </div>
+        <div className="pb-5 flex">
+          <div>
+            <img className="rounded-full w-md h-3/4 p-4" src="/pikaso.jpg" alt="" />
           </div>
+          <div>
+            <p className="pt-5 pb-2 font-medium font-serif text-base">
+              Working with Scaftech for OPITO Riggers training has been a game changer for us.
+              Their commitment to safety is evident in every session, and we feel confident knowing our team is well-prepared.
+            </p>
 
-          <div className=" h-auto w-lg">
-            <div className="text-black bg-white mb-5 flex flex-col">
-              <div className=" text-amber-600 p-2 flex justify-center">
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarHalfIcon />
-              </div>
-
-              <div className="pb-5 flex">
-                <div>
-                  <img
-                    className="rounded-full w-md h-3/4 p-4"
-                    src="/pikaso_2.jpg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <p className="pt-5 pb-2 font-medium font-serif text-base">
-                    Thanks to JCI's NDT training, our inspection processes have
-                    improved significantly. The practical exercises provided us
-                    with the confidence to apply our knowledge effectively.
-                  </p>
-
-                  <h1 className="text-blue-950 font-mono text-sm">
-                    Effiong Bassey
-                  </h1>
-
-                  <div>QAQC Manager</div>
-                </div>
-              </div>
-            </div>
+            <h1 className="text-blue-950 font-mono text-sm">Olawale Philip</h1>
+            <div>Competence Development Manager</div>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div className="flex justify-around">
-          <div className=" h-auto w-lg">
-            <div className="text-black bg-white mb-5 flex flex-col">
-              <div className=" text-amber-600 p-2 flex justify-center">
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarHalfIcon />
-              </div>
-
-              <div className="pb-5 flex">
-                <div>
-                  <img
-                    className="rounded-full w-md h-3/4 p-4"
-                    src="/pikaso_3.jpg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <p className="pt-5 pb-2 font-medium font-serif text-base">
-                    Completing the IWCF course at JCI was a pivotal moment for
-                    our team. The knowledge gained about well control is
-                    invaluable, and the training environment was both supportive
-                    and professional.
-                  </p>
-
-                  <h1 className="text-blue-950 font-mono text-sm">
-                    Emmanuel Bode
-                  </h1>
-
-                  <div>Drilling Manager</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className=" h-auto w-lg">
-            <div className="text-black bg-white mb-5 flex flex-col">
-              <div className=" text-amber-600 p-2 flex justify-center">
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarHalfIcon />
-              </div>
-
-              <div className="pb-5 flex">
-                <div>
-                  <img
-                    className="rounded-full w-md h-3/4 p-4"
-                    src="/istockphoto-woman3.jpg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <p className="pt-5 pb-2 font-medium font-serif text-base">
-                    I had a wonderful experience completing my OPITO trainings
-                    (Rigger Stage 1 and Banksman Stage 3) and obtaining a
-                    Forklift Competence certificate. I extend my sincere thanks
-                    to all the JCI staff.
-                  </p>
-
-                  <h1 className="text-blue-950 font-mono text-sm">
-                    Inna 
-                  </h1>
-
-                  <div>Rigger Manager</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-[#0b1b2bcc] w-full pb-10  ">
-        {/* <div className="font-sans font-medium text-white text-2xl text-center pt-10">
-          <h1>What our Clients have to say</h1>
-
-          <p className="text-sm font-serif pt-2 pb-10 text-amber-100 font-normal">
-            We have a track record of Excellence
-          </p>
-        </div> */}
-
-        <div className="flex justify-around">
-          <div className=" h-auto w-lg">
-            <div className="text-black bg-white mb-5 flex flex-col">
-              <div className=" text-amber-600 p-2 flex justify-center">
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarHalfIcon />
-              </div>
-
-              <div className="pb-5 flex">
-                <div>
-                  <img
-                    className="rounded-full w-md h-3/4 p-4"
-                    src="/istockphoto-woman.jpg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <p className="pt-5 pb-2 font-medium font-serif text-base">
-                    Working with Scaftech for OPITO Riggers training has been a game
-                    changer for us. Their commitment to safety is evident in
-                    every session, and we feel confident knowing our team is
-                    well- prepared
-                  </p>
-
-                  <h1 className="text-blue-950 font-mono text-sm">
-                    Juliet Stella
-                  </h1>
-
-                  <div>Developmental Manager</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className=" h-auto w-lg">
-            <div className="text-black bg-white mb-5 flex flex-col">
-              <div className=" text-amber-600 p-2 flex justify-center">
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarHalfIcon />
-              </div>
-
-              <div className="pb-5 flex">
-                <div>
-                  <img
-                    className="rounded-full w-md h-3/4 p-4"
-                    src="/african-american.jpg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <p className="pt-5 pb-2 font-medium font-serif text-base">
-                    Thanks to JCI's NDT training, our inspection processes have
-                    improved significantly. The practical exercises provided us
-                    with the confidence to apply our knowledge effectively.
-                  </p>
-
-                  <h1 className="text-blue-950 font-mono text-sm">
-                    Lilian Ani
-                  </h1>
-
-                  <div>Client</div>
-                </div>
-              </div>
-            </div>
-          </div>
+    {/* Client 2 */}
+    <div className="h-auto w-full sm:w-lg lg:w-lg mb-5">
+      <div className="text-black bg-white flex flex-col">
+        <div className="text-amber-600 p-2 flex justify-center">
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarHalfIcon />
         </div>
 
-        <div className="flex justify-around">
-          <div className=" h-auto w-lg">
-            <div className="text-black bg-white mb-5 flex flex-col">
-              <div className=" text-amber-600 p-2 flex justify-center">
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarHalfIcon />
-              </div>
-
-              <div className="pb-5 flex">
-                <div>
-                  <img
-                    className="rounded-full w-md h-3/4 p-4"
-                    src="/istockphoto.jpg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <p className="pt-5 pb-2 font-medium font-serif text-base">
-                    Completing the IWCF course at JCI was a pivotal moment for
-                    our team. The knowledge gained about well control is
-                    invaluable, and the training environment was both supportive
-                    and professional.
-                  </p>
-
-                  <h1 className="text-blue-950 font-mono text-sm">
-                    Rebecca Fortune
-                  </h1>
-
-                  <div>co-owner & Engineer</div>
-                </div>
-              </div>
-            </div>
+        <div className="pb-5 flex">
+          <div>
+            <img className="rounded-full w-md h-3/4 p-4" src="/pikaso_2.jpg" alt="" />
           </div>
+          <div>
+            <p className="pt-5 pb-2 font-medium font-serif text-base">
+              Thanks to JCI's NDT training, our inspection processes have improved significantly. The practical exercises provided us with the confidence to apply our knowledge effectively.
+            </p>
 
-          <div className=" h-auto w-lg">
-            <div className="text-black bg-white mb-5 flex flex-col">
-              <div className=" text-amber-600 p-2 flex justify-center">
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarIcon />
-
-                <StarHalfIcon />
-              </div>
-
-              <div className="pb-5 flex">
-                <div>
-                  <img
-                    className="rounded-full w-md h-3/4 p-4"
-                    src="/womantumps.jpg"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <p className="pt-5 pb-2 font-medium font-serif text-base">
-                    I had a wonderful experience completing my OPITO trainings
-                    (Rigger Stage 1 and Banksman Stage 3) and obtaining a
-                    Forklift Competence certificate. I extend my sincere thanks
-                    to all the JCI staff.
-                  </p>
-
-                  <h1 className="text-blue-950 font-mono text-sm">
-                    Suzan Iweta
-                  </h1>
-
-                  <div>Client</div>
-                </div>
-              </div>
-            </div>
+            <h1 className="text-blue-950 font-mono text-sm">Effiong Bassey</h1>
+            <div>QAQC Manager</div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+
+  {/* Add second row of clients */}
+  <div className="flex flex-col sm:flex-row lg:flex-row justify-around">
+    {/* Client 3 */}
+    <div className="h-auto w-full sm:w-lg lg:w-lg mb-5">
+      <div className="text-black bg-white flex flex-col">
+        <div className="text-amber-600 p-2 flex justify-center">
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarHalfIcon />
+        </div>
+
+        <div className="pb-5 flex">
+          <div>
+            <img className="rounded-full w-md h-3/4 p-4" src="/pikaso_3.jpg" alt="" />
+          </div>
+          <div>
+            <p className="pt-5 pb-2 font-medium font-serif text-base">
+              Completing the IWCF course at JCI was a pivotal moment for our team. The knowledge gained about well control is invaluable, and the training environment was both supportive and professional.
+            </p>
+
+            <h1 className="text-blue-950 font-mono text-sm">Emmanuel Bode</h1>
+            <div>Drilling Manager</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Client 4 */}
+    <div className="h-auto w-full sm:w-lg lg:w-lg mb-5">
+      <div className="text-black bg-white flex flex-col">
+        <div className="text-amber-600 p-2 flex justify-center">
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarHalfIcon />
+        </div>
+
+        <div className="pb-5 flex">
+          <div>
+            <img className="rounded-full w-md h-3/4 p-4" src="/istockphoto-woman3.jpg" alt="" />
+          </div>
+          <div>
+            <p className="pt-5 pb-2 font-medium font-serif text-base">
+              I had a wonderful experience completing my OPITO trainings (Rigger Stage 1 and Banksman Stage 3) and obtaining a Forklift Competence certificate. I extend my sincere thanks to all the JCI staff.
+            </p>
+
+            <h1 className="text-blue-950 font-mono text-sm">Inna</h1>
+            <div>Rigger Manager</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section className="bg-[#0b1b2bcc] w-full pb-10">
+  {/* <div className="font-sans font-medium text-white text-2xl text-center pt-10">
+    <h1>What our Clients have to say</h1>
+    <p className="text-sm font-serif pt-2 pb-10 text-amber-100 font-normal">
+      We have a track record of Excellence
+    </p>
+  </div> */}
+
+  <div className="flex flex-wrap justify-around">
+    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-1/3">
+      <div className="text-black bg-white mb-5 flex flex-col">
+        <div className="text-amber-600 p-2 flex justify-center">
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarHalfIcon />
+        </div>
+
+        <div className="pb-5 flex">
+          <div>
+            <img
+              className="rounded-full w-md h-3/4 p-4"
+              src="/istockphoto-woman.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p className="pt-5 pb-2 font-medium font-serif text-base">
+              Working with Scaftech for OPITO Riggers training has been a game
+              changer for us. Their commitment to safety is evident in
+              every session, and we feel confident knowing our team is
+              well-prepared.
+            </p>
+            <h1 className="text-blue-950 font-mono text-sm">Juliet Stella</h1>
+            <div>Developmental Manager</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-1/3">
+      <div className="text-black bg-white mb-5 flex flex-col">
+        <div className="text-amber-600 p-2 flex justify-center">
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarHalfIcon />
+        </div>
+
+        <div className="pb-5 flex">
+          <div>
+            <img
+              className="rounded-full w-md h-3/4 p-4"
+              src="/african-american.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p className="pt-5 pb-2 font-medium font-serif text-base">
+              Thanks to JCI's NDT training, our inspection processes have
+              improved significantly. The practical exercises provided us
+              with the confidence to apply our knowledge effectively.
+            </p>
+            <h1 className="text-blue-950 font-mono text-sm">Lilian Ani</h1>
+            <div>Client</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div className="flex flex-wrap justify-around">
+    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-1/3">
+      <div className="text-black bg-white mb-5 flex flex-col">
+        <div className="text-amber-600 p-2 flex justify-center">
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarHalfIcon />
+        </div>
+
+        <div className="pb-5 flex">
+          <div>
+            <img
+              className="rounded-full w-md h-3/4 p-4"
+              src="/istockphoto.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p className="pt-5 pb-2 font-medium font-serif text-base">
+              Completing the IWCF course at JCI was a pivotal moment for
+              our team. The knowledge gained about well control is
+              invaluable, and the training environment was both supportive
+              and professional.
+            </p>
+            <h1 className="text-blue-950 font-mono text-sm">Rebecca Fortune</h1>
+            <div>Co-owner & Engineer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-1/3">
+      <div className="text-black bg-white mb-5 flex flex-col">
+        <div className="text-amber-600 p-2 flex justify-center">
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarIcon />
+          <StarHalfIcon />
+        </div>
+
+        <div className="pb-5 flex">
+          <div>
+            <img
+              className="rounded-full w-md h-3/4 p-4"
+              src="/womantumps.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p className="pt-5 pb-2 font-medium font-serif text-base">
+              I had a wonderful experience completing my OPITO trainings
+              (Rigger Stage 1 and Banksman Stage 3) and obtaining a
+              Forklift Competence certificate. I extend my sincere thanks
+              to all the JCI staff.
+            </p>
+            <h1 className="text-blue-950 font-mono text-sm">Suzan Iweta</h1>
+            <div>Client</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         <div className='font-extrabold text-blue-600 text-lg pb-8 pt-15 font-mono pl-10 text-center'>
             If you encounter any issues during verification, please contact our support team 
@@ -470,98 +382,84 @@ const ClientTestimonials = () => {
                 Find A Course
             </div>
 
-            <div className='flex justify-around'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' src="/arc-welding-steel.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Appointed Persons for Lifting...</h1>
-            </div>
-            <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
+            <div className="flex flex-wrap justify-around">
+  <div className="flex-col p-2 w-full sm:w-1/2 lg:w-1/4">
+    <div>
+      <img
+        className="rounded-lg ease-in-out hover:scale-105 transform transition duration-75"
+        src="/arc-welding-steel.jpg"
+        alt=""
+      />
+    </div>
+    <div className="text-blue-950 text-sm font-medium pt-5">
+      <h1>Appointed Persons for Lifting...</h1>
+    </div>
+    <div className="text-gray-400 p-3">
+      <InfoTwoToneIcon /> 2 Days
+    </div>
+    <div className="text-gray-400 p-1">
+      <GraphicEqTwoToneIcon /> Expert
+    </div>
+  </div>
 
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              Expert
-            </div>
+  <div className="flex-col p-2 w-full sm:w-1/2 lg:w-1/4">
+    <div>
+      <img
+        className="rounded-lg ease-in-out hover:scale-105 transform transition-all duration-75"
+        src="/Accident-Investigation.jpg"
+        alt=""
+      />
+    </div>
+    <div className="text-blue-950 text-sm font-medium pt-5">
+      <h1>Banksman & Slinger</h1>
+    </div>
+    <div className="text-gray-400 p-3">
+      <InfoTwoToneIcon /> 2 Days
+    </div>
+    <div className="text-gray-400 p-1">
+      <GraphicEqTwoToneIcon /> All Levels
+    </div>
+  </div>
 
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
+  <div className="flex-col p-2 w-full sm:w-1/2 lg:w-1/4">
+    <div>
+      <img
+        className="rounded-lg hover:scale-105 transform transition duration-75"
+        src="/images/IMG-scaled.jpg"
+        alt=""
+      />
+    </div>
+    <div className="text-blue-950 text-sm font-medium pt-5">
+      <h1>Banksman & Slinger</h1>
+    </div>
+    <div className="text-gray-400 p-3">
+      <InfoTwoToneIcon /> 2 Days
+    </div>
+    <div className="text-gray-400 p-1">
+      <GraphicEqTwoToneIcon /> All Levels
+    </div>
+  </div>
+
+  <div className="flex-col p-2 w-full sm:w-1/2 lg:w-1/4">
+    <div>
+      <img
+        className="rounded-lg ease-in-out hover:scale-105 transform transition duration-75"
+        src="/pikaso_texttoimage.jpeg"
+        alt=""
+      />
+    </div>
+    <div className="text-blue-950 text-sm font-medium pt-5">
+      <h1>Banksman & Slinger</h1>
+    </div>
+    <div className="text-gray-400 p-3">
+      <InfoTwoToneIcon /> 2 Days
+    </div>
+    <div className="text-gray-400 p-1">
+      <GraphicEqTwoToneIcon /> All Levels
+    </div>
+  </div>
           </div>
 
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75'
-               src="/Accident-Investigation.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Banksman & Slinger</h1>
-            </div>
-            <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75'
-               src="/images/IMG-scaled.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Banksman & Slinger</h1>
-            </div>
-            <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' 
-              src="/pikaso_texttoimage.jpeg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Banksman & Slinger</h1>
-            </div>
-            <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
 
           <div className="flex-col p-2 ">
             <div>
