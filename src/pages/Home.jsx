@@ -199,20 +199,19 @@ const Home = () => {
     <h1>ACCREDITATIONS</h1>
   </div>
 
-  <p className="font-bold text-white text-center">
+  <p className="font-semibold text-sm text-gray-200 text-center">
     Click on any accreditation logo to find the course that best supports
     your career ambitions and certification needs.
   </p>
 
-  <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:px-20">
-    <div className="grid grid-cols-1 gap-5 justify-between sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
-      <div className="p-2">
-        <div>
-          <img src="/images/opito-1.jpg" alt="Opito" />
+  <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:px-20">  
+        <div 
+           className="self-center  pl-25 pb-5 w-5/6 pt-10 h-auto">
+          <img  src="/images/gallery/Scaftech-logo.jpg" alt="Opito" />
         </div>
-      </div>
+      
 
-      <div className="p-2">
+      {/* <div className="p-2">
         <div>
           <img src="/images/IOSH-2.png" alt="IOSH" />
         </div>
@@ -234,10 +233,10 @@ const Home = () => {
         <div>
           <img src="/images/IADC-5.jpg" alt="IADC" />
         </div>
-      </div>
-    </div>
+      </div> */}
+    
 
-    <div className="grid grid-cols-1 gap-5 justify-between sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
+    {/* <div className="grid grid-cols-1 gap-5 justify-between sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
       <div className="p-2">
         <div>
           <img src="/images/leea-6.png" alt="LEEA" />
@@ -267,7 +266,7 @@ const Home = () => {
           <img src="/images/IRATA-10.png" alt="IRATA" />
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
 </section>
 
@@ -287,14 +286,14 @@ const Home = () => {
       </p>
     </div>
 
-    <div className="grid grid-cols-1 gap-5 justify-around xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mb-5">
-      <div className="bg-gray-100 rounded-sm w-full h-96 hover:bg-[#0b1b2bcc] hover:text-white p-5 ease-in-out text-[#0b1b2bcc] hover:scale-105 transform transition duration-75">
-        <div className="flex justify-center items-center">
-          <div className="">
-            <PublicRoundedIcon />
+    <div className="grid grid-cols-1 gap-15 justify-between xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mb-5">
+      <div className="bg-gray-100 rounded-3xl w-full h-64 hover:bg-[#0b1b2bcc] hover:text-white p-5 ease-in-out text-[#0b1b2bcc] hover:scale-105 transform transition duration-75">
+        
+          <div>
+            <PublicRoundedIcon className="items-start"/>
           </div>
-        </div>
-        <h1 className="font-bold text-2xl pt-5 font-sans">
+        
+        <h1 className="font-bold text-lg pt-5 font-sans">
           Industry Recognized Certifications
         </h1>
         <p className="pt-4 pb-1 text-sm font-light">
@@ -303,13 +302,13 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="bg-gray-100 rounded-sm w-full h-96 hover:bg-[#0b1b2bcc] hover:text-white p-5 ease-in-out text-[#0b1b2bcc] hover:scale-105 transform transition duration-75">
-        <div className="flex justify-center items-center">
-          <div className="">
-            <KeyOffRoundedIcon />
+      <div className="bg-gray-100 rounded-3xl w-full h-64 hover:bg-[#0b1b2bcc] hover:text-white p-5 ease-in-out text-[#0b1b2bcc] hover:scale-105 transform transition duration-75">
+        
+          <div>
+            <KeyOffRoundedIcon className="items-start"/>
           </div>
-        </div>
-        <h1 className="font-bold text-2xl pt-5 font-sans">
+        
+        <h1 className="font-bold text-lg pt-5 font-sans">
           Hands-on Practical Training
         </h1>
         <p className="pt-4 pb-1 text-sm font-light">
@@ -318,13 +317,13 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="bg-gray-100 rounded-sm w-full h-96 hover:bg-[#0b1b2bcc] hover:text-white p-5 ease-in-out text-[#0b1b2bcc] hover:scale-105 transform transition duration-75">
-        <div className="flex justify-center items-center">
-          <div className="">
-            <GroupAddSharpIcon />
+      <div className="bg-gray-100 rounded-3xl w-full h-64 hover:bg-[#0b1b2bcc] hover:text-white p-5 ease-in-out text-[#0b1b2bcc] hover:scale-105 transform transition duration-75">
+        
+          <div>
+            <GroupAddSharpIcon className="items-start"/>
           </div>
-        </div>
-        <h1 className="font-bold text-2xl pt-5 font-sans">
+        
+        <h1 className="font-bold text-lg pt-5 font-sans">
           Certified & Experienced Instructors
         </h1>
         <p className="pt-4 pb-1 text-sm font-light">

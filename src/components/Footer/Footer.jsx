@@ -362,7 +362,7 @@ const Footer = () => {
                   tabIndex={0}
                   aria-label="copyright"
                 >
-                  &copy; © 2025 JC International Training. All Rights Reserved.
+                  &copy; © 2025 Scaftech Training. All Rights Reserved.
                 </p>
               </div>
 

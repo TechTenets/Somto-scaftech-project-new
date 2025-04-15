@@ -124,9 +124,10 @@ const ClientTestimonials = () => {
             <img className="rounded-full w-md h-3/4 p-4" src="/pikaso.jpg" alt="" />
           </div>
           <div>
-            <p className="pt-5 pb-2 font-medium font-serif text-base">
+            <p className="pt-5 pb-2 pr-5 font-medium font-serif text-base">
               Working with Scaftech for OPITO Riggers training has been a game changer for us.
-              Their commitment to safety is evident in every session, and we feel confident knowing our team is well-prepared.
+              Their commitment to safety is evident in every session, and we feel confident
+               knowing our team is well-prepared.
             </p>
 
             <h1 className="text-blue-950 font-mono text-sm">Olawale Philip</h1>
@@ -153,8 +154,8 @@ const ClientTestimonials = () => {
             <img className="rounded-full w-md h-3/4 p-4" src="/pikaso_2.jpg" alt="" />
           </div>
           <div>
-            <p className="pt-5 pb-2 font-medium font-serif text-base">
-              Thanks to JCI's NDT training, our inspection processes have improved significantly. The practical exercises provided us with the confidence to apply our knowledge effectively.
+            <p className="pt-5 pb-2 pr-5 font-medium font-serif text-base">
+              Thanks to Scaftech's NDT training, our inspection processes have improved significantly. The practical exercises provided us with the confidence to apply our knowledge effectively.
             </p>
 
             <h1 className="text-blue-950 font-mono text-sm">Effiong Bassey</h1>
@@ -184,8 +185,8 @@ const ClientTestimonials = () => {
             <img className="rounded-full w-md h-3/4 p-4" src="/pikaso_3.jpg" alt="" />
           </div>
           <div>
-            <p className="pt-5 pb-2 font-medium font-serif text-base">
-              Completing the IWCF course at JCI was a pivotal moment for our team. The knowledge gained about well control is invaluable, and the training environment was both supportive and professional.
+            <p className="pt-5 pb-2 pr-5 font-medium font-serif text-base">
+              Completing the IWCF course at Scaftech was a pivotal moment for our team. The knowledge gained about well control is invaluable, and the training environment was both supportive and professional.
             </p>
 
             <h1 className="text-blue-950 font-mono text-sm">Emmanuel Bode</h1>
@@ -213,7 +214,7 @@ const ClientTestimonials = () => {
           </div>
           <div>
             <p className="pt-5 pb-2 font-medium font-serif text-base">
-              I had a wonderful experience completing my OPITO trainings (Rigger Stage 1 and Banksman Stage 3) and obtaining a Forklift Competence certificate. I extend my sincere thanks to all the JCI staff.
+              I had a wonderful experience completing my OPITO trainings (Rigger Stage 1 and Banksman Stage 3) and obtaining a Forklift Competence certificate. I extend my sincere thanks to all the Scaftech staff.
             </p>
 
             <h1 className="text-blue-950 font-mono text-sm">Inna</h1>
@@ -234,8 +235,8 @@ const ClientTestimonials = () => {
     </p>
   </div> */}
 
-  <div className="flex flex-wrap justify-around">
-    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-1/3">
+  <div className="flex flex-col sm:flex-row lg:flex-row justify-around">
+    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-lg">
       <div className="text-black bg-white mb-5 flex flex-col">
         <div className="text-amber-600 p-2 flex justify-center">
           <StarIcon />
@@ -255,7 +256,7 @@ const ClientTestimonials = () => {
             />
           </div>
           <div>
-            <p className="pt-5 pb-2 font-medium font-serif text-base">
+            <p className="pt-5 pb-2 pr-5 font-medium font-serif text-base">
               Working with Scaftech for OPITO Riggers training has been a game
               changer for us. Their commitment to safety is evident in
               every session, and we feel confident knowing our team is
@@ -268,7 +269,7 @@ const ClientTestimonials = () => {
       </div>
     </div>
 
-    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-1/3">
+    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-lg">
       <div className="text-black bg-white mb-5 flex flex-col">
         <div className="text-amber-600 p-2 flex justify-center">
           <StarIcon />
@@ -288,8 +289,8 @@ const ClientTestimonials = () => {
             />
           </div>
           <div>
-            <p className="pt-5 pb-2 font-medium font-serif text-base">
-              Thanks to JCI's NDT training, our inspection processes have
+            <p className="pt-5 pb-2 pr-5 font-medium font-serif text-base">
+              Thanks to Scaftech's NDT training, our inspection processes have
               improved significantly. The practical exercises provided us
               with the confidence to apply our knowledge effectively.
             </p>
@@ -302,7 +303,7 @@ const ClientTestimonials = () => {
   </div>
 
   <div className="flex flex-wrap justify-around">
-    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-1/3">
+    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-lg">
       <div className="text-black bg-white mb-5 flex flex-col">
         <div className="text-amber-600 p-2 flex justify-center">
           <StarIcon />
@@ -323,7 +324,7 @@ const ClientTestimonials = () => {
           </div>
           <div>
             <p className="pt-5 pb-2 font-medium font-serif text-base">
-              Completing the IWCF course at JCI was a pivotal moment for
+              Completing the IWCF course at Scaftech was a pivotal moment for
               our team. The knowledge gained about well control is
               invaluable, and the training environment was both supportive
               and professional.
@@ -335,7 +336,7 @@ const ClientTestimonials = () => {
       </div>
     </div>
 
-    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-1/3">
+    <div className="h-auto w-full sm:w-1/2 lg:w-lg xl:w-lg">
       <div className="text-black bg-white mb-5 flex flex-col">
         <div className="text-amber-600 p-2 flex justify-center">
           <StarIcon />
@@ -359,7 +360,7 @@ const ClientTestimonials = () => {
               I had a wonderful experience completing my OPITO trainings
               (Rigger Stage 1 and Banksman Stage 3) and obtaining a
               Forklift Competence certificate. I extend my sincere thanks
-              to all the JCI staff.
+              to all the Scaftech staff.
             </p>
             <h1 className="text-blue-950 font-mono text-sm">Suzan Iweta</h1>
             <div>Client</div>

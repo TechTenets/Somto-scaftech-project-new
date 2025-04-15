@@ -18,7 +18,73 @@ const Accredition = () => {
           that our graduates are well-prepared for success in their careers.
         </p>
 
-        <div className="flex justify-between">
+
+        <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:px-20">  
+        <div 
+           className="self-center  pl-25 pb-5 w-5/6 h-auto">
+          <img  src="/images/gallery/Scaftech-logo.jpg" alt="Opito" />
+        </div>
+      
+
+      {/* <div className="p-2">
+        <div>
+          <img src="/images/IOSH-2.png" alt="IOSH" />
+        </div>
+      </div>
+
+      <div className="p-2">
+        <div>
+          <img src="/images/NPORS-3.png" alt="NPORS" />
+        </div>
+      </div>
+
+      <div className="p-2">
+        <div>
+          <img src="/images/IWCF-4.png" alt="IWCF" />
+        </div>
+      </div>
+
+      <div className="p-2">
+        <div>
+          <img src="/images/IADC-5.jpg" alt="IADC" />
+        </div>
+      </div> */}
+    
+
+    {/* <div className="grid grid-cols-1 gap-5 justify-between sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
+      <div className="p-2">
+        <div>
+          <img src="/images/leea-6.png" alt="LEEA" />
+        </div>
+      </div>
+
+      <div className="p-2">
+        <div>
+          <img src="/images/nuprc-7.png" alt="NUPRC" />
+        </div>
+      </div>
+
+      <div className="p-2">
+        <div>
+          <img src="/images/IADC-8.jpg" alt="IADC" />
+        </div>
+      </div>
+
+      <div className="p-2">
+        <div>
+          <img src="/images/ASNT-9.jpg" alt="ASNT" />
+        </div>
+      </div>
+
+      <div className="p-2">
+        <div>
+          <img src="/images/IRATA-10.png" alt="IRATA" />
+        </div>
+      </div>
+    </div> */}
+  </div>
+
+        {/* <div className="flex justify-between">
           <div className=" p-2 ease-in-out hover:scale-105 transform transition duration">
             <div>
               <img src="/images/opito-1.jpg" alt="" />
@@ -83,7 +149,7 @@ const Accredition = () => {
               <img src="public/images/IRATA-10.png" alt="" />
             </div>
           </div>
-          </div>
+          </div> */}
       </section>
     </div>
   )
