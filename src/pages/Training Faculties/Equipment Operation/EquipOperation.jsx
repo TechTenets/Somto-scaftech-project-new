@@ -8,7 +8,7 @@ const EquipmentOperation = () => {
     <div className='w-full mt-20'>
         <section>
         <img className='w-full h-80 px-5 bg-cover bg-center cursor-pointer'
-             src="/images/gallery/UT-Flaw-Inspection.jpg" alt="" />
+             src="public/equip-mainte-img.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
             <h1 className='text-4xl text-gray-900 text-center font-bold pt-10 '>
@@ -16,209 +16,145 @@ const EquipmentOperation = () => {
                 </h1>
 
                 <p className='text-sm text-gray-800 py-5'>
-                Maximize Equipment Lifespan. Operation and Maintenance Training.
+                <span className="text-blue-950 font-bold text-base">Slogan:</span>  Reduce Downtime & Increase Efficiency
                 </p>
-                     <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+                     {/* <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
                          View Courses 
-                    </button>
+                    </button> */}
+            </div>
+
+             <div className='text-center'>
+              <h1 className='text-2xl text-gray-900 text-center font-bold pt-7 '>
+            Course Contents Overview
+                </h1>
             </div>
 
             <article className="pl-15 text-sm text-gray-800 py-10">
               <p>
-              Optimize your workforce and improve operational efficiency with our system audit and skills gap analysis services. We assess your current systems and identify areas <br /> for improvement. Develop targeted training programs to address skills gaps and enhance overall performance."
+              Scaftech Engineering Services’ Equipment Operation and Maintenance Training equips
+              participants with the technical know-how and hands-on skills to safely operate <br /> and maintain a
+              wide range of industrial and site equipment. This comprehensive program, designed by
+              Scaftech Engineering Services, emphasizes efficient performance, <br /> daily inspections,
+              troubleshooting, and preventive maintenance, minimizing downtime, avoiding costly repairs, and
+              keeping your operations smooth and safe, in line with <br /> Scaftech Engineering Services’
+              commitment to operational excellence.
               </p>
+               
+               
+               <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Pre-requisites
+                </h1>
+            </div>
 
-              <p className="pt-8">
-              As a leading NDT training provider in Nigeria, Scaftech offers rigorous, hands-on instruction led by experienced professionals who prepare participants for excellence <br /> in the field. Our courses are tailored to meet industry demands, ensuring that candidates emerge with the proficiency required for successful careers in sectors such as Oil <br /> & Gas, Marine, and Construction. With Scaftech, you're gaining more than just certification; you're joining a trusted institution dedicated to quality training and advancing <br /> Nigeria's workforce.
-              </p>
+            <p className='pt-3'>
+                ●  Basic knowledge of site operations or equipment usage
+                </p>
+                <p className='pt-3'>
+                ● Physically fit and medically cleared for equipment work
+                </p>
+                <p className='pt-3'>
+                ●  Prior safety induction is an advantage but not mandatory for Scaftech Engineering Services’ training
+                </p>
+
+
+                 <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Course Objectives
+                </h1>
+                <p className='pt-4'>
+                  Participants in Scaftech Engineering Services' Health and Safety Training will:
+                </p>
+            </div>
+
+             <p className='pt-5'>
+                ●  Understand equipment functions and operational procedures
+                </p>
+                <p className='pt-3'>
+                ● Master routine checks, servicing, and preventive maintenance with guidance from Scaftech Engineering Services
+
+                </p>
+                <p className='pt-3'>
+                ●  Learn to identify early warning signs of equipment failure
+                </p>
+                  <p className='pt-3'>
+                ●  Develop a safety-first mindset during equipment use as taught by Scaftech Engineering Services
+                </p>
+                  <p className='pt-3'>
+                ●  Improve machine life cycle and workplace efficiency
+                </p>
+
+                <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Audience
+                </h1>
+            </div>
+
+             <p className='pt-3'>
+                ●  Equipment Operators & Technicians
+                </p>
+                <p className='pt-3'>
+                ● Maintenance Personnel
+                </p>
+                <p className='pt-3'>
+                ●  Field Engineering & Supervisions
+                </p>
+                <p className='pt-3'>
+                ●  Production & Operations Teams
+                </p>
+                <p className='pt-3'>
+                ●  Technical Support Staff
+                </p>
+
+             <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Industry
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                ●  Oil & Gas
+                </p>
+                <p className='pt-3'>
+                ● Construction & Civil Engineering 
+                </p>
+                <p className='pt-3'>
+                ●  Manufacturing & Industrial Production
+                </p>
+                <p className='pt-3'>
+                ●  Logistics & Material Handling
+                </p>
+                <p className='pt-3'>
+                ●  Power Plants & Utilities
+                </p>
+                <p className='pt-3'>
+                ●  Mining & Infrastructure Projects
+                </p>
+
+            <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      List of Courses Under Scaftech Engineering Services Equipment Operation and Maintenance Training
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                ●  Forklift Maintenance & Repair Training
+                </p>
+                <p className='pt-3'>
+                ● Mobile Cranes Maintenance & Repair Training
+                </p>
+                <p className='pt-3'>
+                ●  Scissor Lifts Maintenance & Repair Training
+                </p>
+                 <p className='pt-3'>
+                ● Trailers Maintenance & Repair Training
+                </p>
+
+
+              
             </article>
 
-            <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/IMG_E9.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Dye Penetrant Inspection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/Ultrasonic-Testing.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Eddy Current Testing2</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/jc-img6.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Radiographic Testing (RT) </h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/Radiographic.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Ultrasonic Inspection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-
-          <div className='flex justify-around'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' src="/PRA7424-scaled.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>OPITO RIGGER</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              Expert
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75'
-               src="/26-DSC.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Rigging Loft Management</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75'
-               src="/JC-Training-Oil-GAS.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Mobile Elevated Work Platform (MEWP) Boom Lift N108</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' 
-              src="/AmericanCrane.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Overhead Crane N104</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
+           
 
           
           <section>

@@ -9,361 +9,176 @@ const WeldingTraning = () => {
     <div className=' w-full mt-20'>
        <section>
             <img className='w-full h-80 px-5 object-fill bg-center  cursor-pointer'
-             src="/jci-9-27.jpg" alt="" />
+             src="/welding-img.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
             <h1 className='text-4xl text-gray-900 text-center font-bold pt-10 '>
                 WELDING TRAINING
                 </h1>
 
-                <p className='text-sm text-gray-800 py-5'>
-                Master the art of welding with our comprehensive training programs. We cover various welding processes,
-                 including [list specific processes like SMAW, GMAW, GTAW], <br /> and provide hands-on experience in our state-of-the-art workshops."
-                Our welding courses adhere to [mention specific standards like AWS D1.1, ISO 9606] and are designed to <br /> prepare you for industry certifications."
-               Emphasis on safety procedures and best practices, ensuring compliance with OSHA regulations.
-                     </p>
+               <p className='text-sm text-gray-800 py-5'>
+                <span className="text-blue-950 font-bold text-base">Slogan:</span>  Turn Heat into Craft. Turn Skill into Career
+                </p>
 
-                     <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+                     {/* <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
                          View Courses 
-                    </button>
+                    </button> */}
             </div>
                   
-                  <div className='text-gray-800 text-sm text-center pt-5'>
-                    <p>
-                    Welding training is recognized for its excellence, accredited by LEEA, IADC, and OPITO accreditations, which highlight our commitment to delivering <br /> industry-approved standards. Our  accredited programs are developed to meet global benchmarks, ensuring that participants  receive up-to-date training that <br /> is both comprehensive and practical.
-                    </p>
+           <div className='text-center'>
+              <h1 className='text-2xl text-gray-900 text-center font-bold pt-7 '>
+            Course Contents Overview
+                </h1>
+            </div>
 
-                    <p className='pt-5'>
-                    Our courses cover every aspect of Welding, from initial equipment inspection and selection to advanced load handling and safety techniques. Our expert instructors, <br /> who possess extensive field experience, emphasize hands-on training, giving participants the skills they need to conduct lifting operations safely and effectively across the <br /> Oil & Gas, Marine, and Construction industries. With JC International's rigorous training, companies can enhance their workforce competence, and individuals can develop the <br /> critical skills necessary for career advancement in lifting operations.
-                    </p>
-                  </div>
 
-         <div className='flex justify-around pt-10'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' src="/JC-Training-Oil.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>OPITO Rigger Training</h1>
-            </div>
-          
-          </div>
+             <article className="pl-15 text-sm text-gray-800 py-4">
+               <p>
+              Scaftech Engineering Services’ Fabrication/Welding Training offers hands-on, technical
+              instruction on metal joining, cutting, shaping, and structural fabrication <br /> using industry-standard
+              equipment and techniques. From blueprint reading to safety protocols, this comprehensive
+              course, designed by Scaftech Engineering <br /> Services, builds skilled, job-ready welders and
+              fabricators with strong safety and precision awareness, ensuring alignment with Scaftech
+              Engineering Services’ <br /> commitment to excellence and safety.
 
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75'
-               src="/WhatsApp-Image_2.jpeg" alt="" />
+               </p>
+
+               <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Pre-requisites
+                </h1>
             </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>OPITO Banksman & Slinger Training</h1>
+
+            <p className='pt-3'>
+                ●  Basic knowledge of technical drawing is a plus
+                </p>
+                <p className='pt-3'>
+                ● Must be physically fit for workshop activities
+                </p>
+                <p className='pt-3'>
+                ●  Previous shop-floor or metalwork exposure is helpful  but not required
+                </p>
+                 <p className='pt-3'>
+                ●  Safety gear (PPE) required for hands-on sessions conducted by Scaftech Engineering Services
+                </p>
+
+           <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Course Objectives
+                </h1>
+                <p className='pt-4'>
+                  Participants in Scaftech Engineering Services’ Fabrication/Welding Training will:
+                </p>
             </div>
+
+            <p className='pt-5'>
+                ●  Understand different welding techniques (SMAW, MIG, TIG, etc.)
+                </p>
+                <p className='pt-3'>
+                ● Learn metal cutting, joining, and forming processes with guidance from Scaftech Engineering Services
+                </p>
+                <p className='pt-3'>
+                ●  Interpret fabrication drawings and symbols
+                </p>
+                  <p className='pt-3'>
+                ●  Master safety procedures and proper PPE use as taught by Scaftech Engineering Services
+                </p>
+                  <p className='pt-3'>
+                ●  Gain hands-on experience with welding tools and equipment
+                </p>
+                <p className='pt-3'>
+                ●  Prepare for certification and real-world applications aligned with Scaftech Engineering Services’ standards
+                </p>
+
+            <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Audience
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Aspiring Welders & Fabricators
+                </p>
+                <p className='pt-3'>
+                ● Technical Students & Trade Apprentices
+                </p>
+                <p className='pt-3'>
+                ●  Maintenance & Workshop Technicians
+                </p>
+                <p className='pt-3'>
+                ●  Construction Site Personnel
+                </p>
+                <p className='pt-3'>
+                ●  Oil & Gas Field Workers
+                </p>
+                 <p className='pt-3'>
+                ●  Skilled Trades Professionals seeking upskilling
+                </p>
+
+                 <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Industry
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Oil & Gas
+                </p>
+                <p className='pt-3'>
+                ● Construction & Steel Fabrication
+                </p>
+                <p className='pt-3'>
+                ●  Manufacturing & Industrial Production
+                </p>
+                <p className='pt-3'>
+                ●  Shipbuilding & Marine Engineering
+                </p>
+                <p className='pt-3'>
+                ●  Automotive & Heavy Equipment 
+                </p>
+                <p className='pt-3'>
+                ●  Power Plants & Energy Infrastructure
+                </p>
+
+
+             <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      List of Courses Under Scaftech Engineering Services Fabrication/Welding Training
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Welding & Cutting General Industry
+                </p>
+                <p className='pt-3'>
+                ● Welding Safety & Hot Work Training
+                </p>
+                <p className='pt-3'>
+                ●  Shielded Metal Arc Welding (SMAW) Training
+                </p>
+                 <p className='pt-3'>
+                ● Pipe & Structural Welding Training
+                </p>
+                 <p className='pt-3'>
+                ● Weld Inspection & Quality Control Training
+                </p>
+                 <p className='pt-3'>
+                ● Weld Repair & Maintenance Training
+                </p>
+                 <p className='pt-3'>
+                ● Fabrication Skill Workshop Training
+                </p>
+                 <p className='pt-3'>
+                ● Gas Metal/Flux-Cored Arc Welding (GMAW/FCAW) Training
+                </p>
+
+
+            </article>
+
+
+
         
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75'
-               src="/JC-Training-Oil.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Lifting & Slinging</h1>
-            </div>
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' 
-              src="/pikaso_enhance.png" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Mobile Crane Operations</h1>
-            </div>
-        </div> 
-          </div>
-               
-               
-            <div className='flex justify-around pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' src="/WhatsApp-Image-3.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Plant Inspector - Thorough Examination N039</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              Expert
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75'
-               src="/July-410.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Offshore Crane Operations</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75'
-               src="/images/IMG-scaled.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Appointed Persons for Lifting Operations Training</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' 
-              src="/Forklift-training.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Safe use of Lifting Equipment</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-
-          
-          <div className='flex justify-around'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' src="/PRA7424-scaled.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>OPITO RIGGER</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              Expert
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75'
-               src="/26-DSC.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Rigging Loft Management</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75'
-               src="/JC-Training-Oil-GAS.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Mobile Elevated Work Platform (MEWP) Boom Lift N108</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' 
-              src="/AmericanCrane.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Overhead Crane N104</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-
-          
-          <div className='flex justify-around'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out w-80 h-60 hover:scale-105 transform transition duration-75' src="/jci-drive.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Forklift Operations</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              Expert
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75'
-               src="/PRA7425.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Rigger Training</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg w-96 h-60 hover:scale-105 transform transition duration-75'
-               src="/jci-25.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Management Of Lifting & Slinging</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75' 
-              src="/rigging-and-fleeting-loads.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Rigging And Fleeting Of Loads N042</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div> */}
-
-            {/* <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-{/* 
-          <section>
+  <section>
         <div className="font-bold text-2xl text-blue-950 pt-30 text-center">
           <h1>ACCREDITATIONS AND PROFESSIONAL MEMBERSHIPS</h1>
         </div>
@@ -371,7 +186,8 @@ const WeldingTraning = () => {
         <div className="pl-45 pt-4">
           <img src="/images/gallery/Accreditation.jpg" alt="" />
         </div>
-      </section> */}
+      </section>
+      
        </section>
     </div>
   )

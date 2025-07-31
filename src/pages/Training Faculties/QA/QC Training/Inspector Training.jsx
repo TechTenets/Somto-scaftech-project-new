@@ -8,157 +8,167 @@ const QAQCInpector = () => {
     <div className="w-full mt-20">
       <section className="">
       <img className='w-full h-80 px-5 object-fill bg-center cursor-pointer'
-             src="/Rope-access.png" alt="" />
+             src="public/QC-img.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
             <h1 className='text-4xl text-gray-900 text-center font-bold pt-10 '>
             QA/QC INSPECTOR TRAINING
                 </h1>
-                     <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+           <p className='text-sm text-gray-800 py-5'>
+                <span className="text-blue-950 font-bold text-base">Slogan:</span>  Safety is Non-Negotiable with Scaftech Engineering Services
+                </p>
+
+                     {/* <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
                          View Courses 
-                    </button>
+                    </button> */}
             </div>
 
-            <article className="pl-15 text-sm text-gray-800 py-10">
-              <p>
-              Become a certified QA/QC inspector and ensure the quality and integrity of industrial projects. Our training covers inspection techniques, documentation, <br />
-              and compliance with [mention standards like ISO 9001, ASME codes]."
-             Learn to identify defects, perform non-destructive testing, and implement quality <br /> control procedures."
-             Gain the knowledge and skills necessary to excel in demanding QA/QC roles.
-              </p>
-      
-              <p className="pt-8 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Level 1:</span> Designed for beginners, this course covers fundamental techniques, safety systems, and basic rope maneuvers to equip candidates for supervised work at height.
-              </p>
+             <div className='text-center'>
+              <h1 className='text-2xl text-gray-900 text-center font-bold pt-7 '>
+            Course Contents Overview
+                </h1>
+            </div>
 
-              <p className="pt-3 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Level 2:</span> For those with prior experience, this level emphasizes advanced rigging and rescue skills, preparing technicians for greater responsibilities and ensuring they are <br /> adept in a range of complex tasks.
-              </p>
+              <article className="pl-15 text-sm text-gray-800 py-4">
+               <p>
+                Scaftech Engineering Services’ QA/QC Inspector Training prepares participant with the
+                technical knowledge and practical tools to conduct quality inspections across engineering,
+                manufacturing, and construction projects. From document control to visual, dimensional, and
+                non-destructive testing, this comprehensive program, designed by Scaftech Engineering
+                Services, ensures trainees learn how to maintain standards, prevent defects, and ensure
+                compliance with project specifications and international codes, upholding Scaftech Engineering
+                Services’ commitment to quality excellence.
 
-              <p className="pt-3 pl-8">
-             <span className="text-blue-950 font-bold text-base">. Level 3:</span> Aimed at experienced technicians, this level focuses on supervising rope access operations, advanced rescue planning, and technical problem-solving skills. Level <br /> 3 technicians gain the expertise needed to manage teams safely and effectively in challenging environme
-              </p>
 
-              <p className="pt-5">
-              At JC International, we're dedicated to raising the bar in rope access safety and operational efficiency, ensuring that our graduates are fully prepared to perform and lead in high <br />-risk work settings. Our IRATA-accredited training positions JC International as a trusted provider in Nigeria, recognized for excellence in rope access training.
-              </p>
-             
+               </p>
+
+               <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Pre-requisites
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Background in engineering, technical trades, or HSE (recommended)
+                </p>
+                <p className='pt-3'>
+                ● Basic understanding of construction, welding, or fabrication processes
+                </p>
+                <p className='pt-3'>
+                ●  Familiarity with quality standards (ISO, ASME, AWS) is an advantage
+                </p>
+               <p className='pt-3'>
+                ●  Good observation and reporting skills for Scaftech Engineering Services’ rigorous inspection training
+                </p>
+
+           <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Course Objectives
+                </h1>
+                <p className='pt-4'>
+                  Participants in Scaftech Engineering Services’ QA/QC Inspector Training will:
+                </p>
+            </div>
+
+            <p className='pt-5'>
+                ●  Understand QA/QC principles, standards, and inspection procedures
+                </p>
+                <p className='pt-3'>
+                ● Learn how to read and interpret engineering drawings, WPS, P&IDs with guidance from Scaftech Engineering Services
+
+                </p>
+                <p className='pt-3'>
+                ●  Develop skills in risk assessment, incident response, and PPE usage
+
+                </p>
+                  <p className='pt-3'>
+                ●  Gain awareness of material traceability and quality documentation
+                </p>
+                  <p className='pt-3'>
+                ●  Document inspection reports, NCRs, ITPs, and test records as taught by Scaftech Engineering Services
+                </p>
+                 <p className='pt-3'>
+                ●  Promote a culture of zero-defect delivery and project integrity aligned with Scaftech Engineering Services’ standards
+                </p>
+
+            <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Audience
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Aspiring QA/QC Inspectors
+                </p>
+                <p className='pt-3'>
+                ● Engineers (Mechanical, Civil, Electrical)
+                </p>
+                <p className='pt-3'>
+                ●  Welders & Fabricators seeking certification
+                </p>
+                <p className='pt-3'>
+                ●  Site Supervisors & Construction Managers
+                </p>
+                <p className='pt-3'>
+                ●  Maintenance & Shutdown Inspectors
+                </p>
+                <p className='pt-3'>
+                ●  HSE & Compliance Personnel
+                </p>
+
+                 <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Industry
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Oil & Gas
+                </p>
+                <p className='pt-3'>
+                ● Construction & Civil Infrastructure
+                </p>
+                <p className='pt-3'>
+                ●  Manufacturing & Industrial Fabrication
+                </p>
+                <p className='pt-3'>
+                ●  Power Plants & Utilities
+                </p>
+                <p className='pt-3'>
+                ●  Marine & Offshore Engineering
+                </p>
+                <p className='pt-3'>
+                ●  EPC Projects & Quality-Critical Environments 
+                </p>
+            
+
+
+             <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      List of Courses Under Scaftech Engineering Services QA/QC Inspector Training
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  QA/QC Inspector Training
+                </p>
+                <p className='pt-3'>
+                ● Ultrasonic Inspection Training
+                </p>
+                <p className='pt-3'>
+                ●  Coating, Insulation & Fireproofing Inspector Training
+                </p>
+                 <p className='pt-3'>
+                ● Welding QC & Inspection Workshop
+                </p>
+                 <p className='pt-3'>
+                ● QA/QC Tools & SPC Fundamentals Training
+                </p>
+
+
             </article>
 
-            <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' src="/Rope-access.png" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>IRATA Rope Access Level 1</h1>
-            </div>
-            <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div>
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/PRA716.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>IRATA Rope Access Level 2</h1>
-            </div>
-            <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div>
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/Rope-Access-Training4.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>IRATA Rope Access Level 3</h1>
-            </div>
-            <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div>
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/Scaffold-2.jpeg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Scaffold Erector Training</h1>
-            </div>
-            <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div>
-        </div> 
-
-          </div>
-
-          <div className="flex-col rounded-lg pl-8 p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out w-80 h-60 hover:scale-105 transform transition duration-75' src="/jci-9-27.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Scaffold Inspector Training</h1>
-            </div>
-            <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />3 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div>
-          </div>
+          
 
           <section>
         <div className="font-bold text-2xl text-blue-950 pt-30 text-center">

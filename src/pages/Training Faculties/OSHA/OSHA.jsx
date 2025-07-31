@@ -11,145 +11,188 @@ const Osha = () => {
              src="/pikaso_enhance.png" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
-            <h1 className='text-5xl text-gray-900 text-center font-bold pt-10 '>
-             OSHA TRAINING
+            <h1 className='text-4xl text-gray-900 text-center font-bold pt-10 '>
+             WELLBEING AND MENTAL WELLNESS TRAINING
                 </h1>
 
                 <p className='text-sm text-gray-800 py-5'>
                 Our OSHA training is fully accredited by The American Society for Non Destructive Testing (ASNT)
                 </p>
-                     <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+                     {/* <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
                          View Courses 
-                    </button>
+                    </button> */}
             </div>
 
-            <article className="pl-15 text-sm text-gray-800 py-10">
-              <p>
-              Gain OSHA-certified credentials and demonstrate your commitment to workplace safety. Our OSHA training programs cover a wide range of topics, including general industry <br /> safety, construction safety, and hazard-specific training.
-              Learn to identify and mitigate workplace hazards, comply with OSHA regulations, and promote a culture of safety.
-                           </p>
+            <div className='text-center'>
+              <h1 className='text-2xl text-gray-900 text-center font-bold pt-7 '>
+                 Course Contents Overview
+                </h1>
+            </div>
 
-              <p className="pt-8">
-              As a leading NDT training provider in Nigeria, Scaftech offers rigorous, hands-on instruction led by experienced professionals who prepare participants for excellence <br /> in the field. Our courses are tailored to meet industry demands, ensuring that candidates emerge with the proficiency required for successful careers in sectors such as Oil <br /> & Gas, Marine, and Construction. With Scaftech, you're gaining more than just certification; you're joining a trusted institution dedicated to quality training and <br /> advancing Nigeria's workforce in NDT expertise.
+             <article className="pl-15 text-sm text-gray-800 py-10">
+              <p>
+             This type of training is designed to educate and empower individuals and teams to
+             understand, manage, and improve their mental, emotional, and social wellbeing. <br /> It focuses
+             on reducing workplace stress, enhancing emotional intelligence, building resilience, and
+             creating a mentally supportive work culture.
               </p>
+               
+
+
+                 <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Course Objectives
+                </h1>
+                {/* <p className='pt-4'>
+                  Participants in Scaftech Engineering Services’ MEWP Scissor Lift Training will:
+                </p> */}
+            </div>
+
+             <p className='pt-5'>
+                ●  Understand the fundamentals of mental health and wellbeing
+                </p>
+                <p className='pt-3'>
+                ● Recognize early signs of stress, anxiety, depression, or burnout
+                </p>
+                <p className='pt-3'>
+                ●  Build emotional resilience and self-awareness
+                </p>
+                  <p className='pt-3'>
+                ●  Learn strategies for stress management, mindfulness, and work-life balance
+                </p>
+                  <p className='pt-3'>
+                ●  Promote healthy communication and positive workplace relationships
+                </p>
+                <p className='pt-3'>
+                ●  Create a supportive and inclusive culture that prioritizes mental health
+                </p>
+                
+
+                <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Audience
+                </h1>
+            </div>
+
+               <p className='pt-3'>
+                ●  Employees at all levels
+                </p>
+                <p className='pt-3'>
+                ●  Managers and team leaders
+                </p>
+                <p className='pt-3'>
+                ●  HR professionals
+                </p>
+                <p className='pt-3'>
+                ●  Occupational health & safety officers
+                </p>
+                <p className='pt-3'>
+                ●  Anyone looking to improve their personal and professional mental wellbeing
+                </p>
+
+             <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Benefits of Mental Wellness Training
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                ●  Reduced absenteeism and turnover
+                </p>
+                <p className='pt-3'>
+                ●  Improved morale and engagement
+                </p>
+                <p className='pt-3'>
+                ●  Healthier, more supportive workplace culture
+                </p>
+                <p className='pt-3'>
+                ●  Boosted productivity and creativity
+                </p>
+                <p className='pt-3'>
+                ●  Early intervention and better coping strategies
+                </p>
+                 <p className='pt-3'>
+                ●  Stronger team communication and empathy
+                </p>
+                
+
+            <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                     Delivery Formats
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                ●  Workshops (on-site or virtual)
+                </p>
+                <p className='pt-3'>
+                ●  eLearning modules
+                </p>
+                <p className='pt-3'>
+                ●  Webinars and guest speaker series
+                </p>
+                <p className='pt-3'>
+                ●  Group activities, guided meditation & reflection sessions
+                </p>
+                <p className='pt-3'>
+                ●  Certification (for Mental Health Awareness or First Aid, depending on provider)
+                </p>
+
+                  <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                     📍 Practical Add-ons for Workplace Training
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                ●  Anonymous mental health assessments
+                </p>
+                <p className='pt-3'>
+                ●  Wellness calendars or journals
+                </p>
+                <p className='pt-3'>
+                ●  Wellbeing ambassadors or peer support groups
+                </p>
+                <p className='pt-3'>
+                ●  Weekly “Mindful Mondays” or “Wellbeing Wednesdays”
+                </p>
+                <p className='pt-3'>
+                ●  Access to mental health support resources or helplines
+                </p>
+
+                 <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      List of Courses Under Scaftech Engineering Services WELLBEING AND MENTAL WELLNESS TRAINING
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                1. Introduction to Mental Health and Wellbeing
+                </p>
+                <p className='pt-3'>
+                 2. Common Mental Health Issues in the workplace
+                </p>
+                <p className='pt-3'>
+                3.  Self-Care Techniques and lifestyle adjustments
+                </p>
+                 <p className='pt-3'>
+                4.  Mindfulness and Stress Reduction Techniques
+                </p>
+                 <p className='pt-3'>
+                5.  Emotional Intelligence and effective coping mechanisms
+                </p>
+                 <p className='pt-3'>
+                6.  How to Support a Colleague or Employee in Distress
+                </p>
+                 <p className='pt-3'>
+                7. Workplace Boundaries and Preventing Burnout
+                </p>
+                 <p className='pt-3'>
+                8.  Mental Health First Aid (Optional Module)
+                </p>
             </article>
 
-            <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/IMG_E9.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Dye Penetrant Inspection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/Ultrasonic-Testing.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Eddy Current Testing2</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/jc-img6.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Radiographic Testing (RT) </h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/Radiographic.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Ultrasonic Inspection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-
-          <div className="flex-col rounded-lg pl-8 p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out w-80 h-60 hover:scale-105 transform transition duration-75'
-               src="/images/gallery/UT-Flaw-Inspection.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Scaffold Inspector Training</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />3 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
+           
 
           
           <section>

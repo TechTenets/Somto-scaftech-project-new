@@ -16,143 +16,151 @@ const Safety = () => {
                 </h1>
 
                 <p className='text-sm text-gray-800 py-5'>
-                Comprehensive HSE Training. Ensure Workplace Safety.
+                <span className="text-blue-950 font-bold text-base">Slogan:</span>  Safety is Non-Negotiable with Scaftech Engineering Services
                 </p>
-                     <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+                     {/* <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
                          View Courses 
-                    </button>
+                    </button> */}
             </div>
 
-            <article className="pl-15 text-sm text-gray-800 py-10">
-              <p>
-              Protect your workforce and comply with regulatory requirements with our comprehensive HSE training programs. We cover a wide range of safety topics, including <br /> hazard identification, risk assessment, emergency response, and safety management systems.
-              </p>
+            <div className='text-center'>
+              <h1 className='text-2xl text-gray-900 text-center font-bold pt-7 '>
+            Course Contents Overview
+                </h1>
+            </div>
 
-              <p className="pt-8">
-              As a leading NDT training provider in Nigeria, Scaftech offers rigorous, hands-on instruction led by experienced professionals who prepare participants for excellence <br /> in the field. Our courses are tailored to meet industry demands, ensuring that candidates emerge with the proficiency required for successful careers in sectors such as Oil <br /> & Gas, Marine, and Construction. With Scaftech, you're gaining more than just certification; you're joining a trusted institution dedicated to quality training and <br /> advancing Nigeria's workforce in NDT expertise.
-              </p>
+             <article className="pl-15 text-sm text-gray-800 py-4">
+               <p>
+                Scaftech Engineering Services’ Scaffold Training equips workers with the knowledge and
+                practical skills to safely erect, inspect, and dismantle scaffolding in line with <br /> industry standards.
+                This comprehensive program, designed by Scaftech Engineering Services, emphasizes stability,
+                load capacity, fall protection, and hazard prevention, <br /> ensuring zero compromise on safety when
+                working at height, reflecting Scaftech Engineering Services’ commitment to excellence and
+                safety.
 
-              <p className="pt-8 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Standards:</span> OSHA, ISO 45001, and local HSE regulations.
-              </p>
+
+
+               </p>
+
+               <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Pre-requisites
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Basic physical fitness and safety awareness
+                </p>
+                <p className='pt-3'>
+                ● Prior construction or site experience (recommended)
+                </p>
+                <p className='pt-3'>
+                ●  Must have or be provided with appropriate PPE for Scaftech     Engineering Services’ training sessions
+                </p>
+               <p className='pt-3'>
+                ●  Medical clearance for height work (where applicable)
+                </p>
+
+           <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Course Objectives
+                </h1>
+                <p className='pt-4'>
+                  Participants in Scaftech Engineering Services’ Scaffold Training will:
+                </p>
+            </div>
+
+            <p className='pt-5'>
+                ●  Understand types of scaffolding systems and their applications
+                </p>
+                <p className='pt-3'>
+                ● Learn safe assembly, modification, and dismantling procedures with guidance from Scaftech Engineering Services
+                </p>
+                <p className='pt-3'>
+                ●  Conduct scaffold safety inspections and identify hazards
+                </p>
+                  <p className='pt-3'>
+                ●  Master fall prevention, load limits, and tagging protocols as taught by Scaftech Engineering Services
+                </p>
+                  <p className='pt-3'>
+                ●  Ensure compliance with local and international scaffold standards
+                </p>
+                 
+
+            <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Audience
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Scaffolders & Riggers
+                </p>
+                <p className='pt-3'>
+                ● Construction & Site Workers
+                </p>
+                <p className='pt-3'>
+                ●  Safety Officers & Site Engineers
+                </p>
+                <p className='pt-3'>
+                ●  Maintenance & Utility Crews
+                </p>
+                <p className='pt-3'>
+                ●  Supervisors overseeing elevated work
+                </p>
+               
+
+                 <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Industry
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Oil & Gas
+                </p>
+                <p className='pt-3'>
+                ● Construction & Civil Engineering
+                </p>
+                <p className='pt-3'>
+                ●  Manufacturing & Industrial Services
+                </p>
+                <p className='pt-3'>
+                ●  Power & Energy Projects
+                </p>
+                <p className='pt-3'>
+                ●  Shipyards & Marine Operations
+                </p>
+                <p className='pt-3'>
+                ●  Facility Maintenance & Infrastructure Projects
+                </p>
+            
+
+
+             <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      List of Courses Under Scaftech Engineering Services Scaffold Training
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Scaffold Erector Training
+                </p>
+                <p className='pt-3'>
+                ● Scaffold Inspector Training
+                </p>
+                <p className='pt-3'>
+                ●  Scaffold Safety & Emergency Response Training
+                </p>
+                 <p className='pt-3'>
+                ● Scaffold user & Builder Training
+                </p>
+                 
+
+
             </article>
 
-            <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/IMG_E9.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Dye Penetrant Inspection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/Ultrasonic-Testing.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Eddy Current Testing2</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/jc-img6.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Radiographic Testing (RT) </h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/Saving-life.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Safety of Life</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-
-          {/* <div className="flex-col rounded-lg pl-8 p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out w-80 h-60 hover:scale-105 transform transition duration-75'
-               src="/images/gallery/UT-Flaw-Inspection.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Scaffold Inspector Training</h1>
-            </div>
-            <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />3 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div>
-          </div> */}
+          
 
           
           <section>

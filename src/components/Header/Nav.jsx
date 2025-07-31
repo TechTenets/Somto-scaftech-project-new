@@ -102,7 +102,7 @@ const Nav = () => {
                   <div className="dropdown-content scroll-smooth">
                     <a href="/Welding">Welding Traning</a>
                     <a href="/inspector">QA/QC Inspector Traning</a>
-                    <a href="/Earthmoving">Earth Moving Equipment Training</a>
+                    <a href="/HeavyEquipment">Heavy Equipment Training</a>
                     <a href="/Blasting&Painting">Blasting and Painting Traning</a>
                     <a href="/health&Safety">Health And Safety Traning</a>
                     <a href="/work&height">Work at Height(Scaffolding Inspector,Supervisors,Foremen)</a>
@@ -110,10 +110,10 @@ const Nav = () => {
                     <a href="/lifthing&basicrigger">Lifting Operations Traning & Basic Rigger</a>
                     <a href="/towercrane">Tower Crane Traning</a>
                     <a href="/mobileElevated">Mobile Elevated Work Platform(MEWP) Scissors Lift Traning</a>
-                    <a href="/Fire&Marshal">Fire Warden and Marshal Traning</a>
+                    <a href="/Permittowork">Permit to work</a>
                     <a href="/Rigger">Rigger Traning</a>
-                    <a href="/LiftingSpecialist">Lifting Specialist Traning</a>
-                    <a href="/Liftingplan">Lifting Plan Traning</a>
+                    {/* <a href="/LiftingSpecialist">Lifting Specialist Traning</a> */}
+                    <a href="/Scaffold">Scaffold Training</a>
                     <a href="/NDT">NDT Traning (Non-Destructive Testing)</a>
                     <a href="/leadership&Accountability">Leadership and Accountability Traning</a>
                     <a href="/Defensive&Hazard">Defensive Driving & Harzard Awareness Traning</a>

@@ -245,7 +245,7 @@ const Footer = () => {
               </a> */}
             </div>
 
-            <section className="flex justify-around gap-4 p-4">
+            <section className="flex justify-around  p-4">
               <div className="flex-col text-amber-50 p-4">
                 <div className="font-sans font-medium text-2xl">
                   <h1>ABOUT</h1>
@@ -349,6 +349,27 @@ const Footer = () => {
 
                     <li className="pt-2 pb-1">
                       <a href="">. Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+                <div className="flex-col text-amber-50 p-4">
+                <div className="font-sans font-medium text-2xl">
+                  <h1>Contact</h1>
+                </div>
+                <div className="font-sans P-6 font-medium text-sm">
+                  <ul>
+                    <li className="pt-2 pb-1">
+                      <p>Office 27, Ringback mall, <br /> Beside Mobil Filling Station, <br /> Oribanwa Bus-stop,Ibeju-Lekki Lagos</p>
+                    </li>
+
+                    <li className="pt-2 pb-1">
+                      <p>+234-816-163-7797 ,+234-811-262-7647</p>
+                    </li>
+
+                    <li className="pt-2 pb-1">
+                      <p>consult@scaftechservices.com</p>
                     </li>
                   </ul>
                 </div>

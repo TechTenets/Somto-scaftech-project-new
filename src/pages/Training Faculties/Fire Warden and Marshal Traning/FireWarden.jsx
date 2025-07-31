@@ -3,349 +3,177 @@ import InfoTwoToneIcon from "@mui/icons-material/InfoTwoTone";
 import GraphicEqTwoToneIcon from "@mui/icons-material/GraphicEqTwoTone";
 import AccountCircleTwoToneIcon from "@mui/icons-material/AccountCircleTwoTone";
 
-const FireWarden = () => {
+const Permittowork = () => {
   return (
     <div className=' w-full mt-20'>
       <section className=''>
       <img className='w-full h-80 px-5 bg-cover bg-center cursor-pointer'
-             src="/Fire form wet.jpg" alt="" />
+             src="/Permit-work-img.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
             <h1 className='text-4xl text-gray-900 text-center font-bold pt-10 '>
-            FIRE WARDEN & MARSHAL TRAINING
+            PERMIT-TO-WORK SYSTEM TRAINING
                 </h1>
 
-                <p className='text-sm text-gray-800 py-5'>
-                Prepare Your Team: Fire Warden and Marshal Certification.
+               <p className='text-sm text-gray-800 py-5'>
+                <span className="text-blue-950 font-bold text-base">Slogan:</span>  Right procedures deliver safety
                 </p>
-                     <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+                     {/* <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
                          View Courses 
-                    </button>
+                    </button> */}
+            </div>
+
+            <div className='text-center'>
+              <h1 className='text-2xl text-gray-900 text-center font-bold pt-7 '>
+                 Course Contents Overview
+                </h1>
             </div>
 
             <article className="pl-15 text-sm text-gray-800 py-10">
-               <p>
-               Equip your personnel with the skills to respond effectively to fire emergencies. Our Fire Warden and Marshal training covers fire prevention, evacuation procedures, <br /> use of fire extinguishers, and emergency communication. Ensure your workplace is prepared for any fire-related incident."
-               </p>
-
-               {/* <p className='pt-8'>
-               Our Health and Safety training programs cover a comprehensive range of topics, including:
-               </p>
-
-               <p className="pt-8 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Hazard Identification and Risk Assessment:</span> Training in proactive hazard recognition and risk management strategies that help prevent workplace incidents.
+              <p>
+              The Permit-to-Work (PTW) System, offered by Scaftech Engineering Services, is a vital
+              safety mechanism designed to ensure high-risk tasks are performed safely and systematically. <br />
+              This training program equips participants with the knowledge and skills to initiate, manage, and
+              audit PTW systems effectively across various industries. Key focus areas include <br /> understanding
+              the permit lifecycle, defining roles and responsibilities, and preventing unauthorized or unsafe
+              work practices.
               </p>
+               
+               
+               <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Pre-requisites
+                </h1>
+            </div>
 
-              <p className="pt-3 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Emergency Response and First Aid:</span> Equipping participants with vital skills in emergency response and basic first aid to manage potential workplace injuries.
-              </p>
+            <p className='pt-3'>
+                ●  Basic understanding of workplace safety practices.
+                </p>
+                <p className='pt-3'>
+                ● Prior HSE (Health, Safety, and Environment) induction is recommended but not mandatory.
+                </p>
+                <p className='pt-3'>
+                ●  Familiarity with operational workflows is advantageous.
+                </p>
 
-              <p className="pt-3 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Fire Safety and Evacuation Procedures:</span> In-depth fire prevention, control, and evacuation training to help maintain a secure environment.
-              </p>
 
-              <p className="pt-3 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Workplace Ergonomics:</span> Practical strategies to reduce strain and improve employee well-being, particularly in physically demanding roles.
-              </p>
+                 <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Course Objectives
+                </h1>
+                <p className='pt-4'>
+                  By the end of the training, participants will:
+                </p>
+            </div>
 
-              <p className="pt-3 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Regulatory Compliance:</span> Training focused on adhering to Nigerian and international health and safety regulations, ensuring operations meet all legal standards.
-              </p> */}
+             <p className='pt-5'>
+                ●  Understand the purpose and structure of a PTW system provided by Scaftech Engineering Services.
+                </p>
+                <p className='pt-3'>
+                ● Identify high-risk work scenarios requiring a permit.
+                </p>
+                <p className='pt-3'>
+                ●  Learn to initiate, issue, monitor, and close permits effectively.
+                </p>
+                  <p className='pt-3'>
+                ●  Recognize the roles and responsibilities of all permit users.
+                </p>
+                  <p className='pt-3'>
+                ●  Apply PTW best practices to minimize risks and enhance compliance.
+                </p>
+                
 
-              <p className="pt-5">
-              By partnering with Scaftech, companies and individuals in Nigeria gain access to accredited Health and Safety training that not only enhances compliance but also <br /> empowers teams to prioritize safety and minimize risks. With experienced trainers and a commitment to excellence, Scaftech is your go-to resource for industry- <br />leading Health and Safety training.
-              </p>
+                <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Audience
+                </h1>
+            </div>
 
-              <p className="pt-5">
-              With experienced trainers and a commitment to excellence, Scaftech is your go-to resource for industry-leading Health and Safety training, accredited by OSHA, <br /> NFPA and NUPRC.
-              </p>
+               <p className='pt-3'>
+                ●  Site Supervisors & Safety Officers
+                </p>
+                <p className='pt-3'>
+                ●  Maintenance Technicians & Engineers
+                </p>
+                <p className='pt-3'>
+                ●  Contractors & Subcontractors
+                </p>
+                <p className='pt-3'>
+                ●  Operations & Facility Managers
+                </p>
+                <p className='pt-3'>
+                ●  Project Coordinators & Field Leaders
+                </p>
 
-              <p className="pt-8 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Standards:</span> Local fire safety regulations, NFPA, standards.
-              </p>
+             <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Industry
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                ●  Construction & Civil Engineering
+                </p>
+                <p className='pt-3'>
+                ●  Oil & Gas 
+                </p>
+                <p className='pt-3'>
+                ●  Power & Utilities
+                </p>
+                <p className='pt-3'>
+                ●  Marine & Offshore Operations
+                </p>
+                <p className='pt-3'>
+                ●  Mining & Industrial Services
+                </p>
+                
+                
+
+            <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      List of Courses Under Permit-to-Work System Training by Scaftech Engineering Services
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                 1. Hot Work Permit Training
+                 Focuses on safe practices for tasks involving welding, cutting, or other heat-generating activities.
+                 </p>
+              <p className='pt-3'>
+                2. Confined Space Entry Permit
+                   Covers procedures for safely entering and working in confined spaces with limited access.
+                 </p>
+                <p className='pt-3'>
+                3. Emergency & Rescue Procedures
+                   Covers emergency response and rescue protocols related to PTW activities
+                </p>
+                 <p className='pt-3'>
+                4. Electrical Work Permit
+                   Addresses safety protocols for electrical installations, maintenance, and repairs.
+                 </p>
+                 <p className='pt-3'>
+                5. Working at Height Permit
+                   Outlines safety measures for tasks performed at elevated positions.
+                </p>
+                 <p className='pt-3'>
+                6. Excavation & Trenching Permit
+                   Details precautions for safe digging and trenching operations.
+                </p>
+                 <p className='pt-3'>
+                7. Permit Issuer / Receiver Training
+                   Trains individuals on the responsibilities of issuing and receiving permits.
+                </p>
+                 <p className='pt-3'>
+                8. Isolation & Lockout/Tagout (LOTO)
+                    Focuses on isolating energy sources to ensure safe maintenance work.
+                </p>
+                 <p className='pt-3'>
+                9. Permit-to-Work System Audit
+                   Teaches auditing techniques to ensure PTW system compliance and effectiveness.
+                </p>
             </article>
 
-            <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/images/App-Image.jpeg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Drilling Engineering Training</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />10 weeks
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/images/JCI-33.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>QAQC Inspection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />10 weeks
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/DSC.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Offshore Orientation </h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/jci-9-27-2.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Dropped Objects Awareness</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />1 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-
-          <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/images/pikaso_edit.jpeg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Helicopter Landing Officer</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/images/HydrogenSulfide.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Hydrogen Sulfide Safety Awareness</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/images/sApp-Image.jpeg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Working Safely</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/FALL-PROTECTION.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Helideck Team Member</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-
-          <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/pikaso_texttoimage.jpeg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Authorized Gas Tester</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />1 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/images/PRA7572-scaled.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Working at Height (Rescue)</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/images/FALL-PROTECTION.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Fall Protection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />1 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/jci-9-26.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Basic/Advanced Fire Fighting</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
+           
 
           <section>
         <div className="font-bold text-2xl text-blue-950 pt-30 text-center">
@@ -362,4 +190,4 @@ const FireWarden = () => {
   )
 }
 
-export default FireWarden
+export default Permittowork

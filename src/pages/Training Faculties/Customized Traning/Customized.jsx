@@ -8,7 +8,7 @@ const Customized= () => {
     <div className='w-full mt-20'>
       <section>
       <img className='w-full h-80 px-5 bg-cover bg-center cursor-pointer'
-             src="/images/Corrosion-Control.jpg" alt="" />
+             src="public/customised-img.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
             <h1 className='text-4xl text-gray-900 text-center font-bold pt-10 '>
@@ -18,334 +18,142 @@ const Customized= () => {
                 <p className='text-sm text-gray-800 py-5'>
                 Tailored Training Solutions. Customized Programs for Your Needs.
                 </p>
-                     <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+                     {/* <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
                          View Courses 
-                    </button>
+                    </button> */}
             </div>
 
-            <article className="pl-15 text-sm text-gray-800 py-10">
-               {/* <p>
-               We offer a range of courses, including first aid, fire 
-               safety, and hazard communication.
-               Our training meets or exceeds OSHA requirements and 
-               provides practical <br /> knowledge and skills to prevent
-                accidents and injuries.
-               </p>
+            <div className='text-center'>
+              <h1 className='text-2xl text-gray-900 text-center font-bold pt-7 '>
+                 Course Contents Overview
+                </h1>
+            </div>
+                  
 
-               <p className='pt-8'>
-               Our Health and Safety training programs cover a comprehensive range of topics, including:
-               </p>
+             <article className="pl-15 text-sm text-gray-800 py-10">
+              <p>
+              Scaftech Engineering Services’ Customized Training is a fully adaptable program designed to
+              meet specific client goals, worksite conditions, compliance standards, <br /> and workforce gaps. From
+              safety and technical skills to leadership and compliance, this solution-based training, crafted by
+              Scaftech Engineering Services, is built around <br /> your company’s real needs, ensuring maximum
+              relevance, engagement, and ROI with Scaftech Engineering Services’ commitment to
+              excellence.
 
-               <p className="pt-8 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Hazard Identification and Risk Assessment:</span> Training in proactive hazard recognition and risk management strategies that help prevent workplace incidents.
               </p>
+               
+               
+               <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Pre-requisites
+                </h1>
+            </div>
 
-              <p className="pt-3 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Emergency Response and First Aid:</span> Equipping participants with vital skills in emergency response and basic first aid to manage potential workplace injuries.
-              </p>
+            <p className='pt-3'>
+                ●  Clearly defined training objectives and outcomes (from client)
+                </p>
+                <p className='pt-3'>
+                ● Willingness to collaborate with Scaftech Engineering Services on content scoping and customization
+                </p>
+                <p className='pt-3'>
+                ●  Access to existing operational procedures, job roles, or compliance gaps
+                </p>
+                <p className='pt-3'>
+                ●  Target workforce or department ready for engagement with Scaftech Engineering Services’ tailored training
+                </p>
 
-              <p className="pt-3 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Fire Safety and Evacuation Procedures:</span> In-depth fire prevention, control, and evacuation training to help maintain a secure environment.
-              </p>
 
-              <p className="pt-3 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Workplace Ergonomics:</span> Practical strategies to reduce strain and improve employee well-being, particularly in physically demanding roles.
-              </p>
+                 <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Course Objectives (Tailored per client, but generally to):
+                </h1>
+                {/* <p className='pt-4'>
+                  Participants in Scaftech Engineering Services’ Mental Readiness & Ergonomics Training will:
+                </p> */}
+            </div>
 
-              <p className="pt-3 pl-8">
-              <span className="text-blue-950 font-bold text-base">. Regulatory Compliance:</span> Training focused on adhering to Nigerian and international health and safety regulations, ensuring operations meet all legal standards.
-              </p> */}
+             <p className='pt-5'>
+                ●  Address site-specific operational, safety, or performance challenges with Scaftech Engineering Services’ expertise
+                </p>
+                <p className='pt-3'>
+                ● Upskill employees based on current industry standards or new regulations
+                </p>
+                <p className='pt-3'>
+                ●  Bridge identified knowledge or competency gaps through Scaftech Engineering Services’ targeted approach
+                </p>
+                  <p className='pt-3'>
+                ●  Improve job-specific execution, safety, and team communication
+                </p>
+                  <p className='pt-3'>
+                ●  Provide measurable impact in productivity, safety, or compliance aligned with Scaftech Engineering Services’ standards
+                </p>
+              
 
-              <p className="pt-5">
-              We understand that every organization has unique training needs. Our customized training programs are designed to address your specific requirements. We work closely <br /> with you to develop and deliver training that meets your objectives and enhances your workforce's capabilities.
-              </p>
+                <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Audience
+                </h1>
+            </div>
 
-              <p className="pt-8">
-              As a leading NDT training provider in Nigeria, Scaftech offers rigorous, hands-on instruction led by experienced professionals who prepare participants for excellence <br /> in the field. Our courses are tailored to meet industry demands, ensuring that candidates emerge with the proficiency required for successful careers in sectors such as Oil <br /> & Gas, Marine, and Construction. With Scaftech, you're gaining more than just certification; you're joining a trusted institution dedicated to quality training and advancing <br /> Nigeria's workforce.
-              </p>
+             <p className='pt-3'>
+                ●  Companies with unique operational needs
+                </p>
+                <p className='pt-3'>
+                ● Project-specific teams or site-based workgroups
+                </p>
+                <p className='pt-3'>
+                ●  HR, HSE, and Learning & Development Managers
+                </p>
+                <p className='pt-3'>
+                ●  Compliance units or technical departments
+                </p>
+                <p className='pt-3'>
+                ●  Multidisciplinary or multi-level workforce
+                </p>
+                
+
+             <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Industry
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                ●  Oil & Gas / Marine / Power & Utilities
+                </p>
+                <p className='pt-3'>
+                ●  Engineering & Construction
+                </p>
+                <p className='pt-3'>
+                ●  Manufacturing / FMCG / Mining
+                </p>
+                <p className='pt-3'>
+                ●  Agro-Processing & Industrial Services
+                </p>
+                <p className='pt-3'>
+                ●  Government Agencies, NGOs & Multinational Projects
+                </p>
+                <p className='pt-3'>
+                ●  Any industry with project-based or technical workforce requiring tailored instruction from Scaftech Engineering Services
+                </p>
+
+            {/* <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      List of Courses Under Scaftech Engineering Services Mental Readiness and Ergonomics Training
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                ●  Corporate Ergonomics Program
+                </p>
+                <p className='pt-3'>
+                ●  Basic Workplace Ergonomics Training
+                </p>
+                <p className='pt-3'>
+                ●  Participatory Ergonomics Team Training
+                </p> */}
             </article>
 
-            <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/images/App-Image.jpeg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Drilling Engineering Training</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />10 weeks
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/images/JCI-33.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>QAQC Inspection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />10 weeks
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/DSC.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Offshore Orientation </h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/jci-9-27-2.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Dropped Objects Awareness</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />1 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-
-          <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/images/pikaso_edit.jpeg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Helicopter Landing Officer</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/images/HydrogenSulfide.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Hydrogen Sulfide Safety Awareness</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/images/sApp-Image.jpeg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Working Safely</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/FALL-PROTECTION.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Helideck Team Member</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-
-          <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/pikaso_texttoimage.jpeg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Authorized Gas Tester</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />1 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/images/PRA7572-scaled.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Working at Height (Rescue)</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/images/FALL-PROTECTION.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Fall Protection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />1 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/jci-9-26.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Basic/Advanced Fire Fighting</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
+          
 
           <section>
         <div className="font-bold text-2xl text-blue-950 pt-30 text-center">

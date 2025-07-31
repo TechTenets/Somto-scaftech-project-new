@@ -8,7 +8,7 @@ const SkilledOperation = () => {
     <div className='w-full mt-20'>
         <section>
         <img className='w-full h-80 px-5 bg-cover bg-center cursor-pointer'
-             src="/arc-welding-steel.jpg" alt="" />
+             src="public/skilled-operate-2-img.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
             <h1 className='text-4xl text-gray-900 text-center font-bold pt-10 '>
@@ -16,211 +16,152 @@ const SkilledOperation = () => {
                 </h1>
 
                 <p className='text-sm text-gray-800 py-5'>
-                Develop Skilled Operators and Leaders.Comprehensive Training.
+                <span className="text-blue-950 font-bold text-base">Slogan:</span>  Master the Task. Inspire the Team. Lead the Way with Scaftech Engineering
                 </p>
-                     <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+                     {/* <button className="rounded-md border-2 text-base font-medium mb-10 text-gray-950 border-black border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
                          View Courses 
-                    </button>
+                    </button> */}
             </div>
 
-            <article className="pl-15 text-sm text-gray-800 py-10">
-              <p>
-              Combine technical skills with leadership development in our Skilled Operation and Leadership Training. Enhance both the operational proficiency and leadership <br /> capabilities of your workforce. This program is designed to create well-rounded professionals who can excel in their roles.
-              </p>
+             <div className='text-center'>
+              <h1 className='text-2xl text-gray-900 text-center font-bold pt-7 '>
+                 Course Contents Overview
+              </h1>
+            </div>
 
-              <p className="pt-8">
-              As a leading NDT training provider in Nigeria, Scaftech offers rigorous, hands-on instruction led by experienced professionals who prepare participants for excellence <br /> in the field. Our courses are tailored to meet industry demands, ensuring that candidates emerge with the proficiency required for successful careers in sectors such as Oil <br /> & Gas, Marine, and Construction. With Scaftech, you're gaining more than just certification; you're joining a trusted institution dedicated to quality training and advancing <br /> Nigeria's workforce.
+           <article className="pl-15 text-sm text-gray-800 py-10">
+              <p>
+              Scaftech Engineering Services’ Skilled Operation and Leadership Training blends technical
+              competence with leadership capability, transforming skilled workers into confident, <br />
+              safety-conscious, and performance-driven leaders. This comprehensive course, designed by
+              Scaftech Engineering Services, equips participants with the tools to supervise teams, <br /> manage
+              worksite dynamics, ensure compliance, and deliver operational excellence under pressure,
+              fostering a culture of leadership excellence championed by Scaftech <br /> Engineering Services.
               </p>
+               
+               
+               <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Pre-requisites
+                </h1>
+            </div>
+
+            <p className='pt-3'>
+                ●  Technical skill or hands-on experience in a trade or operational field
+                </p>
+                <p className='pt-3'>
+                ● Previous worksite exposure or field team involvement
+                </p>
+                <p className='pt-3'>
+                ●  Basic communication and problem-solving abilities
+                </p>
+                <p className='pt-3'>
+                ●  Openness to learning leadership principles and team management through Scaftech Engineering Services’ expertise
+                </p>
+
+
+                 <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Course Objectives
+                </h1>
+                <p className='pt-4'>
+                  Participants in Scaftech Engineering Services’ Skilled Operation and Leadership Training will:
+                </p>
+            </div>
+
+             <p className='pt-5'>
+                ●  Strengthen technical knowledge with supervisory skills
+                </p>
+                <p className='pt-3'>
+                ● Learn to lead teams, communicate instructions, and resolve site-level issues with guidance from Scaftech Engineering Services
+                </p>
+                <p className='pt-3'>
+                ●  Master job planning, resource allocation, and time management
+                </p>
+                  <p className='pt-3'>
+                ●  Apply leadership ethics, accountability, and a safety-first culture aligned with Scaftech Engineering Services’ standards
+                </p>
+                  <p className='pt-3'>
+                ●  Improve team morale, productivity, and incident prevention
+                </p>
+                <p className='pt-5'>
+                ●  Serve as a bridge between frontline execution and management objectives
+                </p>
+
+                <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Audience
+                </h1>
+            </div>
+
+             <p className='pt-3'>
+                ●  Technicians, Operators & Field Workers
+                </p>
+                <p className='pt-3'>
+                ● Site Supervisors & Shift Leaders
+                </p>
+                <p className='pt-3'>
+                ●  Welders, Scaffolders, Riggers & Drivers ready for leadership roles
+                </p>
+                <p className='pt-3'>
+                ●  Workshop Coordinators & Equipment Handlers
+                </p>
+                <p className='pt-3'>
+                ●  Safety Marshals & Operation Assistants
+                </p>
+                 <p className='pt-3'>
+                ●  Individuals being groomed for supervisory roles
+                </p>
+
+             <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      Target Industry
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                ●  Oil & Gas / Marine / Petrochemical
+                </p>
+                <p className='pt-3'>
+                ●  Construction & Civil Engineering
+                </p>
+                <p className='pt-3'>
+                ●  Power & Utilities
+                </p>
+                <p className='pt-3'>
+                ●  Manufacturing & Production Plants
+                </p>
+                <p className='pt-3'>
+                ●  Mining, Fabrication & Logistics
+                </p>
+                <p className='pt-3'>
+                ●  Agro-Processing & Industrial Services
+                </p>
+
+            <div className=''>
+              <h1 className='text-xl text-gray-900 font-bold pt-7 '>
+                      List of Courses Under Scaftech Engineering Skilled Operation and Leadership Training
+                </h1>
+            </div>
+
+              <p className='pt-3'>
+                ●  Strategic People Management & Team Leadership Programme
+                </p>
+                <p className='pt-3'>
+                ●  Mastering People Management & Team Leadership Programme
+                </p>
+                <p className='pt-3'>
+                ●  Leadership Skills & Team Development for Technical Professionals Programme
+                </p>
+                 <p className='pt-3'>
+                ●  The Strategic Leader Training
+                </p>
+                 <p className='pt-3'>
+                ●  Advanced Leadership & Team Building Programme
+                </p>
             </article>
 
-            <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/IMG_E9.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Dye Penetrant Inspection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/Ultrasonic-Testing.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Eddy Current Testing2</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/jc-img6.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Radiographic Testing (RT) </h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/gallery/UT-Flaw-Inspection.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Ultrasonic Inspection</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
-
-          
-          <div className='flex gap-5 pl-8 pt-8'>
-            <div className="flex-col rounded-lg p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/images/STORE.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Welding Training</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />3 days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-               All levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ">
-            <div>
-              <img className='rounded-lg  ease-in-out hover:scale-105 transform transition-all duration-75 w-80 h-48'
-               src="/Rope-access.png" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Rope Access Technician</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />10 weeks
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col p-2 ease-in-out ">
-            <div>
-              <img className='rounded-lg hover:scale-105 transform transition duration-75 w-80 h-48'
-               src="/images/Corrosion-Control.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Blasting and Painting </h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />2 Days
-            </div>
-
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-          </div>
-
-          <div className="flex-col  p-2 ">
-            <div>
-              <img className='rounded-lg ease-in-out hover:scale-105 transform transition duration-75 w-80 h-48' 
-              src="/images/App-Image_2.jpg" alt="" />
-            </div>
-            <div className="text-blue-950 text-sm font-medium pt-5 ">
-              <h1>Plant Inspector - Thorough Examination N039</h1>
-            </div>
-            {/* <div className="text-gray-400 p-3">
-              <InfoTwoToneIcon />5 Days
-            </div>
-            <div className="text-gray-400 p-1">
-              <GraphicEqTwoToneIcon />
-              All Levels
-            </div>
-
-            <div className="text-gray-400 pt-5 pb-2">
-              <AccountCircleTwoToneIcon />
-              JCI
-            </div> */}
-        </div> 
-
-          </div>
+           
 
           
           <section>
