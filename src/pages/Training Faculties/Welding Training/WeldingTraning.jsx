@@ -9,7 +9,7 @@ const WeldingTraning = () => {
     <div className=' w-full mt-20'>
        <section>
             <img className='w-full h-80 px-5 object-fill bg-center  cursor-pointer'
-             src="/welding-img.jpg" alt="" />
+             src="/welding-2-img.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
             <h1 className='text-4xl text-gray-900 text-center font-bold pt-10 '>
@@ -187,7 +187,7 @@ const WeldingTraning = () => {
           <img src="/images/gallery/Accreditation.jpg" alt="" />
         </div>
       </section>
-      
+
        </section>
     </div>
   )

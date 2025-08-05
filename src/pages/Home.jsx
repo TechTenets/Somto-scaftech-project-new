@@ -113,10 +113,10 @@ const Home = () => {
     <div className="grid grid-cols-1 gap-5 justify-between overflow-hidden sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3">
       <div className="flex-col p-2">
         <div>
-          <img src="/jc img 1.jpg" alt="IWCF Drilling Courses" />
+          <img src="/health-safety-img.jpg" alt="health & safety" />
         </div>
         <div className="text-white text-sm font-medium pt-5">
-          <h1>IWCF Drilling Courses</h1>
+          <h1>Health and Safety</h1>
         </div>
         <div className="font-medium text-white">
           <p>9 Courses</p>
@@ -125,7 +125,7 @@ const Home = () => {
 
       <div className="flex-col p-2">
         <div>
-          <img src="/jc-img2.jpg" alt="Lifting Operations" />
+          <img src="public/lifting-operation-img.jpg" alt="Lifting Operations" />
         </div>
         <div className="text-white text-sm font-medium pt-5">
           <h1>Lifting Operations</h1>
@@ -137,10 +137,10 @@ const Home = () => {
 
       <div className="flex-col p-2">
         <div>
-          <img src="/jc-img3.jpg" alt="Employability Skills" />
+          <img src="public/work-height-img.jpg" alt="work at height" />
         </div>
         <div className="text-white text-sm font-medium pt-5">
-          <h1>Employability Skills</h1>
+          <h1>Work at Height</h1>
         </div>
         <div className="font-medium text-white">
           <p>32 Courses</p>
@@ -156,10 +156,10 @@ const Home = () => {
     <div className="grid grid-cols-1 gap-5 justify-between overflow-hidden sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 p-4">
       <div className="flex-col p-2">
         <div>
-          <img src="/jc-img4.jpg" alt="Healthy & Safety" />
+          <img src="public/scaffold-img.jpg" alt="Scaffold" />
         </div>
         <div className="text-white text-sm font-medium pt-5">
-          <h1>Healthy & Safety</h1>
+          <h1>Scalffold Training courses</h1>
         </div>
         <div className="font-medium text-white">
           <p>23 Courses</p>
@@ -168,10 +168,10 @@ const Home = () => {
 
       <div className="flex-col p-2">
         <div>
-          <img src="/jc-5.jpg" alt="Rope Access" />
+          <img src="public/towercane-img.jpg" alt="towercrane" />
         </div>
         <div className="text-white text-sm font-medium pt-5">
-          <h1>Rope Access</h1>
+          <h1>Tower Crane</h1>
         </div>
         <div className="font-medium text-white">
           <p>3 Courses</p>
@@ -180,7 +180,7 @@ const Home = () => {
 
       <div className="flex-col p-2">
         <div>
-          <img src="/jc-img6.jpg" alt="ASNT NDT INSPECTION" />
+          <img src="public/NDT-img.jpg" alt="ASNT NDT INSPECTION" />
         </div>
         <div className="text-white text-sm font-medium pt-5 pl-3">
           <h1>ASNT NDT INSPECTION</h1>
@@ -273,7 +273,7 @@ const Home = () => {
 
 <section className="bg-[#201134] w-full min-h-[300px] h-auto py-10 pl-8">
   <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:px-20">
-    <div className="text-center font-serif text-clamp leading-[-1] font-bold text-3xl text-black pt-15 pb-3">
+    <div className="text-center font-serif text-clamp leading-[-1] font-bold text-3xl text-white pt-15 pb-3">
       <h1>Why Choose <span className="text-[#07bc0c]">Scaftech</span></h1>
     </div>
 
@@ -390,70 +390,70 @@ const Home = () => {
   <div className="flex flex-wrap justify-around overflow-hidden">
     <div className="flex-col ease-in-out p-2 hover:scale-105 transform transition duration-75 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
       <div>
-        <img src="/images/Image-A.jpg" alt="" />
+        <img src="public/Heavyequip-img.jpg" alt="HeavyEquipment" />
       </div>
       <div className="text-white text-sm font-medium pt-5 ">
-        <h1>Rotary Drilling</h1>
+        <h1>Heavy Equipment</h1>
       </div>
-      <div className="text-gray-400 p-3">
+      {/* <div className="text-gray-400 p-3">
         <InfoTwoToneIcon /> 2 Days
       </div>
 
       <div className="text-gray-400 p-1">
         <GraphicEqTwoToneIcon />
         Expert
-      </div>
+      </div> */}
     </div>
 
     <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
       <div>
-        <img src="/images/IMG-scaled.jpg" alt="" />
+        <img src="/lifting-operation-img.jpg" alt="lifting" />
       </div>
       <div className="text-white text-sm font-medium pt-5 ">
         <h1>Appointed Persons for Lifting...</h1>
       </div>
-      <div className="text-gray-400 p-3">
+      {/* <div className="text-gray-400 p-3">
         <InfoTwoToneIcon /> 2 Days
       </div>
 
       <div className="text-gray-400 p-1">
         <GraphicEqTwoToneIcon />
         Expert
-      </div>
+      </div> */}
     </div>
 
     <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
       <div>
-        <img src="/images/jci-img.jpg" alt="" />
+        <img src="/defensive-drive-img.jpg" alt="DefensiveDriving" />
       </div>
       <div className="text-white text-sm font-medium pt-5 ">
-        <h1>Powered Industrial Trucks</h1>
+        <h1>Defensive Drive</h1>
       </div>
-      <div className="text-gray-400 p-3">
+      {/* <div className="text-gray-400 p-3">
         <InfoTwoToneIcon /> 2 Days
       </div>
 
       <div className="text-gray-400 p-1">
         <GraphicEqTwoToneIcon />
         Expert
-      </div>
+      </div> */}
     </div>
 
     <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
       <div>
-        <img src="/images/LIFTING-SLINGING.jpg" alt="" />
+        <img src="/confine-space-img.jpg" alt="ConfinedSpace" />
       </div>
       <div className="text-white text-sm font-medium pt-5 ">
-        <h1>Lifting And Slinging</h1>
+        <h1>Confine space</h1>
       </div>
-      <div className="text-gray-400 p-3">
+      {/* <div className="text-gray-400 p-3">
         <InfoTwoToneIcon /> 2 Days
       </div>
 
       <div className="text-gray-400 p-1">
         <GraphicEqTwoToneIcon />
         All Levels
-      </div>
+      </div> */}
     </div>
     {/* Repeat similar layout for other courses */}
   </div>
@@ -481,13 +481,13 @@ const Home = () => {
   <div className="flex flex-wrap justify-around">
     <div className="flex content-start relative w-full px-5 pb-5 ">
       <div className="bg-white rounded w-full h-80 m-2 flex-col">
-        <img className="w-40 h-32 place-items-start rounded" src="/jc-img2.jpg" alt="Rope Access Training" />
+        <img className="w-40 h-32 place-items-start rounded" src="/audit-img.jpg" alt="systemaudit Training" />
         <div className="text-blue-950 font-medium p-4">
           <WorkOutlineIcon />
           February 10, 2025
         </div>
         <div className="font-semibold text-2xl text-blue-950 p-2">
-          <p>Forklift Training</p>
+          <p>System Audit Training</p>
         </div>
         <div className="text-blue-900 font-medium p-2">
           <PinDropIcon />
@@ -495,13 +495,13 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-white rounded w-full h-80 m-2 flex-col">
-        <img className="w-40 h-32 place-items-start rounded" src="/jci-10.jpg" alt="Rope Access Training" />
+        <img className="w-40 h-32 place-items-start rounded" src="/mobile-elevate-img.jpg" alt="mobileElevated" />
         <div className="text-blue-950 font-medium p-4">
           <WorkOutlineIcon />
           February 10, 2025
         </div>
         <div className="font-semibold text-2xl text-blue-950 p-2">
-          <p>Rope Access Training</p>
+          <p>Mobile ELavated</p>
         </div>
         <div className="text-blue-900 font-medium p-2">
           <PinDropIcon />
@@ -509,17 +509,17 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-white rounded w-full h-80 m-2 flex-col">
-        <img className="w-40 h-32 place-items-start rounded" src="/jci-9-27.jpg" alt="Rope Access Training" />
+        <img className="w-40 h-32 place-items-start rounded" src="/ergonomics-2-img.jpg" alt="ergonomics" />
         <div className="text-blue-950 font-medium p-4">
           <WorkOutlineIcon />
           February 10, 2025
         </div>
         <div className="font-semibold text-2xl text-blue-950 p-2">
-          <p>Welding Training</p>
+          <p>Ergonomics Training</p>
         </div>
         <div className="text-blue-900 font-medium p-2">
           <PinDropIcon />
-          Bayelsa
+          Abuja
         </div>
       </div>
     </div>
@@ -733,8 +733,8 @@ const Home = () => {
     </button>
   </div>
 
-  <div className="w-3/4 mx-auto">
-    <img src="/jci-25.jpg" alt="" />
+  <div className="w-3/4  mx-auto">
+    <img src="/skilled-operate-img.jpg" alt="" />
   </div>
 </section>
 
@@ -744,12 +744,28 @@ const Home = () => {
   </div>
 
   <div className="flex pl-10 pt-5 pb-5 justify-between object-fill flex-wrap">
-    <img src="/images/gallery/saipem.jpg" alt="Saipem logo" className="w-1/6" />
-    <img src="/images/gallery/exxonmobil.jpg" alt="exxonmobil logo" className="w-1/6" />
-    <img src="/images/gallery/total-energies.jpg" alt="total-energies logo" className="w-1/6" />
-    <img src="/images/gallery/chevron.jpg" alt="chevron logo" className="w-1/6" />
-    <img src="/images/gallery/sep.jpg" alt="Seplat logo" className="w-1/6" />
-    <img src="/images/gallery/odenl.jpg" alt="Odenl logo" className="w-1/6" />
+    <img src="/winpart.png" alt="winpart logo" className="w-1/6" />
+    <img src="/Zenilum.jpg" alt="Zenilum logo" className="w-1/6" />
+    <img src="/Vita.jpg" alt="Vita logo" className="w-1/6" />
+     <img src="/British.jpg" alt="British logo" className="w-1/6" />
+  </div>
+
+  <div className="flex pl-10 pt-5 pb-5 justify-between object-fill flex-wrap">
+    <img src="/red-round.png" alt="red-round logo" className="w-1/6" />
+    <img src="/nigerite.png" alt="nigerite logo" className="w-1/6" />
+    <img src="/Lafarge.png" alt="Lafarge logo" className="w-1/6" />
+    <img src="/ITB.jpg" alt="ITB logo" className="w-1/6" />
+  </div>
+
+  <div className="flex pl-10 pt-5 pb-5 justify-between object-fill flex-wrap">
+    <img src="/Desnky.jpg" alt="Desnky logo" className="w-1/6" />
+    <img src="/Daystar-power.png" alt="Daystar logo" className="w-1/6" />
+    <img src="/Dangote.png" alt="Dangote logo" className="w-1/6" />
+    <img src="/cfao-equip.jpg" alt="cfao logo" className="w-1/6" />
+  </div>
+
+  <div className="pl-10 pt-5 pb-5">
+   <img src="/Smartflow.png" alt="Smartflow logo" className="w-1/6" />
   </div>
 </section>
 
@@ -770,17 +786,17 @@ const Home = () => {
 
   <div className="flex gap-10 p-8 flex-wrap">
     <div className="flex-col max-w-xs">
-      <img className="rounded-b-lg" src="/JCI53.png" alt="" />
+      <img className="rounded-b-lg" src="/NDT-img.jpg" alt="" />
       <p className="font-light pt-3 pb-2 text-white">Non-Destructive Testing</p>
       <h1 className="text-white font-semibold text-base">NDT Career Guide: Explore Industry Opportunities.</h1>
       <p className="text-white p-2">February 4, 2025</p>
     </div>
 
     <div className="flex-col max-w-xs">
-      <img className="rounded-b-lg" src="/Image-2025.jpg" alt="" />
+      <img className="rounded-b-lg" src="/lifting-operation-img.jpg" alt="" />
       <p className="font-light pt-3 pb-2 text-white">Training</p>
       <h1 className="text-white font-semibold text-base">
-        Master the Art of Lifting with JC International's <br />
+        Master the Art of Lifting with Scaftech <br />
         Appointed Person for Lifting Operations Training.
       </h1>
       <p className="text-white p-2">January 24, 2025</p>
@@ -804,7 +820,7 @@ const Home = () => {
         <div className="flex-col">
           <p className="font-light pt-3 pb-2 text-white">Training</p>
           <h1 className="text-white font-semibold text-base">
-            Master Mobile Crane Operations with JC...
+            Master Mobile Crane Operations with Scaftech...
           </h1>
           <p className="text-white p-2">December 20, 2024</p>
         </div>

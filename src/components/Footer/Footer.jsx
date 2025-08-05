@@ -8,21 +8,7 @@ const Footer = () => {
   return (
     <footer className=" bg-[#0b1b2bcc] m-0">
       <div className="footer text-white bg-[#0b1b2bcc] " data-script="footer">
-        <div className="font-sans font-bold p-4 text-sm text-center">
-          <h1>Follow Us On Social Media</h1>
-
-          <div className="p-2 gap-4">
-            <InstagramIcon />
-
-            <XIcon />
-
-            <FacebookIcon />
-
-            <YouTubeIcon />
-
-            <LinkedInIcon />
-          </div>
-        </div>
+       
         {/* <section className="footer--top">
           <article className="container" aria-label="Social">
             <div className="footer--links">
@@ -179,7 +165,7 @@ const Footer = () => {
                 <img
                  src="/images/Scarftech-logo.webp"
                  alt="Scarftech logo"
-                  className="max-w-[300px] pb-4 " />
+                  className="max-w-[300px] pb-4 pl-8 pt-15" />
                 {/* <img
                   src=
                   "/LOGO int.png"
@@ -250,26 +236,26 @@ const Footer = () => {
                 <div className="font-sans font-medium text-2xl">
                   <h1>ABOUT</h1>
                 </div>
-                <div className="font-sans P-6 font-medium text-sm">
+                <div className="font-sans P-6 font-medium text-sm ">
                   <ul>
-                    <li className="pt-2 pb-1">
-                      <a href="">. About</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/about_us"> About</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">. Accreditations</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/Accredition"> Accreditations</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">. Find a Course</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/health&Safety"> Find a Course</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">. Blog</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/Blog"> Blog</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">Home</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/">Home</a>
                     </li>
                   </ul>
                 </div>
@@ -279,30 +265,30 @@ const Footer = () => {
                 <div className="font-sans font-medium text-2xl">
                   <h1> OUR FACULTIES</h1>
                 </div>
-                <div className="font-sans P-6 font-medium text-sm">
+                <div className="font-sans P-6 font-medium text-sm ">
                   <ul>
-                    <li className="pt-2 pb-1">
-                      <a href="">. Health & Safety</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/health&Safety"> Health & Safety</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">. ASNT NDT INSPECTION</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/NDT"> ASNT NDT INSPECTION</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">. Lifting Operations</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/lifthing&basicrigger"> Lifting Operations</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">. IWCF Drilling Courses</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/Defensive&Hazard">Defensive Driving</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">. Rope Access</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/EquipmentOperation&Maintenace"> Equipment Operation</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">. Employability Skills</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/SkilledOperation&Leadership">Skills Operation</a>
                     </li>
                   </ul>
                 </div>
@@ -314,21 +300,21 @@ const Footer = () => {
                 </div>
                 <div className="font-sans P-6 font-medium text-sm">
                   <ul>
-                    <li className="pt-2 pb-1">
-                      <a href="">Lagos</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/about_us">Lagos</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">Port Harcourt</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/about_us">Port Harcourt</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <a href="">Uganda</a>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="/about_us">Abuja</a>
                     </li>
 
-                    <li className="pt-2 pb-1">
+                    {/* <li className="pt-2 pb-1">
                       <a href="">Tanzania</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -364,14 +350,30 @@ const Footer = () => {
                       <p>Office 27, Ringback mall, <br /> Beside Mobil Filling Station, <br /> Oribanwa Bus-stop,Ibeju-Lekki Lagos</p>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <p>+234-816-163-7797 ,+234-811-262-7647</p>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="tel:+2347086419457">
+                      <p>+234-816-163-7797 ,+234-811-262-7647</p></a>
                     </li>
 
-                    <li className="pt-2 pb-1">
-                      <p>consult@scaftechservices.com</p>
+                    <li className="pt-2 pb-1 hover:text-green-500">
+                      <a href="https%3A%2F%2Fmail.google.com%2Fmail%2Fu">
+                      <p>consult@scaftechservices.com</p></a>
                     </li>
+                    
                   </ul>
+                   <div className="font-sans font-bold p-4 text-sm text-center">
+                     <h1>Follow Us On Social Media</h1>
+          
+                     <div className="p-2 gap-10">
+                       <InstagramIcon className="bg-red-900 m-3 py-1 rounded-md w-5/6 h-full bg-contain "/>
+          
+                       <XIcon className="bg-black rounded-md m-3 py-1 w-full h-96 bg-contain"/>
+          
+                       <FacebookIcon className="bg-blue-600 m-3 py-1 rounded-md w-full h-full bg-contain"/>
+          
+                       
+                     </div>
+                   </div>
                 </div>
               </div>
             </section>
@@ -379,11 +381,11 @@ const Footer = () => {
             <div className="footer--privacy flex justify-between text-amber-50">
               <div>
                 <p
-                  className="footer--copyright text-extra-small p-2"
+                  className="footer--copyright text-extra-small pl-15 pb-3"
                   tabIndex={0}
                   aria-label="copyright"
                 >
-                  &copy; © 2025 Scaftech Training. All Rights Reserved.
+                  &copy; © 2025 Scaftech. All Rights Reserved.
                 </p>
               </div>
 
