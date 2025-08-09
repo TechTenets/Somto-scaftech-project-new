@@ -58,7 +58,7 @@ const Header = () => {
   <div className="list" ref={sliderRef}>
     {/* Add your slider items here */}
     <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
-      <img src="/jci-9-27.jpg" className="blur-sm w-full" />
+      <img src="public/ndt-3.jpg" className="blur-sm w-full" />
       <div className="content">
         <div className="topic">PROFESSIONAL & AUTHORITATIVE</div>
         <div className="title">Profession and Authoritative</div>
@@ -71,7 +71,7 @@ const Header = () => {
       </div>
     </div>
     <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
-      <img src="/images/PRA7572-scaled.jpg" className="blur-sm w-full" />
+      <img src="public/roof-3.jpg" className="blur-sm w-full" />
       <div className="content">
         <div className="topic">CREDIBILITY & TRUST</div>
         <div className="title">Credibility and Trust</div>
@@ -84,7 +84,7 @@ const Header = () => {
       </div>
     </div>
     <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
-      <img src="/Rope-access.png" className="blur-md w-full" />
+      <img src="public/roof-1.jpg" className="blur-md w-full" />
       <div className="content">
         <div className="topic">CLEAR CALL TO ACTION</div>
         <div className="title">Engineering Capabilities</div>
@@ -97,7 +97,7 @@ const Header = () => {
       </div>
     </div>
     <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
-      <img src="/arc-welding-steel.jpg" className="blur-md w-full" />
+      <img src="public/scaftek-fold-4.jpg" className="blur-md w-full" />
       <div className="content">
         <div className="topic">VISUAL APPEAL</div>
         <div className="title">Visual Appealing</div>
@@ -112,28 +112,28 @@ const Header = () => {
   <div className="thumbnail flex justify-between space-x-4 xl:space-x-8 xl:w-full" ref={thumbnailBorderRef}>
     {/* Add your thumbnail items here */}
     <div className="item xl:block hidden">
-      <img src="/jci-9-27.jpg" className="w-32 xl:w-48" />
+      <img src="public/ndt-3.jpg" className="w-32 xl:w-48" />
       <div className="content">
         <div className="title">PROFESSIONAL AUTHORITATIVE</div>
         <div className="description"></div>
       </div>
     </div>
     <div className="item xl:block hidden">
-      <img src="/images/PRA7572-scaled.jpg" className="w-32 xl:w-48" />
+      <img src="public/roof-3.jpg" className="w-32 xl:w-48" />
       <div className="content">
         <div className="title">CREDIBILITY & TRUST</div>
         <div className="description"></div>
       </div>
     </div>
     <div className="item xl:block hidden">
-      <img src="/Rope-access.png" className="w-32 xl:w-48" />
+      <img src="public/roof-1.jpg" className="w-32 xl:w-48" />
       <div className="content">
         <div className="title">CLEAR CALL TO ACTION</div>
         <div className="description"></div>
       </div>
     </div>
     <div className="item xl:block hidden">
-      <img src="/arc-welding-steel.jpg" className="w-32 xl:w-48" />
+      <img src="public/scaftek-fold-4.jpg" className="w-32 xl:w-48" />
       <div className="content">
         <div className="title">VISUAL APPEAL</div>
         <div className="description"></div>

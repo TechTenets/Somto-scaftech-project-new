@@ -1,23 +1,27 @@
 import ContactForm from "../components/ContactForm";
 import Header from "../components/Header/Header";
 import SwiperComp from "../components/Swiper/SwiperComp";
-import DensityMediumRoundedIcon from "@mui/icons-material/DensityMediumRounded";
-import CalendarTodayRoundedIcon from "@mui/icons-material/CalendarTodayRounded";
-import TurnedInRoundedIcon from "@mui/icons-material/TurnedInRounded";
 import PublicRoundedIcon from "@mui/icons-material/PublicRounded";
 import KeyOffRoundedIcon from "@mui/icons-material/KeyOffRounded";
 import GroupAddSharpIcon from "@mui/icons-material/GroupAddSharp";
 import Imageslider from "../components/Imageslider";
 import "./style.css";
-import AccountCircleTwoToneIcon from "@mui/icons-material/AccountCircleTwoTone";
-import GraphicEqTwoToneIcon from "@mui/icons-material/GraphicEqTwoTone";
-import InfoTwoToneIcon from "@mui/icons-material/InfoTwoTone";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import PinDropIcon from "@mui/icons-material/PinDrop";
-import StarIcon from "@mui/icons-material/Star";
-import StarHalfIcon from "@mui/icons-material/StarHalf";
+import Marquee from "react-fast-marquee";
+import Slidder from "../Slidder/Slidder";
+// import Imageslider from "../ImageSlide/Imageslide.jsx";
+
 
 const Home = () => {
+
+      const stats = [
+    { number: "500+", label: "GRADUATES PLACED" },
+    { number: "15+", label: "YEARS EXPERIENCE" },
+    { number: "98%", label: "SUCCESS RATE" },
+    { number: "50+", label: "INDUSTRY PARTNERS" },
+  ];
+
   return (
     <div className="overflow-hidden">
       <Header />
@@ -78,85 +82,158 @@ const Home = () => {
         </div>
       </div> */}
 
-<section className="bg-[#0d182d] min-h-[300px]">
-  <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:px-20 py-10">
-    <div className="flex flex-col text-center gap-5 text-white font-bold xl:font-black">
-      <p className="text-2xl xl:text-4xl">
-        Elevate Your Workforce with World-Class Industrial Training
-      </p>
-      <p className="text-base md:text-lg xl:text-xl font-light">
-        OSHA-Certified, FML-Approved Programs Designed to Minimize Safety and Operational Excellence.
-      </p>
-      <p className="text-sm md:text-lg font-light">
-        We provide comprehensive training in welding, QA/QC, heavy equipment operation, safety, and 
-        more, adhering to the highest <br className="hidden md:inline" /> local and international standards.
-      </p>
+           <div
+              className="
+                bg-[#0a192f] text-white py-12 px-6 text-center
+                bg-[url('/images/mobile-pic.jpg')] bg-cover bg-center
+                sm:bg-[url('/images/desktop-pic.jpg')]
+              "
+            >
+              <h2 className="text-2xl md:text-3xl font-bold text-green-400">
+                Ready to Engineer Your Future?
+              </h2>
+            
+              <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-sm sm:text-base">
+                Join thousands of successful engineers who started their journey with
+                Scaftech Academy. Take the first step toward mastering your craft and
+                advancing your career.
+              </p>
+            
+              <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
+                <button className="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full transition">
+                  ENROLL NOW
+                </button>
+                <button className="border border-green-500 hover:bg-green-500 hover:text-white text-green-400 font-semibold py-3 px-6 rounded-full transition">
+                  SCHEDULE CONSULTATION
+                </button>
+              </div>
+            </div>
 
-      <div className="flex justify-center">
-        <button className="rounded-md border-2 text-base text-gray-300 font-medium border-gray-50 cursor-pointer border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
-          Download Our Training Brochure
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
+
+                <div
+              className="
+                bg-black py-10 
+                bg-[url('/images/mobile-pic.jpg')] bg-cover bg-center
+                sm:bg-[url('/images/desktop-pic.jpg')]
+              "
+            >
+              <div className="max-w-6xl mx-auto px-4">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                  {stats.map((item, index) => (
+                    <div key={index}>
+                      <h2 className="text-green-500 text-3xl sm:text-4xl font-bold">
+                        {item.number}
+                      </h2>
+                      <p className="text-white mt-2 text-xs sm:text-sm tracking-wider">
+                        {item.label}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <section
+          className="
+            bg-[#2b9766] px-8 py-8 
+            bg-[url('/images/mobile-pic.jpg')] bg-cover bg-center
+            sm:bg-[url('/images/desktop-pic.jpg')]
+          "
+        >
+          <Marquee
+            speed={80}
+            gradient={false}
+            autoFill={true}
+            direction="left"
+          >
+            <img
+              src="/winpart.png"
+              alt=""
+              className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2"
+            />
+            <img src="/Zenilum.jpg" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/Vita.jpg" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/British.jpg" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/red-round.png" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/nigerite.png" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/Lafarge.png" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/ITB.jpg" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/Desnky.jpg" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/Daystar-power.png" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/Dangote.png" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/cfao-equip.jpg" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+            <img src="/Smartflow.png" alt="" className="h-8 sm:h-10 max-w-[80px] sm:max-w-[100px] object-contain mx-2" />
+          </Marquee>
+        </section>
+
 
 
 <section className="bg-[#242e2a] h-auto">
-  <div className="text-center font-bold text-5xl text-white pt-15 pb-8">
-    <h1>Our Training  
-      <span className="text-[#2b9766]">Faculties</span>
+  {/* Heading */}
+  <div className="text-center font-bold text-3xl sm:text-4xl md:text-5xl text-white pt-10 pb-8">
+    <h1>
+      Our Training  
+      <span className="text-[#2b9766]"> Faculties</span>
     </h1>
   </div>
 
-  <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:px-20">
-    <div className="grid grid-cols-1 gap-5 justify-between overflow-hidden sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3">
-      <div className="flex-col p-2">
-        <div>
-          <img src="/health-safety-img.jpg" alt="health & safety" />
-        </div>
-        <div className="text-white text-sm font-medium pt-5">
-          <h1>Health and Safety</h1>
-        </div>
-        <div className="font-medium text-white">
-          <p>9 Courses</p>
-        </div>
+  {/* Cards */}
+  <div className="flex flex-col sm:flex-row flex-wrap gap-5 justify-center px-4">
+    {/* Card 1 */}
+    <div
+      className="relative w-full sm:w-[45%] lg:w-[30%] h-96 bg-cover bg-center flex items-center justify-start px-8"
+      style={{
+        backgroundImage: `url('/scaftek-fold-2.jpg')`,
+      }}
+    >
+      <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">
+          Scalffold Training courses
+        </h2>
+        <p className="text-sm text-gray-700 mb-1">23 Courses</p>
       </div>
+    </div>
 
-      <div className="flex-col p-2">
-        <div>
-          <img src="public/lifting-operation-img.jpg" alt="Lifting Operations" />
-        </div>
-        <div className="text-white text-sm font-medium pt-5">
-          <h1>Lifting Operations</h1>
-        </div>
-        <div className="font-medium text-white">
-          <p>54 Courses</p>
-        </div>
+    {/* Card 2 */}
+    <div
+      className="relative w-full sm:w-[45%] lg:w-[30%] h-96 bg-cover bg-center flex items-center justify-start px-8"
+      style={{
+        backgroundImage: `url('/hydro-10.jpg')`,
+      }}
+    >
+      <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">Tower Crane</h2>
+        <p className="text-sm text-gray-700 mb-1">3 Courses</p>
       </div>
+    </div>
 
-      <div className="flex-col p-2">
-        <div>
-          <img src="public/work-height-img.jpg" alt="work at height" />
-        </div>
-        <div className="text-white text-sm font-medium pt-5">
-          <h1>Work at Height</h1>
-        </div>
-        <div className="font-medium text-white">
-          <p>32 Courses</p>
-        </div>
+    {/* Card 3 */}
+    <div
+      className="relative w-full sm:w-[45%] lg:w-[30%] h-96 bg-cover bg-center flex items-center justify-start px-8"
+      style={{
+        backgroundImage: `url('/ndt-3.jpg')`,
+      }}
+    >
+      <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">
+          ASNT NDT INSPECTION
+        </h2>
+        <p className="text-sm text-gray-700 mb-1">6 Courses</p>
       </div>
     </div>
   </div>
 </section>
 
 
-<section className="bg-[#242e2a] h-auto">
+
+
+
+{/* <section className="bg-[#242e2a] h-auto">
   <div className="container mx-auto px-4 md:px-8 lg:px-16 xl:px-20">
     <div className="grid grid-cols-1 gap-5 justify-between overflow-hidden sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 p-4">
       <div className="flex-col p-2">
         <div>
-          <img src="public/scaffold-img.jpg" alt="Scaffold" />
+          <img src="public/scaftek-fold-2.jpg" alt="Scaffold" className="h-80" />
         </div>
         <div className="text-white text-sm font-medium pt-5">
           <h1>Scalffold Training courses</h1>
@@ -168,7 +245,7 @@ const Home = () => {
 
       <div className="flex-col p-2">
         <div>
-          <img src="public/towercane-img.jpg" alt="towercrane" />
+          <img src="public/hydro-10.jpg" alt="towercrane" className="h-80" />
         </div>
         <div className="text-white text-sm font-medium pt-5">
           <h1>Tower Crane</h1>
@@ -180,7 +257,7 @@ const Home = () => {
 
       <div className="flex-col p-2">
         <div>
-          <img src="public/NDT-img.jpg" alt="ASNT NDT INSPECTION" />
+          <img src="public/ndt-3.jpg" alt="ASNT NDT INSPECTION" className="h-80"/>
         </div>
         <div className="text-white text-sm font-medium pt-5 pl-3">
           <h1>ASNT NDT INSPECTION</h1>
@@ -191,7 +268,7 @@ const Home = () => {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 
 <section className="bg-[#0d182d] min-h-[300px]">
@@ -277,7 +354,7 @@ const Home = () => {
       <h1>Why Choose <span className="text-[#07bc0c]">Scaftech</span></h1>
     </div>
 
-    <div className="font-semibold xl:text-base md:text-xs text-base text-gray-600 text-center pb-15">
+    <div className="font-semibold xl:text-base md:text-xs text-base text-gray-300 text-center pb-15">
       <p>
         We are steadfast in our commitment to providing high-quality
         training programs that enable corporate <br />
@@ -367,103 +444,42 @@ const Home = () => {
 
 
 <section className="bg-[#242e2a] h-auto">
-  <div className="text-center font-semibold text-3xl text-white py-10">
-    <h1>Explore Popular 
-      <span className="text-[#2b9766]">Courses</span>
+  {/* Title */}
+  <div className="text-center font-semibold text-2xl sm:text-3xl md:text-4xl text-white py-6 sm:py-10">
+    <h1>
+      Explore Popular 
+      <span className="text-[#2b9766]"> Courses</span>
     </h1>
   </div>
-  <div className="font-bold text-gray-300 text-center">
+
+  {/* Subtitle */}
+  <div className="font-bold text-gray-300 text-center text-sm sm:text-base md:text-lg px-4">
     <p>
       All our courses are fully accredited by relevant regulatory bodies.
     </p>
   </div>
 
-  <div className="flex justify-between pl-4 pr-4 pt-4 pb-15">
-    <div className="font-semibold text-3xl text-white">
+  {/* Heading Row */}
+  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 px-4 pt-4 pb-10">
+    <div className="font-semibold text-xl sm:text-2xl md:text-3xl text-white text-center sm:text-left">
       <p>Popular Courses</p>
     </div>
-    <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 ">
+    <div className="text-black font-semibold text-xs sm:text-sm rounded-full bg-gray-200 px-5 py-2 text-center">
       <button>Featured Courses</button>
     </div>
   </div>
 
-  <div className="flex flex-wrap justify-around overflow-hidden">
-    <div className="flex-col ease-in-out p-2 hover:scale-105 transform transition duration-75 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-      <div>
-        <img src="public/Heavyequip-img.jpg" alt="HeavyEquipment" />
-      </div>
-      <div className="text-white text-sm font-medium pt-5 ">
-        <h1>Heavy Equipment</h1>
-      </div>
-      {/* <div className="text-gray-400 p-3">
-        <InfoTwoToneIcon /> 2 Days
-      </div>
+  {/* Slider */}
+  <Slidder />
 
-      <div className="text-gray-400 p-1">
-        <GraphicEqTwoToneIcon />
-        Expert
-      </div> */}
-    </div>
-
-    <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-      <div>
-        <img src="/lifting-operation-img.jpg" alt="lifting" />
-      </div>
-      <div className="text-white text-sm font-medium pt-5 ">
-        <h1>Appointed Persons for Lifting...</h1>
-      </div>
-      {/* <div className="text-gray-400 p-3">
-        <InfoTwoToneIcon /> 2 Days
-      </div>
-
-      <div className="text-gray-400 p-1">
-        <GraphicEqTwoToneIcon />
-        Expert
-      </div> */}
-    </div>
-
-    <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-      <div>
-        <img src="/defensive-drive-img.jpg" alt="DefensiveDriving" />
-      </div>
-      <div className="text-white text-sm font-medium pt-5 ">
-        <h1>Defensive Drive</h1>
-      </div>
-      {/* <div className="text-gray-400 p-3">
-        <InfoTwoToneIcon /> 2 Days
-      </div>
-
-      <div className="text-gray-400 p-1">
-        <GraphicEqTwoToneIcon />
-        Expert
-      </div> */}
-    </div>
-
-    <div className="flex-col p-2 ease-in-out hover:scale-105 transform transition duration-75 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-      <div>
-        <img src="/confine-space-img.jpg" alt="ConfinedSpace" />
-      </div>
-      <div className="text-white text-sm font-medium pt-5 ">
-        <h1>Confine space</h1>
-      </div>
-      {/* <div className="text-gray-400 p-3">
-        <InfoTwoToneIcon /> 2 Days
-      </div>
-
-      <div className="text-gray-400 p-1">
-        <GraphicEqTwoToneIcon />
-        All Levels
-      </div> */}
-    </div>
-    {/* Repeat similar layout for other courses */}
-  </div>
-
-  <div className="text-center text-white p-7">
-    <button className="rounded-md border-2 text-base font-medium border-gray-300 border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+  {/* Button */}
+  <div className="text-center text-white p-4 sm:p-7">
+    <button className="rounded-md border-2 text-sm sm:text-base font-medium border-gray-300 border-solid px-4 py-2 sm:px-6 sm:py-3 mt-5 hover:text-white hover:bg-blue-900">
       View All Courses
     </button>
   </div>
 </section>
+
 
 <section className="bg-[#201134] w-full min-h-[300px] h-auto ">
   <div className="flex justify-between pl-4 pr-4 pt-4 pb-15">
@@ -481,7 +497,7 @@ const Home = () => {
   <div className="flex flex-wrap justify-around">
     <div className="flex content-start relative w-full px-5 pb-5 ">
       <div className="bg-white rounded w-full h-80 m-2 flex-col">
-        <img className="w-40 h-32 place-items-start rounded" src="/audit-img.jpg" alt="systemaudit Training" />
+        <img className="w-40 h-32 place-items-start rounded" src="public/Scaftechfork.-7.jpg" alt="systemaudit Training" />
         <div className="text-blue-950 font-medium p-4">
           <WorkOutlineIcon />
           February 10, 2025
@@ -495,7 +511,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-white rounded w-full h-80 m-2 flex-col">
-        <img className="w-40 h-32 place-items-start rounded" src="/mobile-elevate-img.jpg" alt="mobileElevated" />
+        <img className="w-40 h-32 place-items-start rounded" src="public/Scaftechfork.-3.jpg" alt="mobileElevated" />
         <div className="text-blue-950 font-medium p-4">
           <WorkOutlineIcon />
           February 10, 2025
@@ -509,7 +525,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bg-white rounded w-full h-80 m-2 flex-col">
-        <img className="w-40 h-32 place-items-start rounded" src="/ergonomics-2-img.jpg" alt="ergonomics" />
+        <img className="w-40 h-32 place-items-start rounded" src="public/Scaftechfork.-5.jpg" alt="ergonomics" />
         <div className="text-blue-950 font-medium p-4">
           <WorkOutlineIcon />
           February 10, 2025
@@ -734,42 +750,13 @@ const Home = () => {
   </div>
 
   <div className="w-3/4  mx-auto">
-    <img src="/skilled-operate-img.jpg" alt="" />
+    <img src="public/academy-1.jpg" alt="" />
   </div>
 </section>
 
-<section className="bg-[#2b9766] h-auto px-8 py-8">
-  <div className="text-center text-white text-xl font-serif">
-    <p>Trusted by the world's best</p>
-  </div>
 
-  <div className="flex pl-10 pt-5 pb-5 justify-between object-fill flex-wrap">
-    <img src="/winpart.png" alt="winpart logo" className="w-1/6" />
-    <img src="/Zenilum.jpg" alt="Zenilum logo" className="w-1/6" />
-    <img src="/Vita.jpg" alt="Vita logo" className="w-1/6" />
-     <img src="/British.jpg" alt="British logo" className="w-1/6" />
-  </div>
 
-  <div className="flex pl-10 pt-5 pb-5 justify-between object-fill flex-wrap">
-    <img src="/red-round.png" alt="red-round logo" className="w-1/6" />
-    <img src="/nigerite.png" alt="nigerite logo" className="w-1/6" />
-    <img src="/Lafarge.png" alt="Lafarge logo" className="w-1/6" />
-    <img src="/ITB.jpg" alt="ITB logo" className="w-1/6" />
-  </div>
-
-  <div className="flex pl-10 pt-5 pb-5 justify-between object-fill flex-wrap">
-    <img src="/Desnky.jpg" alt="Desnky logo" className="w-1/6" />
-    <img src="/Daystar-power.png" alt="Daystar logo" className="w-1/6" />
-    <img src="/Dangote.png" alt="Dangote logo" className="w-1/6" />
-    <img src="/cfao-equip.jpg" alt="cfao logo" className="w-1/6" />
-  </div>
-
-  <div className="pl-10 pt-5 pb-5">
-   <img src="/Smartflow.png" alt="Smartflow logo" className="w-1/6" />
-  </div>
-</section>
-
-<section className="bg-[#242e2a] h-auto py-10">
+{/* <section className="bg-[#242e2a] h-auto py-10">
   <div className="font-bold text-2xl text-white text-center">
     <h1>ACCREDITATIONS AND PROFESSIONAL MEMBERSHIPS</h1>
   </div>
@@ -777,7 +764,7 @@ const Home = () => {
   <div className="pl-45 pt-4">
     <img src="/images/gallery/Accreditation.jpg" alt="" />
   </div>
-</section>
+</section> */}
 
 <section className="bg-[#4b5563] h-auto">
   <div className="font-bold text-4xl text-white pt-45 pb-40 text-center">
@@ -786,14 +773,14 @@ const Home = () => {
 
   <div className="flex gap-10 p-8 flex-wrap">
     <div className="flex-col max-w-xs">
-      <img className="rounded-b-lg" src="/NDT-img.jpg" alt="" />
+      <img className="rounded-b-lg" src="public/ndt-5.jpg" alt="" />
       <p className="font-light pt-3 pb-2 text-white">Non-Destructive Testing</p>
       <h1 className="text-white font-semibold text-base">NDT Career Guide: Explore Industry Opportunities.</h1>
       <p className="text-white p-2">February 4, 2025</p>
     </div>
 
     <div className="flex-col max-w-xs">
-      <img className="rounded-b-lg" src="/lifting-operation-img.jpg" alt="" />
+      <img className="rounded-b-lg" src="public/lift-2.jpg" alt="" />
       <p className="font-light pt-3 pb-2 text-white">Training</p>
       <h1 className="text-white font-semibold text-base">
         Master the Art of Lifting with Scaftech <br />
@@ -804,7 +791,7 @@ const Home = () => {
 
     <div className="flex-col max-w-xs">
       <div className="flex gap-5">
-        <img className="rounded-lg w-1/4 h-1/6 mb-5" src="/HeimlichManeuver.jpg" alt="" />
+        <img className="rounded-lg w-1/4 h-1/6 mb-5" src="public/safetyman-2.jpg" alt="" />
         <div className="flex-col">
           <p className="font-light pt-3 pb-2 text-white">Health and Safety</p>
           <h1 className="text-white font-semibold text-base">
@@ -816,7 +803,7 @@ const Home = () => {
       </div>
 
       <div className="flex gap-5">
-        <img className="rounded-lg w-1/4 mb-5 h-1/6" src="/Mobile-crane3.jpg" alt="" />
+        <img className="rounded-lg w-1/4 mb-5 h-1/6" src="public/lifting-4.jpg" alt="" />
         <div className="flex-col">
           <p className="font-light pt-3 pb-2 text-white">Training</p>
           <h1 className="text-white font-semibold text-base">
@@ -827,7 +814,7 @@ const Home = () => {
       </div>
 
       <div className="flex gap-5">
-        <img className="rounded-lg w-1/3 h-1/4" src="/PRA716.jpg" alt="" />
+        <img className="rounded-lg w-1/3 h-1/4" src="public/lifting-5.jpg" alt="" />
         <div className="flex-col">
           <p className="font-light pt-3 pb-2 text-white">Training</p>
           <h1 className="text-white font-semibold text-base">

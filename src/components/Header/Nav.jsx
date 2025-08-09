@@ -50,7 +50,7 @@ const Nav = () => {
   // };
 
   return (
-    <div className="z-[100000] pt-4  lg:pt-8 flex md:justify-between justify-between  text-[#0b1b2bcc] font-semibold text-sm leading-6 dark:text-black-200 bg-white hover:bg-[#0b1b2bcc] hover:text-white px-10  absolute top-0 right-0 w-full group  gap-20">
+    <div className="z-[100000] pt-4  lg:pt-8 flex md:justify-between   text-white font-semibold text-sm leading-6 dark:text-black-200 bg-black  hover:bg-[#0b1b2bcc] hover:text-white px-10  absolute top-0 right-0 w-full group ">
       <a href="/" className="flex items-center gap-5 ">
         <img
           src="/images/Scarftech-logo.webp"
@@ -82,10 +82,10 @@ const Nav = () => {
                   className="font-semibold hover:text-black"
                 >
                   {" "}
-                  About Us
+                  About 
                 </Link>
               </li>
-              <li className="">
+              {/* <li className="">
                 <Link
                   to={"/Accredition"}
                   className="font-semibold hover:text-black "
@@ -93,11 +93,11 @@ const Nav = () => {
                   {" "}
                   Accreditions
                 </Link>
-              </li>
+              </li> */}
               <li className="dropdown">
                 <div className="font-semibold hover:text-black">
                   {" "}
-                  Training Faculties
+                  Programs
                   <KeyboardArrowDownRoundedIcon />
                   <div className="dropdown-content scroll-smooth">
                     <a href="/Welding">Welding Traning</a>
@@ -128,7 +128,7 @@ const Nav = () => {
                   </div>
                 </div>
               </li>
-              <li className="">
+              {/* <li className="">
                 <Link
                   to={"/ClientTestimonials"}
                   className="font-semibold hover:text-black"
@@ -136,7 +136,7 @@ const Nav = () => {
                   {" "}
                   Client Testimonials
                 </Link>
-              </li>
+              </li> */}
               {/* <li className="dropdown">
                 <div className="font-semibold  hover:text-black">
                   {" "}
@@ -154,15 +154,15 @@ const Nav = () => {
                   className="font-semibold hover:text-black"
                 >
                   {" "}
-                  Call to Action
+                  Contact 
                 </Link>
               </li>
-              <li className="">
+              {/* <li className="">
                 <Link to={"/Blog"} className="font-semibold hover:text-black">
                   {" "}
                   Blog
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
