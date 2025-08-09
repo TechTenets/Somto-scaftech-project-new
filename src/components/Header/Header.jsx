@@ -1,4 +1,5 @@
 import "./style.css";
+
 // import "./config.js"
 import { useEffect, useRef, useState } from "react";
 
@@ -60,10 +61,10 @@ const Header = () => {
     <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
       <img src="public/ndt-3.jpg" className="blur-sm w-full" />
       <div className="content">
-        <div className="topic">PROFESSIONAL & AUTHORITATIVE</div>
+        <div className="topic"><h1>Master Engineering Excellence</h1></div>
         <div className="title">Profession and Authoritative</div>
         <div className="des">
-          Position your company as a leader in industrial efficiency.
+          Advance your career with cutting-edge engineering education from <br /> industry experts. Join Scaftech Engineering Services Academy and <br /> transform your technical expertise into professional success.
         </div>
         <div className="buttons">
           <button>SEE MORE</button>
@@ -73,10 +74,10 @@ const Header = () => {
     <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
       <img src="public/roof-3.jpg" className="blur-sm w-full" />
       <div className="content">
-        <div className="topic">CREDIBILITY & TRUST</div>
+        <div className="topic"><h1>Industry-Leading Training</h1></div>
         <div className="title">Credibility and Trust</div>
         <div className="des">
-          Highlight certification and adherence to recognized standards.
+          Learn from certified professionals with decades of <br /> experience. Our comprehensive curriculum covers the latest industry <br /> standards and cutting-edge technologies in scaffolding and structural <br /> engineering.
         </div>
         <div className="buttons">
           <button>SEE MORE</button>
@@ -86,17 +87,17 @@ const Header = () => {
     <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
       <img src="public/roof-1.jpg" className="blur-md w-full" />
       <div className="content">
-        <div className="topic">CLEAR CALL TO ACTION</div>
+        <div className="topic"><h1>Your Engineering Future Starts Here</h1></div>
         <div className="title">Engineering Capabilities</div>
         <div className="des">
-          Encourage visitors to inquire, register, or download resources.
+          Join over 500 successful graduates who have advanced their careers <br /> through our academy. With 98% placement success rate and <br /> strong industry  partnerships, your future is secure.
         </div>
         <div className="buttons">
           <button>SEE MORE</button>
         </div>
       </div>
     </div>
-    <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
+    {/* <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
       <img src="public/scaftek-fold-4.jpg" className="blur-md w-full" />
       <div className="content">
         <div className="topic">VISUAL APPEAL</div>
@@ -106,7 +107,7 @@ const Header = () => {
           <button>SEE MORE</button>
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
 
   <div className="thumbnail flex justify-between space-x-4 xl:space-x-8 xl:w-full" ref={thumbnailBorderRef}>
@@ -132,13 +133,13 @@ const Header = () => {
         <div className="description"></div>
       </div>
     </div>
-    <div className="item xl:block hidden">
+    {/* <div className="item xl:block hidden">
       <img src="public/scaftek-fold-4.jpg" className="w-32 xl:w-48" />
       <div className="content">
         <div className="title">VISUAL APPEAL</div>
         <div className="description"></div>
       </div>
-    </div>
+    </div> */}
   </div>
 
   <div className="time">{/* Add your time element here if needed */}</div>

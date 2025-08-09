@@ -169,125 +169,97 @@ const offices = [
   
     
     <section className="bg-[#242e2a] h-auto pb-10">
-      <div className="text-gray-300 font-semibold text-3xl text-center pb-10 pt-30">
-        <h1>Our Training Centers</h1>
-      </div>
- 
-       <div className=" flex gap-5 justify-center px-4">   
-      <div
-      className="relative w-2/3 h-96 bg-cover bg-center flex items-center justify-start px-8"
-      style={{
-        backgroundImage: `url('/Lagos-Picture2.png')`,
-      }}
+  {/* Title */}
+  <div className="text-gray-300 font-semibold text-2xl sm:text-3xl text-center pb-10 pt-10">
+    <h1>Our Training Centers</h1>
+  </div>
+
+  {/* Wrapper */}
+  <div className="flex flex-col md:flex-row gap-5 justify-center px-4">
+    
+    {/* Lagos Office */}
+    <div
+      className="
+        relative w-full md:w-2/3 h-72 sm:h-96 bg-cover bg-center 
+        flex items-center justify-start px-4 sm:px-8
+        bg-[url('/Lagos-mobile.jpg')] sm:bg-[url('/Lagos-Picture2.png')]
+      "
     >
-      <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800">Lagos Office</h2>
-        <p className="text-sm text-gray-700 mb-1">
+      <div className="bg-white bg-opacity-25 p-4 sm:p-6 rounded-lg shadow-lg max-w-sm">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-gray-800">Lagos Office</h2>
+        <p className="text-xs sm:text-sm text-gray-700 mb-1">
           Office 27, Ringback mall, <br />
           Beside Mobil Filling Station, Oribanwa <br />
           Bus-stop, Ibeju-Lekki Lagos
         </p>
-        <a href="tel:+234 816 163 7797">
-        <p className="text-sm hover:text-red-400 text-gray-700 mt-4">+234 816 163 7797</p></a>
-        <a href="https%3A%2F%2Fmail.google.com%2Fmail%2Fu">
-        <p className="text-sm hover:text-green-500 text-blue-600">info@scaftechservices.com</p></a>
+        <a href="tel:+2348161637797">
+          <p className="text-xs sm:text-sm hover:text-red-400 text-gray-700 mt-4">
+            +234 816 163 7797
+          </p>
+        </a>
+        <a href="mailto:info@scaftechservices.com">
+          <p className="text-xs sm:text-sm hover:text-green-500 text-blue-600">
+            info@scaftechservices.com
+          </p>
+        </a>
       </div>
     </div>
 
-     <div
-      className="relative w-2/3 h-96 bg-cover bg-center flex items-center justify-start px-8"
-      style={{
-        backgroundImage: `url('/PH-Picture2.jpg')`,
-      }}
+    {/* Port Harcourt Office */}
+    <div
+      className="
+        relative w-full md:w-2/3 h-72 sm:h-96 bg-cover bg-center 
+        flex items-center justify-start px-4 sm:px-8
+        bg-[url('/PH-mobile.jpg')] sm:bg-[url('/PH-Picture2.jpg')]
+      "
     >
-      <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800">Port Harcourt Office</h2>
-        <p className="text-sm text-gray-700 mb-1">
+      <div className="bg-white bg-opacity-25 p-4 sm:p-6 rounded-lg shadow-lg max-w-sm">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-gray-800">Port Harcourt Office</h2>
+        <p className="text-xs sm:text-sm text-gray-700 mb-1">
           Block6, 3rd Avenue Elekahia Housing Estate, Port Harcourt
         </p>
         <a href="tel:+2347086419457">
-        <p className="text-sm hover:text-red-400 text-gray-700 mt-4">+234 708 641 9457</p></a>
-        <a href="https%3A%2F%2Fmail.google.com%2Fmail%2Fu">
-        <p className="text-sm hover:text-green-500 text-blue-600">info@scaftechservices.com</p></a>
+          <p className="text-xs sm:text-sm hover:text-red-400 text-gray-700 mt-4">
+            +234 708 641 9457
+          </p>
+        </a>
+        <a href="mailto:info@scaftechservices.com">
+          <p className="text-xs sm:text-sm hover:text-green-500 text-blue-600">
+            info@scaftechservices.com
+          </p>
+        </a>
       </div>
     </div>
 
-     <div
-      className="relative w-2/3 h-96 bg-cover bg-center flex items-center justify-start px-8"
-      style={{
-        backgroundImage: `url('/uganda-picture.jpeg')`,
-      }}
+    {/* Abuja Office */}
+    <div
+      className="
+        relative w-full md:w-2/3 h-72 sm:h-96 bg-cover bg-center 
+        flex items-center justify-start px-4 sm:px-8
+        bg-[url('/Abuja-mobile.jpg')] sm:bg-[url('/uganda-picture.jpeg')]
+      "
     >
-      <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-xl max-w-sm">
-        <h2 className="text-2xl font-bold mb-4 text-gray-800">Abuja Office</h2>
-        <p className="text-sm text-gray-700 mb-1">
+      <div className="bg-white bg-opacity-25 p-4 sm:p-6 rounded-lg shadow-xl max-w-sm">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-gray-800">Abuja Office</h2>
+        <p className="text-xs sm:text-sm text-gray-700 mb-1">
           No 29, Ndola Crescent, Wuse Zone6.
         </p>
         <a href="tel:+2347086419457">
-        <p className="text-sm hover:text-red-400 text-gray-700 mt-4">+234 708 641 9457</p></a>
-        <a href="https%3A%2F%2Fmail.google.com%2Fmail%2Fu">
-        <p className="text-sm hover:text-green-500 text-blue-600">info@scaftechservices.com</p></a>
+          <p className="text-xs sm:text-sm hover:text-red-400 text-gray-700 mt-4">
+            +234 708 641 9457
+          </p>
+        </a>
+        <a href="mailto:info@scaftechservices.com">
+          <p className="text-xs sm:text-sm hover:text-green-500 text-blue-600">
+            info@scaftechservices.com
+          </p>
+        </a>
       </div>
     </div>
-    </div>  
-  
-      {/* <div  >
 
-        <div className="flex px-4 gap-8 pb-10 text-gray-200">
-          <div className="flex-col">
-           <img className='h-96 w-64' src="/PH-Picture2.jpg" alt="" />
+  </div>
+</section>
 
-           <p className="text-gray-200 font-bold text-base py-5"> Port Harcourt</p>
-
-           <HomeIcon />
-           <p className="py-3">Block6, 3rd Avenue Elekahia Housing Estate, Port Harcourt.</p>
-           
-           <CallIcon />
-           <p className="py-3"> +234 708 641 9457</p>
-
-           <EmailIcon/>
-           <p>Info@scaftechservices.com</p>
-          </div>
-
-          <div className="flex-col pb-30">
-           <img className='h-96 w-64' src="/Lagos-Picture2.png" alt="" />
-
-           <p className="text-gray-200 font-bold text-base py-5">Lagos</p>
-
-           <HomeIcon />
-           <p className="py-3">Office 27, Ringback mall, Beside Mobil Filling Station, Oribanwa Bus-stop, Ibeju-Lekki Lagos.</p>
-           
-           <CallIcon />
-           <p className="py-3">+234 816 163 7797</p>
-
-           <EmailIcon/>
-           <p>Info@scaftechservices.com</p>
-          </div>
-          </div>
-
-          <div className=" px-4 text-gray-200">
-          <div className="flex-col">
-           <img className="h-80 w-64" src="/uganda-picture.jpeg" alt="" />
-
-           <p className="text-gray-200 font-bold text-base py-5"> Abuja </p>
-
-           <HomeIcon />
-           <p className="py-3">No 29, Ndola Crescent, Wuse Zone6.</p>
-           
-           <CallIcon />
-           <p className="py-3">+234 708 641 9457</p>
-
-           <EmailIcon/>
-           <p> Info@scaftechservices.com</p>
-          </div>
-
-         
-        </div>
-  
-        
-  
-      </div> */}
-    </section>
   </div>
   
   );

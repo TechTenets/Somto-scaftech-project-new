@@ -10,89 +10,98 @@ const CalltoAction = () => {
   return (
     <div>
        <section className='bg-[#242e2a] h-auto pb-10 pt-30'>
-       <div className="text-center font-sans  font-bold text-2xl text-gray-200 pb-20">
-                <h1>Contact us today to learn more about our training</h1>
-                
-            </div>
-            <div className="flex justify-around pl-4 pr-4 pt-4 pb-15">
-            <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer ">
-            <button>Request a free Consultation</button>
-          </div>
-          <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer">
-            <button>Download our training brochure</button>
-          </div>
-          <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer">
-            <button>Register for an upcoming course</button>
-          </div>
-        </div>
+      {/* Heading */}
+       <div className="text-center font-sans font-bold text-2xl text-gray-200 pb-20">
+         <h1>Contact us today to learn more about our training</h1>
+       </div>
+       
+       {/* Buttons */}
+       <div className="flex flex-col md:flex-row justify-around gap-4 px-4 pt-4 pb-15">
+         <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer text-center">
+           <button>Request a free Consultation</button>
+         </div>
+         <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer text-center">
+           <button>Download our training brochure</button>
+         </div>
+         <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer text-center">
+           <button>Register for an upcoming course</button>
+         </div>
+       </div>
 
-            <div className="flex px-4 gap-8 pb-10 text-gray-200">
-          <div className="flex-col">
-           <img className='h-96' src="/PH-Picture2.jpg" alt="" />
+{/* Office Cards */}
+<div className="flex flex-col lg:flex-row gap-5 justify-center px-4">
+  {/* Lagos */}
+  <div
+    className="relative w-full lg:w-1/3 h-96 bg-cover bg-center flex items-center justify-start px-8"
+    style={{ backgroundImage: `url('/Lagos-Picture2.png')` }}
+  >
+    <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
+      <h2 className="text-2xl font-bold mb-4 text-gray-800">Lagos Office</h2>
+      <p className="text-sm text-gray-700 mb-1">
+        Office 27, Ringback mall, <br />
+        Beside Mobil Filling Station, Oribanwa <br />
+        Bus-stop, Ibeju-Lekki Lagos
+      </p>
+      <a href="tel:+2348161637797">
+        <p className="text-sm hover:text-red-400 text-gray-700 mt-4">
+          +234 816 163 7797
+        </p>
+      </a>
+      <a href="mailto:info@scaftechservices.com">
+        <p className="text-sm hover:text-green-500 text-blue-600">
+          info@scaftechservices.com
+        </p>
+      </a>
+    </div>
+  </div>
 
-           <p className="text-gray-200 font-bold text-base py-5"> Port Harcourt</p>
+  {/* Port Harcourt */}
+  <div
+    className="relative w-full lg:w-1/3 h-96 bg-cover bg-center flex items-center justify-start px-8"
+    style={{ backgroundImage: `url('/PH-Picture2.jpg')` }}
+  >
+    <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
+      <h2 className="text-2xl font-bold mb-4 text-gray-800">Port Harcourt Office</h2>
+      <p className="text-sm text-gray-700 mb-1">
+        Block6, 3rd Avenue Elekahia Housing Estate, Port Harcourt
+      </p>
+      <a href="tel:+2347086419457">
+        <p className="text-sm hover:text-red-400 text-gray-700 mt-4">
+          +234 708 641 9457
+        </p>
+      </a>
+      <a href="mailto:info@scaftechservices.com">
+        <p className="text-sm hover:text-green-500 text-blue-600">
+          info@scaftechservices.com
+        </p>
+      </a>
+    </div>
+  </div>
 
-           <HomeIcon />
-           <p className="py-3">Plot 5, JC Street Off Peter Odili Road, Trans Amadi Industrial Layout,
-           Port-Harcourt, Rivers State.</p>
-           
-           <CallIcon />
-           <p className="py-3"> +234 805 700 7225</p>
+  {/* Abuja */}
+  <div
+    className="relative w-full lg:w-1/3 h-96 bg-cover bg-center flex items-center justify-start px-8"
+    style={{ backgroundImage: `url('/uganda-picture.jpeg')` }}
+  >
+    <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-xl max-w-sm">
+      <h2 className="text-2xl font-bold mb-4 text-gray-800">Abuja Office</h2>
+      <p className="text-sm text-gray-700 mb-1">
+        No 29, Ndola Crescent, Wuse Zone6.
+      </p>
+      <a href="tel:+2347086419457">
+        <p className="text-sm hover:text-red-400 text-gray-700 mt-4">
+          +234 708 641 9457
+        </p>
+      </a>
+      <a href="mailto:info@scaftechservices.com">
+        <p className="text-sm hover:text-green-500 text-blue-600">
+          info@scaftechservices.com
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
 
-           <EmailIcon/>
-           <p>training@jcinternationalng.com</p>
-          </div>
-
-          <div className="flex-col pb-30">
-           <img className='h-96' src="/Lagos-Picture2.png" alt="" />
-
-           <p className="text-gray-200 font-bold text-base py-5">Lagos</p>
-
-           <HomeIcon />
-           <p className="py-3">56A, Bourdillon Road,
-           Ikoyi, Lagos State.</p>
-           
-           <CallIcon />
-           <p className="py-3">   +234 805 659 9659</p>
-
-           <EmailIcon/>
-           <p>info@jciservices.com</p>
-          </div>
-          </div>
-
-          <div className="flex gap-8 px-4 text-gray-200">
-          <div className="flex-col">
-           <img src="/uganda-picture.jpeg" alt="" />
-
-           <p className="text-gray-200 font-bold text-base py-5"> Uganda</p>
-
-           <HomeIcon />
-           <p className="py-3">7th Floor, Course View Towers, Plot 21, Yusuf Lule Road.
-             Nakasero, Kampala, Uganda.</p>
-           
-           <CallIcon />
-           <p className="py-3"> +256 757 778 444</p>
-
-           <EmailIcon/>
-           <p> info@jciservices.com</p>
-          </div>
-
-          <div className="flex-col">
-           <img src="/tanzaian-picture.jpg" alt="" />
-
-           <p className="text-gray-200 font-bold text-base py-5"> Tanzania</p>
-
-           <HomeIcon />
-           <p className="py-3">P.O. Box 38568 Dar ES Salaam,
-             429 Mahando Street Tanzania Msasani Peninsula.</p>
-           
-           {/* <CallIcon />
-           <p className="py-3">   +234 805 659 9659</p> */}
-
-           <EmailIcon/>
-           <p>info@jciservices.com</p>
-          </div>
-        </div>
 
         <div className="text-center font-semibold text-5xl text-gray-200 pt-30">
                 <h1>Leave Us a Message</h1>

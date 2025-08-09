@@ -100,12 +100,13 @@ const Home = () => {
               </p>
             
               <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
-                <button className="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full transition">
+               <a href="/contact_Us"> <button className="bg-green-500 hover:bg-green-600 cursor-pointer text-white font-semibold py-3 px-6 rounded-full transition">
                   ENROLL NOW
-                </button>
-                <button className="border border-green-500 hover:bg-green-500 hover:text-white text-green-400 font-semibold py-3 px-6 rounded-full transition">
+                </button></a>
+
+                <a href=""><button className="border border-green-500 hover:bg-green-500 hover:text-white text-green-400 cursor-pointer font-semibold py-3 px-6 rounded-full transition">
                   SCHEDULE CONSULTATION
-                </button>
+                </button></a>
               </div>
             </div>
 
