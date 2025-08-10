@@ -1,10 +1,10 @@
 {
-  "name": "Scaftech-Academy",
+  "name": "Somto-scaftech-project-new",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "Scaftech-Academy",
+    "dev": "vite",
     "build": "Scaftech-Academy build",
     "lint": "eslint .",
     "preview": "vite preview"
