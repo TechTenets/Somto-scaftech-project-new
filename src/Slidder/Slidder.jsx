@@ -69,7 +69,7 @@ const Slidder = () => {
                                 
                           <SwiperSlide className="mt-[2rem] ml-[0.2rem] relative ">
                                    <a
-                                     href="/Inspection"
+                                     href="/inspector"
                                      // href={/services/${data.id}/${data.title} [#7c9289]}       
                                    >
                                      <div className=" border-[0.1px] border-[#7c9289] w-[26rem] rounded-lg h-auto
@@ -88,7 +88,7 @@ const Slidder = () => {
                            <p className="text-sm text-gray-200 p-3 ml-[1rem]">
                    Scaftech Engineering Services provides specialized inspection 
                    services for tanks and vessels across various industrial sectors in 
-                   Nigeria. <a href="/Inspection" className='text-blue-500'>read more</a>
+                   Nigeria. <a href="/inspector" className='text-blue-500'>read more</a>
                             </p>
                              </div>
                                </div>
@@ -98,7 +98,7 @@ const Slidder = () => {
 
                                         <SwiperSlide className="mt-[2rem] ml-[0.5rem] relative ">
                                    <a
-                                     href="/Asset_Integrity"
+                                     href="/lifthing&basicrigger"
                                      // href={/services/${data.id}/${data.title} [#7c9289]}       
                                    >
                                      <div className=" border-[0.1px] border-[#7c9289] w-[26rem] rounded-lg h-auto 
@@ -116,7 +116,7 @@ const Slidder = () => {
                             <div className="-mt-[0.5rem]  ">
                            <p className="text-sm text-gray-200 p-3 ml-[1rem]">
                    Scaftech carries out lifting equipment inspection in accordance with
-                   industry standards and applicable legislations. <a href="/Asset_Integrity" className='text-blue-500'>read more</a>
+                   industry standards and applicable legislations. <a href="/lifthing&basicrigger" className='text-blue-500'>read more</a>
                      </p>
                              </div>
       
@@ -127,7 +127,7 @@ const Slidder = () => {
 
                                        <SwiperSlide className="mt-[2rem] -ml-[0.5rem] relative ">
                                    <a
-                                     href="/Maintainance"
+                                     href="/EquipmentOperation&Maintenace"
                                      // href={/services/${data.id}/${data.title} [#7c9289]}       
                                    >
                         <div className=" border-[0.1px] border-[#7c9289] w-[26rem] rounded-lg h-auto
@@ -146,7 +146,7 @@ const Slidder = () => {
                            At Scaftech Engineering Services, we provide comprehensive LOLER (Lifting Operations and Lifting
                            Equipment Regulations 1998) &nbsp;
 
-                                        <a href="/Maintainance" className='text-blue-500'>read more</a>
+                                        <a href="/EquipmentOperation&Maintenace" className='text-blue-500'>read more</a>
                             </p>
                              </div>
 
@@ -157,7 +157,7 @@ const Slidder = () => {
 
                                  <SwiperSlide className="mt-[2rem] -ml-[0.5rem] relative ">
                                    <a
-                                     href="/Pipeline_&_Process_Service"
+                                     href="/leadership&Accountability"
                                      // href={/services/${data.id}/${data.title} [#7c9289]}       
                                    >
                                      <div className=" border-[0.1px] border-[#7c9289] w-[26rem] rounded-lg h-auto
@@ -169,13 +169,13 @@ const Slidder = () => {
                                        />
 
                                                                     <p className='text-2xl text-white p-3 ml-[1rem] mt-[1rem]
-                                       font-extrabold'>Pipeline & Process Service</p>
+                                       font-extrabold'>Leadership and Accountability</p>
        
                             <div className="-mt-[0.5rem]  ">
                            <p className="text-sm text-gray-200 p-3 ml-[1rem]">
                           LOLER (Lifting Operations and Lifting Equipment Regulations) inspections apply 
                                to a wide range of lifting appliances and accessories, &nbsp;
-                                <a href="/Pipeline_&_Process_Service" className='text-blue-500'>read more</a>
+                                <a href="/leadership&Accountability" className='text-blue-500'>read more</a>
                             </p>
                              </div>
 

@@ -188,23 +188,28 @@ const Home = () => {
       }}
     >
       <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
+        <a href="/Scaffold">
         <h2 className="text-2xl font-bold mb-4 text-gray-800">
           Scalffold Training courses
         </h2>
         <p className="text-sm text-gray-700 mb-1">23 Courses</p>
+        </a>
       </div>
     </div>
+    
 
     {/* Card 2 */}
     <div
       className="relative w-full sm:w-[45%] lg:w-[30%] h-96 bg-cover bg-center flex items-center justify-start px-8"
       style={{
-        backgroundImage: `url('/hydro-10.jpg')`,
+        backgroundImage: `url('public/hightension.jpg')`,
       }}
     >
       <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
+        <a href="/towercrane">
         <h2 className="text-2xl font-bold mb-4 text-gray-800">Tower Crane</h2>
         <p className="text-sm text-gray-700 mb-1">3 Courses</p>
+        </a>
       </div>
     </div>
 
@@ -216,10 +221,12 @@ const Home = () => {
       }}
     >
       <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
+        <a href="/NDT">
         <h2 className="text-2xl font-bold mb-4 text-gray-800">
           ASNT NDT INSPECTION
         </h2>
         <p className="text-sm text-gray-700 mb-1">6 Courses</p>
+        </a>
       </div>
     </div>
   </div>
@@ -435,16 +442,18 @@ const Home = () => {
         enhance corporate personnel competence and empower <br />
         individuals of all ages to reach their full potential.
       </p>
-
-      <button className="rounded-md border-2 text-base font-medium border-black border-solid p-3 mt-5 hover:text-white hover:bg-black">
+       
+       <a href="/contact_Us">
+      <button className="rounded-md border-2 text-base cursor-pointer font-medium border-black border-solid p-3 mt-5 hover:text-white hover:bg-black">
         Enrol Now
       </button>
+      </a>
     </div>
   </div>
 </section>
 
 
-<section className="bg-[#242e2a] h-auto">
+<section className="bg-[#242e2a] h-auto pb-5">
   {/* Title */}
   <div className="text-center font-semibold text-2xl sm:text-3xl md:text-4xl text-white py-6 sm:py-10">
     <h1>
@@ -474,25 +483,25 @@ const Home = () => {
   <Slidder />
 
   {/* Button */}
-  <div className="text-center text-white p-4 sm:p-7">
+  {/* <div className="text-center text-white p-4 sm:p-7">
     <button className="rounded-md border-2 text-sm sm:text-base font-medium border-gray-300 border-solid px-4 py-2 sm:px-6 sm:py-3 mt-5 hover:text-white hover:bg-blue-900">
       View All Courses
     </button>
-  </div>
+  </div> */}
 </section>
 
 
 <section className="bg-[#201134] w-full min-h-[300px] h-auto ">
-  <div className="flex justify-between pl-4 pr-4 pt-4 pb-15">
+  <div className="text-center justify-between pl-4 pr-4 pt-20 pb-15">
     <div className="font-semibold text-4xl text-white">
       <p>Upcoming Trainings</p>
       <div>
-        <p className="text-gray-500 text-sm p-3 font-medium">Trainings</p>
+        <p className="text-gray-300 text-sm p-3 font-medium">Trainings</p>
       </div>
     </div>
-    <button className="rounded-md text-gray-500 border-2 text-base font-medium border-gray-200 border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+    {/* <button className="rounded-md text-gray-500 border-2 text-base font-medium border-gray-200 border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
       View All Training
-    </button>
+    </button> */}
   </div>
 
   <div className="flex flex-wrap justify-around">
@@ -503,9 +512,11 @@ const Home = () => {
           <WorkOutlineIcon />
           February 10, 2025
         </div>
+        <a href="/SystemAudit&Analysis">
         <div className="font-semibold text-2xl text-blue-950 p-2">
           <p>System Audit Training</p>
         </div>
+        </a>
         <div className="text-blue-900 font-medium p-2">
           <PinDropIcon />
           Lagos
@@ -517,9 +528,11 @@ const Home = () => {
           <WorkOutlineIcon />
           February 10, 2025
         </div>
+        <a href="/MobileElevated">
         <div className="font-semibold text-2xl text-blue-950 p-2">
           <p>Mobile ELavated</p>
         </div>
+        </a>
         <div className="text-blue-900 font-medium p-2">
           <PinDropIcon />
           Port Harcourt
@@ -531,9 +544,11 @@ const Home = () => {
           <WorkOutlineIcon />
           February 10, 2025
         </div>
+        <a href="/MentalReadiness&Ergonomics">
         <div className="font-semibold text-2xl text-blue-950 p-2">
           <p>Ergonomics Training</p>
         </div>
+        </a>
         <div className="text-blue-900 font-medium p-2">
           <PinDropIcon />
           Abuja
@@ -730,7 +745,7 @@ const Home = () => {
   <div className="text-white swiperImageSection_div2 max-w-screen-xl mx-auto px-4">
     <h1 className="pb-4 font-bold text-4xl">Are You an Organization?</h1>
 
-    <p className="text-sm text-gray-400 font-medium">
+    <p className="text-sm text-gray-100 font-medium">
       We specialize in providing fully customized training programs <br />
       designed to align with your company's unique goals, challenges,{" "}
       <br />
@@ -740,14 +755,16 @@ const Home = () => {
       matters most to your business.
     </p>
 
-    <p className="text-sm text-gray-400 pt-3 font-medium">
+    <p className="text-sm text-gray-100 pt-3 font-medium">
       We offer the flexibility to deliver training both on-site at <br />
       your company location and at our own training facility.
     </p>
-
-    <button className="rounded-md border-2 text-base text-gray-400 font-medium border-gray-200 border-solid p-3 mt-5 hover:text-white hover:bg-blue-900">
+     
+     <a href="/contact_Us">
+    <button className="rounded-md border-2 text-base text-gray-300 font-medium border-gray-200 border-solid p-3 cursor-pointer mt-5 hover:text-white hover:bg-blue-900">
       Contact Us
     </button>
+    </a>
   </div>
 
   <div className="w-3/4  mx-auto">

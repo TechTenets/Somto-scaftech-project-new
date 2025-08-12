@@ -18,7 +18,7 @@ const CalltoAction = () => {
        {/* Buttons */}
        <div className="flex flex-col md:flex-row justify-around gap-4 px-4 pt-4 pb-15">
          <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer text-center">
-           <button>Request a free Consultation</button>
+           <a href="https://calendly.com/consult-scaftechservices/30-minute-consultation-with-a-scaftech-representative"><button>Request a free Consultation</button></a>
          </div>
          <div className="text-black font-semibold text-sm rounded-full bg-gray-200 p-4 hover:bg-[#2b9766] hover:text-white cursor-pointer text-center">
            <button>Download our training brochure</button>

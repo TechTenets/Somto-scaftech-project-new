@@ -36,18 +36,16 @@ const Footer = () => {
              <li className="pt-2 pb-1 hover:text-green-500">
                <a href="/about_us"> About</a>
              </li>
-             <li className="pt-2 pb-1 hover:text-green-500">
+             {/* <li className="pt-2 pb-1 hover:text-green-500">
                <a href="/Accredition"> Accreditations</a>
-             </li>
+             </li> */}
              <li className="pt-2 pb-1 hover:text-green-500">
-               <a href="/health&Safety"> Find a Course</a>
+               <a href="/health&Safety"> Programs</a>
              </li>
-             <li className="pt-2 pb-1 hover:text-green-500">
-               <a href="/Blog"> Blog</a>
-             </li>
-             <li className="pt-2 pb-1 hover:text-green-500">
+             
+             {/* <li className="pt-2 pb-1 hover:text-green-500">
                <a href="/">Home</a>
-             </li>
+             </li> */}
            </ul>
          </div>
        </div>
@@ -106,13 +104,13 @@ const Footer = () => {
          <div className="font-sans font-medium text-sm">
            <ul>
              <li className="pt-2 pb-1">
-               <a href="">. Help</a>
+               <a href="/contact_Us"> Help</a>
              </li>
              <li className="pt-2 pb-1">
-               <a href="">. Term Conditions</a>
+                Term Conditions
              </li>
              <li className="pt-2 pb-1">
-               <a href="">. Privacy Policy</a>
+                Privacy Policy
              </li>
            </ul>
          </div>
