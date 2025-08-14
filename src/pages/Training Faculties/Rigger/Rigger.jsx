@@ -8,7 +8,7 @@ const Rigger = () => {
     <div className='w-full mt-20'>
       <section>
       <img className='w-full h-80 px-5 bg-cover bg-center '
-             src="public/rigger-img.jpg" alt="" />
+             src="/lift-opreate-2.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
             <h1 className='text-4xl text-gray-900 text-center font-bold pt-10 '>

@@ -50,12 +50,12 @@ const Nav = () => {
   // };
 
   return (
-    <div className="z-[100000] pt-4  lg:pt-8 flex md:justify-between   text-white font-semibold text-sm leading-6 dark:text-black-200 bg-black  hover:bg-[#0b1b2bcc] hover:text-white px-10  absolute top-0 right-0 w-full group ">
+    <div className="z-[100000] pt-4  lg:pt-8 flex md:justify-between   text-black font-semibold text-sm leading-6 dark:text-black-200 bg-white  hover:bg-[#0b1b2bcc] hover:text-white px-10  absolute top-0 right-0 w-full group ">
       <a href="/" className="flex items-center gap-5 ">
         <img
           src="/images/Scarftech-logo.webp"
           alt="Scarftech"
-          className="max-w-[100px] pb-4"
+          className="max-w-[150px] pb-4"
         />
         <img src="image/ISO-9001.png" alt="" className="max-w-[100px]" />
       </a>
@@ -82,7 +82,7 @@ const Nav = () => {
                   className="font-semibold hover:text-black"
                 >
                   {" "}
-                  About 
+                  About
                 </Link>
               </li>
               {/* <li className="">
@@ -97,34 +97,66 @@ const Nav = () => {
               <li className="dropdown">
                 <div className="font-semibold hover:text-black">
                   {" "}
-                  Programs
+                  Courses
                   <KeyboardArrowDownRoundedIcon />
                   <div className="dropdown-content scroll-smooth">
                     <a href="/Welding">Welding Traning</a>
                     <a href="/inspector">QA/QC Inspector Traning</a>
                     <a href="/HeavyEquipment">Heavy Equipment Training</a>
-                    <a href="/Blasting&Painting">Blasting and Painting Traning</a>
+                    <a href="/Blasting&Painting">
+                      Blasting and Painting Traning
+                    </a>
                     <a href="/health&Safety">Health And Safety Traning</a>
-                    <a href="/work&height">Work at Height(Scaffolding Inspector,Supervisors,Foremen)</a>
+                    <a href="/work&height">
+                      Work at Height(Scaffolding Inspector,Supervisors,Foremen)
+                    </a>
                     <a href="/OSHA">OSHA Traning</a>
-                    <a href="/lifthing&basicrigger">Lifting Operations Traning & Basic Rigger</a>
+                    <a href="/lifthing&basicrigger">
+                      Lifting Operations Traning & Basic Rigger
+                    </a>
                     <a href="/towercrane">Tower Crane Traning</a>
-                    <a href="/mobileElevated">Mobile Elevated Work Platform(MEWP) Scissors Lift Traning</a>
+                    <a href="/mobileElevated">
+                      Mobile Elevated Work Platform(MEWP) Scissors Lift Traning
+                    </a>
                     <a href="/Permittowork">Permit to work</a>
                     <a href="/Rigger">Rigger Traning</a>
                     {/* <a href="/LiftingSpecialist">Lifting Specialist Traning</a> */}
                     <a href="/Scaffold">Scaffold Training</a>
                     <a href="/NDT">NDT Traning (Non-Destructive Testing)</a>
-                    <a href="/leadership&Accountability">Leadership and Accountability Traning</a>
-                    <a href="/Defensive&Hazard">Defensive Driving & Harzard Awareness Traning</a>
-                    <a href="/MentalReadiness&Ergonomics">Mental Readiness and Ergonomics Traning</a>
-                    <a href="/SystemAudit&Analysis">System Audit and Skills Gap Analysis Traning</a>
-                    <a href="/EquipmentOperation&Maintenace">Equipment Operation and Maintenace Traning</a>
-                    <a href="/SustainableConstruction">Sustainable Construction Management Traning</a>
+                    <a href="/leadership&Accountability">
+                      Leadership and Accountability Traning
+                    </a>
+                    <a href="/Defensive&Hazard">
+                      Defensive Driving & Harzard Awareness Traning
+                    </a>
+                    <a href="/MentalReadiness&Ergonomics">
+                      Mental Readiness and Ergonomics Traning
+                    </a>
+                    <a href="/SystemAudit&Analysis">
+                      System Audit and Skills Gap Analysis Traning
+                    </a>
+                    <a href="/EquipmentOperation&Maintenace">
+                      Equipment Operation and Maintenace Traning
+                    </a>
+                    <a href="/SustainableConstruction">
+                      Sustainable Construction Management Traning
+                    </a>
                     <a href="/Safety">Safety (HSE) Traning</a>
                     <a href="/ConfinedSpace">Confined Space and WAH Traning</a>
-                    <a href="/SkilledOperation&Leadership">Skilled Operation and Leadership Traning</a>
-                    <a href="/Customized">Customized Traning (according to client specification)</a>
+                    <a href="/SkilledOperation&Leadership">
+                      Skilled Operation and Leadership Traning
+                    </a>
+                    <a href="/Customized">
+                      Customized Traning (according to client specification)
+                    </a>
+
+                    {/* <a href="/TermsOfServices">
+                      Terms Of Services
+                    </a>
+
+                     <a href="/PrivacyPolicy">
+                      Privacy Policy
+                    </a> */}
                   </div>
                 </div>
               </li>
@@ -154,7 +186,7 @@ const Nav = () => {
                   className="font-semibold hover:text-black"
                 >
                   {" "}
-                  Contact 
+                  Contact
                 </Link>
               </li>
               {/* <li className="">

@@ -52,7 +52,8 @@ import LiftingPlan from "./pages/Training Faculties/Lifting Plan Traning/Lifting
 import HeavyEquipment from "./pages/Training Faculties/Heavy Equipment Training/Cranes,Forklifs,Trailors.jsx";
 import Permittowork from "./pages/Training Faculties/Fire Warden and Marshal Traning/FireWarden.jsx";
 import Scaffold from "./pages/Training Faculties/Lifting Plan Traning/LiftingPlan.jsx";
-
+import TermsofServices from "./pages/Training Faculties/Terms of Services/termsofservices.jsx";
+import PrivacyPolicy from "./pages/Training Faculties/Privacy Policy/privacypolicy.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -80,14 +81,25 @@ const router = createBrowserRouter(
       <Route path="Defensive&Hazard" element={<DefensiveDriving />} />
       <Route path="MentalReadiness&Ergonomics" element={<MentalReadiness />} />
       <Route path="SystemAudit&Analysis" element={<SystemAudit />} />
-      <Route path="EquipmentOperation&Maintenace" element={<EquipmentOperation />} />
-      <Route path="SustainableConstruction" element={<SustainableConstruction />} />
+      <Route
+        path="EquipmentOperation&Maintenace"
+        element={<EquipmentOperation />}
+      />
+      <Route
+        path="SustainableConstruction"
+        element={<SustainableConstruction />}
+      />
       <Route path="Safety" element={<Safety />} />
       <Route path="ConfinedSpace" element={<ConfinedSpace />} />
-      <Route path="SkilledOperation&Leadership" element={<SkilledOperation/>} />
+      <Route
+        path="SkilledOperation&Leadership"
+        element={<SkilledOperation />}
+      />
       <Route path="Customized" element={<Customized />} />
       <Route path="ClientTestimonials" element={<ClientTestimonials />} />
       <Route path="Contact_Us" element={<CalltoAction />} />
+      <Route path="TermsOfServices" element={<TermsofServices />} />
+       <Route path="PrivacyPolicy" element={<PrivacyPolicy />} />
       {/* <Route path="/home" element={<FreeResources />} />
       <Route path="onlineCourses" element={<OnlineCourses />} /> */}
       <Route path="Blog" element={<Blog />} />

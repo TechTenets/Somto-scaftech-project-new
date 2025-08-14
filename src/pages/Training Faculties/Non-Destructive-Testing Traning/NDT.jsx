@@ -9,7 +9,7 @@ const NDT = () => {
     <div className=' w-full mt-20'>
        <section>
             <img className='w-full h-80 px-5 object-fill bg-center  cursor-pointer'
-             src="public/NDT-img.jpg" alt="" />
+             src="/ndt-4.jpg" alt="" />
 
         <div className='text-center bg-gray-100 w-auto h-auto'>
             <h1 className='text-4xl text-gray-900 text-center font-bold pt-10 '>

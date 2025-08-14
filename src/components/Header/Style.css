@@ -63,7 +63,7 @@ header a{
     background-color: rgba(0, 0, 0, 0.2);
     font-size: larger;
     /* border-radius: 50px; */
-    padding: 10px;
+    padding: 15px;
 
 }
 
@@ -71,7 +71,7 @@ header a{
 .carousel .list .item .topic{
     font-size: 5em;
     font-weight: bold;
-    line-height: 1.3em;
+    line-height: 1.1em;
 }
 .carousel .list .item .topic{
     color: #33e10c;
