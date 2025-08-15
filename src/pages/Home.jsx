@@ -244,7 +244,7 @@ const Home = () => {
           <div
             className="relative w-full sm:w-[45%] lg:w-[30%] h-96 bg-cover bg-center flex items-center justify-start px-8"
             style={{
-              backgroundImage: `url('public/hightension.jpg')`,
+              backgroundImage: `url('/hightension.jpg')`,
             }}
           >
             <div className="bg-white bg-opacity-25 p-6 rounded-lg shadow-lg max-w-sm">
@@ -281,7 +281,7 @@ const Home = () => {
     <div className="grid grid-cols-1 gap-5 justify-between overflow-hidden sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 p-4">
       <div className="flex-col p-2">
         <div>
-          <img src="public/scaftek-fold-2.jpg" alt="Scaffold" className="h-80" />
+          <img src="/scaftek-fold-2.jpg" alt="Scaffold" className="h-80" />
         </div>
         <div className="text-white text-sm font-medium pt-5">
           <h1>Scalffold Training courses</h1>
@@ -293,7 +293,7 @@ const Home = () => {
 
       <div className="flex-col p-2">
         <div>
-          <img src="public/hydro-10.jpg" alt="towercrane" className="h-80" />
+          <img src="/hydro-10.jpg" alt="towercrane" className="h-80" />
         </div>
         <div className="text-white text-sm font-medium pt-5">
           <h1>Tower Crane</h1>
@@ -305,7 +305,7 @@ const Home = () => {
 
       <div className="flex-col p-2">
         <div>
-          <img src="public/ndt-3.jpg" alt="ASNT NDT INSPECTION" className="h-80"/>
+          <img src="/ndt-3.jpg" alt="ASNT NDT INSPECTION" className="h-80"/>
         </div>
         <div className="text-white text-sm font-medium pt-5 pl-3">
           <h1>ASNT NDT INSPECTION</h1>
@@ -620,7 +620,7 @@ const Home = () => {
             <div className="bg-white rounded w-full h-80 m-2 flex-col">
               <img
                 className="w-40 h-32 place-items-start rounded"
-                src="public/Scaftechfork.-7.jpg"
+                src="/Scaftechfork.-7.jpg"
                 alt="systemaudit Training"
               />
               <div className="text-blue-950 font-medium p-4">
@@ -640,7 +640,7 @@ const Home = () => {
             <div className="bg-white rounded w-full h-80 m-2 flex-col">
               <img
                 className="w-40 h-32 place-items-start rounded"
-                src="public/Scaftechfork.-3.jpg"
+                src="/Scaftechfork.-3.jpg"
                 alt="mobileElevated"
               />
               <div className="text-blue-950 font-medium p-4">
@@ -660,7 +660,7 @@ const Home = () => {
             <div className="bg-white rounded w-full h-80 m-2 flex-col">
               <img
                 className="w-40 h-32 place-items-start rounded"
-                src="public/Scaftechfork.-5.jpg"
+                src="/Scaftechfork.-5.jpg"
                 alt="ergonomics"
               />
               <div className="text-blue-950 font-medium p-4">
@@ -890,7 +890,7 @@ const Home = () => {
         </div>
 
         <div className="w-3/4  mx-auto">
-          <img src="public/academy-1.jpg" alt="" />
+          <img src="/academy-1.jpg" alt="" />
         </div>
       </section>
 
@@ -911,7 +911,7 @@ const Home = () => {
 
         <div className="flex gap-10 p-8 flex-wrap">
           <div className="flex-col max-w-xs">
-            <img className="rounded-b-lg" src="public/ndt-5.jpg" alt="" />
+            <img className="rounded-b-lg" src="/ndt-5.jpg" alt="" />
             <p className="font-light pt-3 pb-2 text-white">
               Non-Destructive Testing
             </p>
@@ -922,7 +922,7 @@ const Home = () => {
           </div>
 
           <div className="flex-col max-w-xs">
-            <img className="rounded-b-lg" src="public/lift-2.jpg" alt="" />
+            <img className="rounded-b-lg" src="/lift-2.jpg" alt="" />
             <p className="font-light pt-3 pb-2 text-white">Training</p>
             <h1 className="text-white font-semibold text-base">
               Master the Art of Lifting with Scaftech <br />
@@ -935,7 +935,7 @@ const Home = () => {
             <div className="flex gap-5">
               <img
                 className="rounded-lg w-1/4 h-1/6 mb-5"
-                src="public/safetyman-2.jpg"
+                src="/safetyman-2.jpg"
                 alt=""
               />
               <div className="flex-col">
@@ -953,7 +953,7 @@ const Home = () => {
             <div className="flex gap-5">
               <img
                 className="rounded-lg w-1/4 mb-5 h-1/6"
-                src="public/lifting-4.jpg"
+                src="/lifting-4.jpg"
                 alt=""
               />
               <div className="flex-col">
@@ -968,7 +968,7 @@ const Home = () => {
             <div className="flex gap-5">
               <img
                 className="rounded-lg w-1/3 h-1/4"
-                src="public/lifting-5.jpg"
+                src="/lifting-5.jpg"
                 alt=""
               />
               <div className="flex-col">

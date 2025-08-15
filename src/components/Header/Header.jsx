@@ -59,7 +59,7 @@ const Header = () => {
         <div className="list" ref={sliderRef}>
           {/* Add your slider items here */}
           <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
-            <img src="public/ndt-3.jpg" className="blur-sm w-full" />
+            <img src="/ndt-3.jpg" className="blur-sm w-full" />
             <div className="content pt-5">
               <div className="topic ">
                 <h1>Master Engineering Excellence</h1>
@@ -79,7 +79,7 @@ const Header = () => {
             </div>
           </div>
           <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
-            <img src="public/roof-3.jpg" className="blur-sm w-full" />
+            <img src="/roof-3.jpg" className="blur-sm w-full" />
             <div className="content pt-5">
               <div className="topic">
                 <h1>Industry-Leading Training</h1>
@@ -100,7 +100,7 @@ const Header = () => {
             </div>
           </div>
           <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
-            <img src="public/roof-1.jpg" className="blur-md w-full" />
+            <img src="/roof-1.jpg" className="blur-md w-full" />
             <div className="content pt-5">
               <div className="topic">
                 <h1>Your Engineering Future Starts Here</h1>
@@ -121,7 +121,7 @@ const Header = () => {
             </div>
           </div>
           {/* <div className="item bg-linear-to-r from-[#0b1b2bcc] to-[#0b1b2bcc] text-xs md:text-xs">
-      <img src="public/scaftek-fold-4.jpg" className="blur-md w-full" />
+      <img src="/scaftek-fold-4.jpg" className="blur-md w-full" />
       <div className="content">
         <div className="topic">VISUAL APPEAL</div>
         <div className="title">Visual Appealing</div>
@@ -139,28 +139,28 @@ const Header = () => {
         >
           {/* Add your thumbnail items here */}
           <div className="item xl:block hidden">
-            <img src="public/ndt-3.jpg" className="w-32 xl:w-48" />
+            <img src="/ndt-3.jpg" className="w-32 xl:w-48" />
             <div className="content">
               <div className="title">PROFESSIONAL AUTHORITATIVE</div>
               <div className="description"></div>
             </div>
           </div>
           <div className="item xl:block hidden">
-            <img src="public/roof-3.jpg" className="w-32 xl:w-48" />
+            <img src="/roof-3.jpg" className="w-32 xl:w-48" />
             <div className="content">
               <div className="title">CREDIBILITY & TRUST</div>
               <div className="description"></div>
             </div>
           </div>
           <div className="item xl:block hidden">
-            <img src="public/roof-1.jpg" className="w-32 xl:w-48" />
+            <img src="/roof-1.jpg" className="w-32 xl:w-48" />
             <div className="content">
               <div className="title">CLEAR CALL TO ACTION</div>
               <div className="description"></div>
             </div>
           </div>
           {/* <div className="item xl:block hidden">
-      <img src="public/scaftek-fold-4.jpg" className="w-32 xl:w-48" />
+      <img src="/scaftek-fold-4.jpg" className="w-32 xl:w-48" />
       <div className="content">
         <div className="title">VISUAL APPEAL</div>
         <div className="description"></div>

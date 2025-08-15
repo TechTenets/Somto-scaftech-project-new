@@ -75,7 +75,7 @@ const Slidder = () => {
                                      <div className=" border-[0.1px] border-[#7c9289] w-[26rem] rounded-lg h-auto
                                       md:w-[24rem] md:ml-[2rem] ml-[1.5rem] android ">
                                        <img
-                                         src="public/inspect-3.jpg"
+                                         src="/inspect-3.jpg"
                                          alt=""
                                                         className="w-[26rem] h-[13.5rem] rounded-lg rounded-b-none object-cover 
                                          md:w-[24rem] z-10"
@@ -104,7 +104,7 @@ const Slidder = () => {
                                      <div className=" border-[0.1px] border-[#7c9289] w-[26rem] rounded-lg h-auto 
                                        md:w-[24rem] md:ml-[1.5rem] ml-[1.5rem] android">
                                        <img
-                                         src="public/Scaftechfork.-3.jpg"
+                                         src="/Scaftechfork.-3.jpg"
                                          alt=""
                                          className="w-[26rem] h-[13.5rem] rounded-lg object-cover rounded-b-none
                                           md:w-[24rem] "
@@ -133,7 +133,7 @@ const Slidder = () => {
                         <div className=" border-[0.1px] border-[#7c9289] w-[26rem] rounded-lg h-auto
                                    md:w-[24rem] md:ml-[2rem] ml-[1.5rem] android">
                                        <img
-                                         src="public/side-lifting-2.jpg"
+                                         src="/side-lifting-2.jpg"
                                          alt=""
                                          className="w-[26rem] h-[13.5rem] rounded-lg object-cover rounded-b-none md:w-[24rem]"
                                        />
@@ -163,7 +163,7 @@ const Slidder = () => {
                                      <div className=" border-[0.1px] border-[#7c9289] w-[26rem] rounded-lg h-auto
                                        md:w-[24rem] md:ml-[2rem] ml-[1.5rem] android">
                                        <img
-                                         src="public/inspector-1.jpg"
+                                         src="/inspector-1.jpg"
                                          alt=""
                                          className="w-[26rem] h-[13.5rem] rounded-lg rounded-b-none md:w-[24rem]"
                                        />

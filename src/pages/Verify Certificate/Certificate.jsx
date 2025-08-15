@@ -91,7 +91,7 @@ const ClientTestimonials = () => {
           </div>
           <div className=" p-2">
             <div>
-              <img className='w-2/4 h-3/4' src="public/images/IRATA-10.png" alt="" />
+              <img className='w-2/4 h-3/4' src="/images/IRATA-10.png" alt="" />
               <p className='text-gray-950 pt-10 font-bold text-base '>Verify IRATA Certificate</p>
             </div>
           </div>

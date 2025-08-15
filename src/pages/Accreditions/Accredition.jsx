@@ -146,7 +146,7 @@ const Accredition = () => {
           </div>
           <div className=" p-2 ease-in-out hover:scale-105 transform transition duration">
             <div>
-              <img src="public/images/IRATA-10.png" alt="" />
+              <img src="/images/IRATA-10.png" alt="" />
             </div>
           </div>
           </div> */}
